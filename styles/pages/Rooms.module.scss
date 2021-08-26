@@ -1,0 +1,31 @@
+@import "../variables";
+.container {
+  .main {
+    .topContent {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      p {
+        margin: 50px 30px;
+        text-align: center;
+        font-size: 16px;
+      }
+      .line {
+        position: relative;
+        border: 1px solid $second-color;
+        z-index: 2;
+        img {
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          z-index: 2;
+        }
+      }
+
+      .figure {
+        width: 110%;
+        transform: translate(-10px, -76px);
+      }
+    }
+  }
+}
