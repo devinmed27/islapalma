@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+
+.button {
+  background-color: $white;
+  color: $second-color;
+  border-radius: 5px;
+  border: 1px solid $second-color;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  @media (min-width: 768px) {
+    &:hover {
+      background-color: $first-color;
+      color: $second-color;
+    }
+  }
+  &:active {
+    background-color: $second-color;
+    color: $first-color;
+  }
+  &:disabled {
+    background-color: $disabled-first-color;
+    color: $second-color;
+  }
+}
+.button2 {
+  background-color: $first-color;
+  color: $white;
+  border-radius: 5px;
+  border: 0px;
+  width: 102px;
+  height: 39px;
+  font-weight: 600;
+  font-size: 16px;
+  @media (min-width: 768px) {
+    &:hover {
+      background-color: $first-color;
+      color: $second-color;
+    }
+  }
+  &:active {
+    background-color: $second-color;
+    color: $first-color;
+  }
+  &:disabled {
+    background-color: $disabled-first-color;
+    color: $second-color;
+  }
+}

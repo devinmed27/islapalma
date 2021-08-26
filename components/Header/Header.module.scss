@@ -1,0 +1,68 @@
+@import "../../styles/variables";
+.atomcontainerheader {
+  position: relative;
+  height: 55px;
+  padding: 5px 20px 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .barsImage {
+    margin: 7px;
+  }
+  .navMenu{
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 0;
+    ul{
+      height: 70%;
+      width: 100%;
+      display: flex;  
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    li{
+      list-style: none;
+    }
+  }
+  .navMenuOpen {
+    // display: none;
+    position: fixed;
+    top: 55px;
+    right: 0;
+    height: 100%;
+    min-width: 250px;
+    width: 70%;
+    max-width: 350px;
+    background-color: $white;
+    z-index: 10;
+  }
+  .navMenuClose {
+    display: none;
+    position: fixed;
+    top: 55px;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    background-color: $white;
+    z-index: 10;
+  }
+  .btnReserva{
+    min-width: 134px;
+    min-height: 35px;
+    background-color: $first-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 60%;
+    max-width: 200px;
+    a{
+      color: $second-color;
+    }
+  }
+}

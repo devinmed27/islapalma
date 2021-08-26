@@ -1,0 +1,74 @@
+@import "../variables";
+.container {
+  min-height: 90vh;
+  margin: 0;
+  padding: 0;
+  .sectionOne {
+    display: flex;
+    flex-direction: column;
+    .textOne {
+      margin: 40px 16px;
+      font-size: 16px;
+      color: $first-color;
+    }
+    .magic {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin-bottom: 90px;
+      .magicText {
+        position: absolute;
+        top: 24px;
+        left: 0;
+        width: 256px;
+        height: 90px;
+        background-color: $second-color;
+        padding: 4px 12px;
+        p {
+          font-size: 18px;
+          font-weight: semibold;
+          color: $white;
+          text-align: center;
+          line-height: 28px;
+        }
+      }
+      .stars {
+        position: absolute;
+        left: 46px;
+        top: 88px;
+      }
+    }
+  }
+  .sectionTwo {
+    position: relative;
+    .bg {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      top: 560px;
+      height: 1100px;
+      background-color: $first-color;
+    }
+  }
+  .sectionThree {
+    padding: 0 16px;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      text-decoration: underline;
+      img {
+        margin-left: 10px;
+      }
+    }
+  }
+  .sectionFour {
+    position: relative;
+    .buttonPromotion {
+      position: absolute;
+      right: 20px;
+      top: 220px;
+    }
+  }
+}
