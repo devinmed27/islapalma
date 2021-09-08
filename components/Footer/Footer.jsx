@@ -15,13 +15,13 @@ const Footer = () => {
   return (
     <footer className={s.container}>
       <div className={s.linksContainer}>
-        <Link href="">
+        <Link href="/">
           <a>TERMINOS Y CONDICIONES</a>
         </Link>
-        <Link href="">
+        <Link href="/">
           <a>NUESTRAS POLÍTICAS</a>
         </Link>
-        <Link href="">
+        <Link href="/">
           <a>PENALIDADES</a>
         </Link>
       </div>
@@ -47,17 +47,17 @@ const Footer = () => {
       <div className={s.logosContainer}>
         <p>visitanos también en </p>
         <div>
-          <Link href="">
+          <Link href="/">
             <a>
               <Image src={lagunaPath} />
             </a>
           </Link>
-          <Link href="">
+          <Link href="/">
             <a>
               <Image src={caminoPath} />
             </a>
           </Link>
-          <Link href="">
+          <Link href="/">
             <a>
               <Image src={coPath} />
             </a>
