@@ -1,0 +1,47 @@
+@import "../../styles/variables";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .iconContainer{
+            margin-bottom: 16px;
+            div:first-child {
+                width: 42px;
+                height: 42px;
+              }
+        }
+        .title{
+            width: 345px;
+            height: 72px;
+            background-color: $second-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 8px;
+            h3{
+                color: white;
+                text-align: center;
+            }
+        }
+        .text{
+            text-align: center;
+            font-size: 18px;
+            margin: 0 20px 20px 20px;
+        }
+        .service{
+            text-align: center;
+            font-size: 14px;
+            margin: 0 40px 40px 40px;
+
+        }
+
+    }
+}

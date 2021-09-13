@@ -1,0 +1,67 @@
+@import "../variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .imgContainer {
+      position: relative;
+
+      div:first-child {
+        width: 100%;
+        height: 250px;
+      }
+    }
+    .text {
+      position: absolute;
+      text-align: center;
+      color: $first-color;
+      width: 300px;
+      right: 8px;
+      top: 180px;
+    }
+  }
+  .sectionTwo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .sectionThree{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: $first-color;
+      width: 100%;
+      height: 165px;
+      margin-bottom: 25px;
+      .title{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          div{
+              width: 22px;
+              border: 1px solid white;
+              height: 1px;
+          }
+          p{
+              color: white;
+              font-size: 14px;
+              margin: 0 22px
+          }
+      }
+      .text {
+          width: 310px;
+          text-align: center;
+          color: white;
+          margin: 10px 0;
+      }
+  }
+}
