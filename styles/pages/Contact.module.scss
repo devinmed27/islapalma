@@ -1,0 +1,55 @@
+@import "../variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    h1 {
+      width: 30%;
+      margin-top: 30px;
+      color: $first-color;
+    }
+    div {
+      border: 0.5px solid $first-color;
+      width: 35%;
+      height: 0.5px;
+      position: absolute;
+      top: 150px;
+      left: 235px;
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .container{
+    .cards{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    .title{
+      width: 100%;
+      margin-left: 80px;
+      div{
+        width: 80%;
+        left: 250px;
+      }
+    }
+  }
+}

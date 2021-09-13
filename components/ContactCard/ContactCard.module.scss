@@ -1,0 +1,48 @@
+@import "../../styles/variables";
+
+.card {
+  margin: 50px 30px 0px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $sand;
+  padding: 30px 15px 12px;
+  position: relative;
+  .imgContainer{
+    background-color: $first-color;
+    border-radius: 22px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top:-20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  p {
+    font-family: Roboto;
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    color: $first-color;
+  }
+  .phone {
+    font-size: 24px;
+    line-height: 28px;
+    color: $second-color;
+  }
+  .title {
+    font-size: 20px;
+    line-height: 21px;
+    color: $first-color;
+  }
+}
+
+@media (min-width:786px){
+  .card{
+    width: 30%;
+  }
+}
