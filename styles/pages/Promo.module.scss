@@ -1,0 +1,104 @@
+@import "../variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .title {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $second-color;
+    h3 {
+      color: $first-color;
+    }
+    .sub {
+      color: white;
+      display: none;
+    }
+  }
+  .imgContainer {
+    div:first-child {
+      width: 100%;
+    }
+  }
+  .infoPpal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: white;
+    transform: translateY(-70px);
+    .cardContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+      div:first-child {
+        width: 100%;
+      }
+    }
+    .features {
+      display: flex;
+      flex-direction: column;
+      .feature {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 30px;
+        .featureL {
+          margin: 5px;
+          .iconContainer {
+            width: 35px;
+            height: 35px;
+          }
+        }
+      }
+      .additionalInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .text {
+          margin: 20px;
+          text-align: justify;
+        }
+        .info {
+          margin: 20px;
+          text-align: justify;
+          font-size: 12px;
+        }
+      }
+      .priceInfo {
+        background-color: $second-color;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        .topInfo {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          .priceContainer {
+              margin: 5px;
+            div:first-child {
+              width: 27px;
+              width: 27px;
+            }
+          }
+          .text {
+              margin: 5px;
+            p {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
