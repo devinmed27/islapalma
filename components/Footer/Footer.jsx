@@ -15,13 +15,13 @@ const Footer = () => {
   return (
     <footer className={s.container}>
       <div className={s.linksContainer}>
-        <Link href="/">
+        <Link href="/conditions">
           <a>TERMINOS Y CONDICIONES</a>
         </Link>
-        <Link href="/">
+        <Link href="/politics">
           <a>NUESTRAS POLÍTICAS</a>
         </Link>
-        <Link href="/">
+        <Link href="/sansions">
           <a>PENALIDADES</a>
         </Link>
       </div>
