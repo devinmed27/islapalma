@@ -1,56 +1,51 @@
 import React from "react";
 import s from "./RoomCard.module.scss";
 import Image from "next/image";
+import leafIcon from "../../public/static/assets/subheader_icon.png";
+import Button from "../../components/Button/Button";
 
-const RoomCard = () => {
-
-    const data = [
-        {
-            iconPath: '/static/users.png',
-            text: 'Capacidad para 2 personas'
-        },
-        {
-            iconPath:'/static/air.png',
-            text:'Aire acondicionado - Ventilador (6 Pm- 6 Am)'
-        },
-        {
-            iconPath:'/static/bath.png',
-            text:'Baño privado'
-        },
-        {
-            iconPath:'/static/eye.png',
-            text:'Vista a la reserva ó al interior'
-        },
-        {
-            iconPath:'/static/closet.png',
-            text:'Clóset'
-        },
-        {
-            iconPath:'/static/bed.png',
-            text:'Cama doble ó cama Queen size'
-        }
-    ]
-
+const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
   return (
     <div className={s.container}>
-      <div className={s.title}>Este es el titulo</div>
-      <div className={s.imgContainer}>
-        <Image source={} />
-      </div>
-      <div className={s.cardContainer}>
-        <Image source={} />
-        <p>Habitación</p>
+      <div className={s.title}>
         <h3>{title}</h3>
-        <p>{description}</p>
-        <ul>
-          {data.map((el) => {
-            <li>
-              <img />
-              <p>{el.text}</p>
-            </li>;
+      </div>
+      <div className={s.imgContainer}>
+        <Image src={bannerPath} />
+      </div>
+      <div className={s.infoPpal}>
+        <div className={s.cardContainer}>
+          <Image src={imgPath} />
+        </div>
+        <div className={s.texts}>
+          <p>Habitación</p>
+          <h3>{title}</h3>
+        </div>
+        <p className={s.description}>{description}</p>
+        <div className={s.separator}>
+          <div className={s.iconContainer}>
+            <Image className={s.img} src={leafIcon} alt="Plantas" />
+          </div>
+          <div className={s.line}></div>
+        </div>
+        <div className={s.features}>
+          {features.map((el) => {
+            return (
+              <div className={s.feature}>
+                <div className={s.icon}>
+                  <Image src={el.iconPath} />
+                </div>
+                <p>{el.text}</p>
+              </div>
+            );
           })}
-        </ul>
-        <button>Reserva</button>
+        </div>
+        <div className={s.btn}>
+          <Button secondary={true} text="Reserva" />
+        </div>
+        <div className={s.iconFooter}>
+          <Image className={s.img} src={leafIcon} alt="Plantas" />
+        </div>
       </div>
     </div>
   );
