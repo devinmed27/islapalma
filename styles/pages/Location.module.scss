@@ -1,0 +1,35 @@
+@import "../variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .topButtons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    .right {
+      width: 50%;
+      background-color: $first-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid $second-color;
+      .title {
+          color: $second-color;
+      }
+    }
+    .left {
+      width: 50%;
+      background-color: $first-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid $second-color;
+
+    }
+  }
+}
