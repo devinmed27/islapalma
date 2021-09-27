@@ -19,7 +19,7 @@
       justify-content: center;
       border: 1px solid $second-color;
       .title {
-          color: $second-color;
+          color: white;
       }
     }
     .left {
@@ -29,7 +29,36 @@
       align-items: center;
       justify-content: center;
       border: 1px solid $second-color;
-
+      .title {
+        color: $second-color;
+    }
+    }
+  }
+  .infoPpal {
+    width: 95%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .imgContainer {
+      margin-bottom: 50px ;
+      margin-top: 20px;
+    }
+    p{
+      width: 95%;
+      text-align: justify;
+      margin: 10px 0;
+    }
+    h2 {
+      width: 100%;
+      text-align: start;
+    }
+    .line {
+      margin: 20px 0;
+      width: 100%;
+      border: 1px solid black;
+      height: 1px;
     }
   }
 }
