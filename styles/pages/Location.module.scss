@@ -19,7 +19,7 @@
       justify-content: center;
       border: 1px solid $second-color;
       .title {
-          color: white;
+        color: white;
       }
     }
     .left {
@@ -30,8 +30,11 @@
       justify-content: center;
       border: 1px solid $second-color;
       .title {
-        color: $second-color;
+        color: $white;
+      }
     }
+    .selectedTitle {
+      color: $second-color;
     }
   }
   .infoPpal {
@@ -42,10 +45,10 @@
     align-items: center;
     justify-content: center;
     .imgContainer {
-      margin-bottom: 50px ;
+      margin-bottom: 50px;
       margin-top: 20px;
     }
-    p{
+    p {
       width: 95%;
       text-align: justify;
       margin: 10px 0;
