@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import SubHeader from "../components/SubHeader/SubHeader";
 import s from "../styles/pages/Gallery.module.scss";
 import Gallery from "react-photo-gallery";
+import Image from "next/image";
+import beach from "../public/static/assets/beach.svg";
+import bar from "../public/static/assets/bar.svg";
+import flowers from "../public/static/assets/flowers.svg";
+import kitchen from "../public/static/assets/kitchen.svg";
 
 const gallery = () => {
   const [flag, setFlag] = useState([true, false, false, false]);
@@ -9,22 +14,62 @@ const gallery = () => {
   const photos = [
     [
       {
-        src: "http://localhost:3000/static/assets/bannerRoom2.jpg",
+        src: "http://localhost:3000/static/assets/img11.jpg",
         width: 4,
         height: 3,
       },
       {
-        src: "http://localhost:3000/static/assets/bannerRoom3.jpg",
+        src: "http://localhost:3000/static/assets/img12.jpg",
+        width: 2,
+        height: 1,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img13.jpg",
         width: 3,
         height: 4,
       },
       {
-        src: "http://localhost:3000/static/assets/bannerRoom4.jpg",
+        src: "http://localhost:3000/static/assets/img14.jpg",
+        width: 4,
+        height: 3,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img15.jpg",
+        width: 4,
+        height: 3,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img16.jpg",
         width: 3,
         height: 4,
       },
       {
-        src: "http://localhost:3000/static/assets/bannerRoom5.jpg",
+        src: "http://localhost:3000/static/assets/img17.jpg",
+        width: 1,
+        height: 1,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img18.jpg",
+        width: 4,
+        height: 3,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img19.jpg",
+        width: 4,
+        height: 3,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img111.jpg",
+        width: 3,
+        height: 4,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img112.jpg",
+        width: 1,
+        height: 1,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img113.jpg",
         width: 4,
         height: 3,
       },
@@ -116,25 +161,25 @@ const gallery = () => {
           className={flag[0] ? s.selectedTab : s.tab}
           onClick={() => handleClick(0)}
         >
-          
+          <Image src={beach} />
         </div>
         <div
           className={flag[1] ? s.selectedTab : s.tab}
           onClick={() => handleClick(1)}
         >
-          cocina
+          <Image src={kitchen} />
         </div>
         <div
           className={flag[2] ? s.selectedTab : s.tab}
           onClick={() => handleClick(2)}
         >
-          bar
+          <Image src={bar} />
         </div>
         <div
           className={flag[3] ? s.selectedTab : s.tab}
           onClick={() => handleClick(3)}
         >
-          naturaleza
+          <Image src={flowers} />
         </div>
       </div>
 
