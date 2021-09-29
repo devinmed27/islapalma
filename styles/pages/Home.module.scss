@@ -53,11 +53,22 @@
   }
   .sectionThree {
     padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .carouselContainer{
+      display: flex;
+    }
+    p{
+      color: $first-color;
+    }
     a {
       display: flex;
       align-items: center;
       justify-content: flex-start;
       text-decoration: underline;
+      color: $first-color;
       img {
         margin-left: 10px;
       }

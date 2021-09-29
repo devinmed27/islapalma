@@ -75,69 +75,105 @@ const gallery = () => {
       },
     ],
     [
+        {
+            src: "http://localhost:3000/static/assets/img21.jpg",
+            width: 4,
+            height: 3,
+          },
+          {
+            src: "http://localhost:3000/static/assets/img24.jpg",
+            width: 1,
+            height: 1,
+          },
+          {
+            src: "http://localhost:3000/static/assets/img23.jpg",
+            width: 3,
+            height: 4,
+          },
+          {
+            src: "http://localhost:3000/static/assets/img26.jpg",
+            width: 4,
+            height: 3,
+          },
+          {
+            src: "http://localhost:3000/static/assets/img25.jpg",
+            width: 3,
+            height: 4,
+          },
+          {
+            src: "http://localhost:3000/static/assets/img22.jpg",
+            width: 1,
+            height: 1,
+          },
+          {
+            src: "http://localhost:3000/static/assets/img28.jpg",
+            width: 4,
+            height: 3,
+          },
+    ],
+    [
       {
-        src: "http://localhost:3000/static/assets/bannerRoom2.jpg",
-        width: 2,
-        height: 2,
+        src: "http://localhost:3000/static/assets/img31.jpg",
+        width: 1,
+        height: 1,
       },
       {
-        src: "http://localhost:3000/static/assets/bannerRoom3.jpg",
+        src: "http://localhost:3000/static/assets/img33.jpg",
         width: 3,
         height: 4,
       },
       {
-        src: "http://localhost:3000/static/assets/bannerRoom4.jpg",
+        src: "http://localhost:3000/static/assets/img32.jpg",
+        width: 1,
+        height: 1,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img35.jpg",
+        width: 1,
+        height: 1,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img36.jpg",
         width: 3,
         height: 4,
       },
       {
-        src: "http://localhost:3000/static/assets/bannerRoom5.jpg",
-        width: 4,
-        height: 3,
+        src: "http://localhost:3000/static/assets/img34.jpg",
+        width: 1,
+        height: 1,
       },
     ],
     [
       {
-        src: "http://localhost:3000/static/assets/bannerRoom2.jpg",
-        width: 2,
-        height: 4,
+        src: "http://localhost:3000/static/assets/img41.jpg",
+        width: 1,
+        height: 1,
       },
       {
-        src: "http://localhost:3000/static/assets/bannerRoom3.jpg",
+        src: "http://localhost:3000/static/assets/img46.jpg",
+        width: 3,
+        height: 4,
+      },
+
+      {
+        src: "http://localhost:3000/static/assets/img42.jpg",
+        width: 1,
+        height: 1,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img45.jpg",
+        width: 1,
+        height: 1,
+      },
+      {
+        src: "http://localhost:3000/static/assets/img44.jpg",
         width: 3,
         height: 4,
       },
       {
-        src: "http://localhost:3000/static/assets/bannerRoom4.jpg",
-        width: 3,
-        height: 4,
-      },
-      {
-        src: "http://localhost:3000/static/assets/bannerRoom5.jpg",
-        width: 4,
-        height: 3,
-      },
-    ],
-    [
-      {
-        src: "http://localhost:3000/static/assets/bannerRoom2.jpg",
-        width: 5,
-        height: 2,
-      },
-      {
-        src: "http://localhost:3000/static/assets/bannerRoom3.jpg",
-        width: 3,
-        height: 4,
-      },
-      {
-        src: "http://localhost:3000/static/assets/bannerRoom4.jpg",
-        width: 3,
-        height: 4,
-      },
-      {
-        src: "http://localhost:3000/static/assets/bannerRoom5.jpg",
-        width: 4,
-        height: 3,
+        src: "http://localhost:3000/static/assets/img43.jpg",
+        width: 1,
+        height: 1,
       },
     ],
   ];
