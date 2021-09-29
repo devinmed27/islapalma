@@ -9,41 +9,14 @@ import { useRouter } from "next/router";
 import Article from "../components/Article/Article";
 import CarouselView from "../components/CarouselView/CarouselView";
 import muellePath from "../public/static/assets/muelle.png";
-import article1Path from "../public/static/assets/article1.png";
-import article2Path from "../public/static/assets/article2.png";
-import article3Path from "../public/static/assets/article3.png";
-import article4Path from "../public/static/assets/article4.png";
 import tropicalBgPath from "../public/static/assets/tropical-bg.png";
 import Button from "../components/Button/Button";
 
+import {homeTexts} from "../utils/texts"
+
 const index = () => {
   const router = useRouter();
-  const articlesInfo = [
-    {
-      title: "Naturaleza",
-      text: "Tenemos el privilegio de ver avifauna en nuestra isla, disfruta de su variedad y los colores de las aves y vegetación",
-      align: "center",
-      imagePath: article1Path,
-    },
-    {
-      title: "Experiencias",
-      text: "Caminatas ecológicas, ejercicio al aire libre, buceo, Kayak y una exquisita gastronomía; son algunas de las experiencias que tenemos para ti.",
-      align: "flex-end",
-      imagePath: article2Path,
-    },
-    {
-      title: "Playa",
-      text: "Conéctate con tus sentidos, escucha los sonidos del mar y las aves, además disfruta de unos paisajes que no olvidarás.",
-      align: "flex-start",
-      imagePath: article3Path,
-    },
-    {
-      title: "Privacidad",
-      text: "Vive la experiencia de estar en una de las mejores playas privadas de nuestro país, brindándote tranquilidad y exclusividad.",
-      align: "center",
-      imagePath: article4Path,
-    },
-  ];
+  const articlesInfo = homeTexts;
 
   return (
     <div className={s.container}>

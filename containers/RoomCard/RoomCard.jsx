@@ -14,37 +14,41 @@ const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
         <Image src={bannerPath} />
       </div>
       <div className={s.infoPpal}>
-        <div className={s.cardContainer}>
-          <Image src={imgPath} />
+        <div className={s.left}>
+          <div className={s.cardContainer}>
+            <Image src={imgPath} />
+          </div>
+          <div className={s.texts}>
+            <p>Habitación</p>
+            <h3>{title}</h3>
+          </div>
+          <p className={s.description}>{description}</p>
         </div>
-        <div className={s.texts}>
-          <p>Habitación</p>
-          <h3>{title}</h3>
-        </div>
-        <p className={s.description}>{description}</p>
-        <div className={s.separator}>
-          <div className={s.iconContainer}>
+        <div className={s.right}>
+          <div className={s.separator}>
+            <div className={s.iconContainer}>
+              <Image className={s.img} src={leafIcon} alt="Plantas" />
+            </div>
+            <div className={s.line}></div>
+          </div>
+          <div className={s.features}>
+            {features.map((el) => {
+              return (
+                <div className={s.feature}>
+                  <div className={s.icon}>
+                    <Image src={el.iconPath} />
+                  </div>
+                  <p>{el.text}</p>
+                </div>
+              );
+            })}
+          </div>
+          <div className={s.btn}>
+            <Button secondary={true} text="Reserva" />
+          </div>
+          <div className={s.iconFooter}>
             <Image className={s.img} src={leafIcon} alt="Plantas" />
           </div>
-          <div className={s.line}></div>
-        </div>
-        <div className={s.features}>
-          {features.map((el) => {
-            return (
-              <div className={s.feature}>
-                <div className={s.icon}>
-                  <Image src={el.iconPath} />
-                </div>
-                <p>{el.text}</p>
-              </div>
-            );
-          })}
-        </div>
-        <div className={s.btn}>
-          <Button secondary={true} text="Reserva" />
-        </div>
-        <div className={s.iconFooter}>
-          <Image className={s.img} src={leafIcon} alt="Plantas" />
         </div>
       </div>
     </div>
