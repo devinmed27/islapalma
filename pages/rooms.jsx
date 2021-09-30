@@ -21,14 +21,12 @@ const rooms = () => {
             distribuida en dos niveles para en total 40 habitaciones, capacidad
             máxima 120 personas. Amplias zonas de áreas sociales.
           </p>
-          {/* <div className={s.imgContainer}> */}
             <Image
               src={hotel_1}
               alt="Foto del hotel"
               placeholder="blur"
               objectFit="fill"
             />
-          {/* </div> */}
           <div className={s.line}>
             <img src="/static/assets/line_icon.png" alt="plant" />
           </div>
