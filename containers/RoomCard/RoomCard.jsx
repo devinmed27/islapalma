@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import s from "./RoomCard.module.scss";
 import Image from "next/image";
 import leafIcon from "../../public/static/assets/subheader_icon.png";
 import Button from "../../components/Button/Button";
 
 const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
+  const [url, setUrl] = useState(process.env.BOOK_URL_ES);
+
   return (
     <div className={s.container}>
       <div className={s.title}>
@@ -44,7 +46,9 @@ const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
             })}
           </div>
           <div className={s.btn}>
-            <Button secondary={true} text="Reserva" />
+            <a href={url} target="_blank">
+              <Button secondary={true} text="Reserva" />
+            </a>
           </div>
           <div className={s.iconFooter}>
             <Image className={s.img} src={leafIcon} alt="Plantas" />

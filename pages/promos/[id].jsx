@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import s from "../../styles/pages/Promo.module.scss";
 import formatterPeso from "../../utils/formatterPeso";
 import Button from "../../components/Button/Button";
 import Image from "next/image";
 
-import {cardsInfoP} from "../../utils/texts"
+import { cardsInfoP } from "../../utils/texts";
 
 // // posible getStatic paths
 export const getServerSideProps = async (ctx) => {
-  
+
   const idx = ctx.params.id;
   const promo = cardsInfoP[idx];
   return {
@@ -19,6 +19,8 @@ export const getServerSideProps = async (ctx) => {
 };
 
 const promo = ({ promo }) => {
+  const [url, setUrl] = useState(process.env.BOOK_URL_ES);
+
   return (
     <div className={s.container}>
       <div className={s.title}>
@@ -51,7 +53,9 @@ const promo = ({ promo }) => {
           ))}
           <div className={s.additionalInfo}>
             <p className={s.text}>{promo.description}</p>
-            <Button secondary={true} text="Reserva" />
+            <a href={url} target="_blank">
+              <Button secondary={true} text="Reserva" />
+            </a>
             <p className={s.info}>{promo.info}</p>
           </div>
           <div className={s.priceInfo}>
@@ -62,7 +66,11 @@ const promo = ({ promo }) => {
                 </div>
                 <div className={s.text}>
                   <p>Adultos: {formatterPeso(promo.price1)}</p>
-                  {promo.price2 != "" ? (<p>Niños de 4 a 7: {formatterPeso(promo.price2)}</p>) : (<p></p>)}
+                  {promo.price2 != "" ? (
+                    <p>Niños de 4 a 7: {formatterPeso(promo.price2)}</p>
+                  ) : (
+                    <p></p>
+                  )}
                 </div>
               </div>
             ) : (
