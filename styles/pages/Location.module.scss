@@ -44,24 +44,46 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .imgContainer {
-      margin-bottom: 50px;
-      margin-top: 20px;
+    .leftInfo {
+      .imgContainer {
+        margin-bottom: 50px;
+        margin-top: 20px;
+      }
+      p {
+        width: 95%;
+        text-align: justify;
+        margin: 10px 0;
+      }
+      h2 {
+        width: 100%;
+        text-align: start;
+      }
     }
-    p {
-      width: 95%;
-      text-align: justify;
-      margin: 10px 0;
+    .rightInfo {
+      .line {
+        margin: 20px 0;
+        width: 100%;
+        border: 1px solid black;
+        height: 1px;
+      }
     }
-    h2 {
-      width: 100%;
-      text-align: start;
-    }
-    .line {
-      margin: 20px 0;
-      width: 100%;
-      border: 1px solid black;
-      height: 1px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    .infoPpal {
+      display: flex;
+      flex-direction: row;
+      .leftInfo {
+        width: 60%;
+        .title {
+          display: none;
+        }
+      }
+      .rightInfo{
+        width: 70%;
+      }
     }
   }
 }

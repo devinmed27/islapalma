@@ -40,7 +40,7 @@ import card2PathP from "../public/static/assets/plan2-image.jpg";
 import banner2Path from "../public/static/assets/plan2-banner.jpg";
 import card3PathP from "../public/static/assets/plan3-image.jpg";
 import banner3Path from "../public/static/assets/plan3-banner.jpg";
-import location_1 from "../public/static/assets/location-info.jpg";
+import location_1 from "../public/static/assets/location-info.png";
 import location_2 from "../public/static/assets/location-info2.jpg";
 import birthday from "../public/static/assets/birthday.png";
 import anniversary from "../public/static/assets/anniversary.png";
@@ -433,7 +433,7 @@ const locationInfo = [
   },
   {
     title: "Viaja por tierra hasta Tolú",
-    imgPath: location_2,
+    imgPath: location_1,
     subtitle: "Desde Tolú",
     texts: [
       {
