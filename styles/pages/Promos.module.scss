@@ -16,3 +16,14 @@
         justify-content: center;
     }
 }
+
+@media (min-width : 768px) {
+    .container{
+        .cardsContainerDesktop{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

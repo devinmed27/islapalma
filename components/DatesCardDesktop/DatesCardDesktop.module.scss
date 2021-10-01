@@ -1,0 +1,50 @@
+@import "../../styles/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    .cardContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      div:first-child {
+        width: 100%;
+      }
+    }
+    .info{
+        background-color: $second-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+        .iconContainer{
+            transform: translateX(380px) rotate(225deg);
+            div:first-child {
+                width: 55px;
+                height:  55px;
+            }
+        }
+        .title {
+            color: $first-color;
+        }
+        .description{
+            width: 80%;
+            margin: 10px;
+            text-align: justify;
+        }
+        .amount{
+            color: $first-color;
+            font-size: 18px;
+        }
+    }
+    
+}
