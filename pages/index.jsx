@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Article from "../components/Article/Article";
 import CarouselView from "../components/CarouselView/CarouselView";
-import muellePath from "../public/static/assets/muelle.png";
+import muellePath from "../public/static/assets/muelle.jpg";
 import tropicalBgPath from "../public/static/assets/tropical-bg.png";
 import Button from "../components/Button/Button";
 

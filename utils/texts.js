@@ -1,7 +1,7 @@
-import article1Path from "../public/static/assets/article1.png";
-import article2Path from "../public/static/assets/article2.png";
-import article3Path from "../public/static/assets/article3.png";
-import article4Path from "../public/static/assets/article4.png";
+import article1Path from "../public/static/assets/article1.jpg";
+import article2Path from "../public/static/assets/article2.jpg";
+import article3Path from "../public/static/assets/article3.jpg";
+import article4Path from "../public/static/assets/article4.jpg";
 import icon1 from "../public/static/assets/user.png";
 import icon2 from "../public/static/assets/fan.png";
 import icon3 from "../public/static/assets/bath.png";
@@ -485,4 +485,171 @@ const locationInfo = [
   },
 ];
 
-module.exports = { homeTexts, dataRooms, cardsInfo, cardsInfoP, locationInfo, cardsInfoP2 }
+const photos = [
+  [
+    {
+      src: "http://localhost:3000/static/assets/img11.jpg",
+      width: 4,
+      height: 3,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img12.jpg",
+      width: 2,
+      height: 1,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img13.jpg",
+      width: 3,
+      height: 4,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img14.jpg",
+      width: 4,
+      height: 3,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img15.jpg",
+      width: 4,
+      height: 3,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img16.jpg",
+      width: 3,
+      height: 4,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img17.jpg",
+      width: 1,
+      height: 1,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img18.jpg",
+      width: 4,
+      height: 3,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img19.jpg",
+      width: 4,
+      height: 3,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img111.jpg",
+      width: 3,
+      height: 4,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img112.jpg",
+      width: 1,
+      height: 1,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img113.jpg",
+      width: 4,
+      height: 3,
+    },
+  ],
+  [
+      {
+          src: "http://localhost:3000/static/assets/img21.jpg",
+          width: 4,
+          height: 3,
+        },
+        {
+          src: "http://localhost:3000/static/assets/img24.jpg",
+          width: 1,
+          height: 1,
+        },
+        {
+          src: "http://localhost:3000/static/assets/img23.jpg",
+          width: 3,
+          height: 4,
+        },
+        {
+          src: "http://localhost:3000/static/assets/img26.jpg",
+          width: 4,
+          height: 3,
+        },
+        {
+          src: "http://localhost:3000/static/assets/img25.jpg",
+          width: 3,
+          height: 4,
+        },
+        {
+          src: "http://localhost:3000/static/assets/img22.jpg",
+          width: 1,
+          height: 1,
+        },
+        {
+          src: "http://localhost:3000/static/assets/img28.jpg",
+          width: 4,
+          height: 3,
+        },
+  ],
+  [
+    {
+      src: "http://localhost:3000/static/assets/img31.jpg",
+      width: 1,
+      height: 1,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img33.jpg",
+      width: 3,
+      height: 4,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img32.jpg",
+      width: 1,
+      height: 1,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img35.jpg",
+      width: 1,
+      height: 1,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img36.jpg",
+      width: 3,
+      height: 4,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img34.jpg",
+      width: 1,
+      height: 1,
+    },
+  ],
+  [
+    {
+      src: "http://localhost:3000/static/assets/img41.jpg",
+      width: 1,
+      height: 1,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img46.jpg",
+      width: 3,
+      height: 4,
+    },
+
+    {
+      src: "http://localhost:3000/static/assets/img42.jpg",
+      width: 1,
+      height: 1,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img45.jpg",
+      width: 1,
+      height: 1,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img44.jpg",
+      width: 3,
+      height: 4,
+    },
+    {
+      src: "http://localhost:3000/static/assets/img43.jpg",
+      width: 1,
+      height: 1,
+    },
+  ],
+];
+
+module.exports = { homeTexts, dataRooms, cardsInfo, cardsInfoP, locationInfo, cardsInfoP2, photos }

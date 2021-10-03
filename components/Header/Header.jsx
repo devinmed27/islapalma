@@ -132,7 +132,7 @@ const Header = () => {
           </a>
         </Link>
 
-        <Link href="/galery">
+        <Link href="/gallery">
           <a className={path.includes("galery") ? s.selected : s.noSelected}>
             GALERÍA
           </a>

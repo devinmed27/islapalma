@@ -1,26 +1,37 @@
 @import "../variables";
 
-.container {   
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .selectedTab {
+    background: $first-color;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    .selectedTab{
-        background: $first-color;
-        display: flex;
-        align-items: center;
-        border-radius: 50px;
+    border-radius: 50px;
+  }
+  .tab {
+    display: flex;
+    align-items: center;
+    background-color: white;
+  }
+  .tabsContainer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    .tabsContainer {
+      width: 80%;
     }
-    .tab {
-        display: flex;
-        align-items: center;
-        background-color: white;
+    .photosContainer{
+        width: 80%;
     }
-    .tabsContainer{
-        width: 100%;
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  }
 }
