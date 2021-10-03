@@ -8,11 +8,10 @@
   align-items: center;
   justify-content: space-around;
 
-  h2 {
-    background-color: #b9b9b99c;
+  h3 {
     color: $white;
     text-align: center;
-    font-size: 34px;
+    font-size: 22px;
     width: 100%;
     padding: 0 10px;
   }
@@ -33,6 +32,16 @@
     margin-bottom: 35px;
     button {
       margin-bottom: 70px;
+    }
+  }
+}
+
+@media ( min-width:768px) {
+  .container{
+    h3{
+      width: 50%;
+      font-size: 34px;
+      transform: translateX(650px);
     }
   }
 }
