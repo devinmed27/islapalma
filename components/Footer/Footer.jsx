@@ -45,13 +45,13 @@ const Footer = () => {
               <Image src={size < 768 ? whatsappPathM : whatsappPathD} />
             </a>
           </Link>
-          <Link href="/">
-            <a>
+          <Link href="https://instagram.com/hotel_islapalma?utm_medium=copy_link">
+            <a target="_blank">
               <Image src={size < 768 ? instagramPathM : instagramPathD} />
             </a>
           </Link>
-          <Link href="/">
-            <a>
+          <Link href="https://www.facebook.com/isla.palma.1884">
+            <a target="_blank">
               <Image src={size < 768 ? facebookPathM : facebookPathD} />
             </a>
           </Link>
