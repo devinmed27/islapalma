@@ -1,6 +1,7 @@
 @import "../../styles/variables";
 
-.container {
+.container,
+.content {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -12,6 +13,9 @@
   padding: 4px 20px;
   box-sizing: border-box;
   z-index: 10;
+  .quantity {
+    display: none !important;
+  }
   .inputContainer {
     width: 30%;
     display: flex;
@@ -19,6 +23,16 @@
     align-items: center;
     justify-content: space-around;
     height: 100%;
+    .field {
+      display: flex;
+      .iconContainer {
+        display: none;
+        div:first-child {
+          width: 12px;
+          height: 12px;
+        }
+      }
+    }
     .text {
       color: $white;
       text-align: center;
@@ -30,6 +44,15 @@
       border-radius: 5px;
       height: 24px;
       background-color: #fff;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    justify-content: center;
+    .content {
+      width: 60%;
     }
   }
 }
