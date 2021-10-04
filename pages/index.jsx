@@ -9,10 +9,12 @@ import { useRouter } from "next/router";
 import Article from "../components/Article/Article";
 import CarouselView from "../components/CarouselView/CarouselView";
 import muellePath from "../public/static/assets/muelle.jpg";
-import tropicalBgPath from "../public/static/assets/tropical-bg.png";
+import tropicalBgPath from "../public/static/assets/tropical-bg.jpg";
 import Button from "../components/Button/Button";
+import circle from "../public/static/assets/circle.png";
+import womanPath from "../public/static/assets/woman-vector.png";
 
-import {homeTexts} from "../utils/texts"
+import { homeTexts } from "../utils/texts";
 
 const index = () => {
   const router = useRouter();
@@ -37,17 +39,35 @@ const index = () => {
             src="/static/assets/stars.png"
             alt="Pequeñas estrellas"
           />
+          <img
+            className={s.stars2}
+            src="/static/assets/stars2.png"
+            alt="Pequeñas estrellas"
+          />
         </article>
+      </section>
+      <section className={s.middle}>
+        <div className={s.womanContainer}>
+          <Image src={womanPath} />
+        </div>
+        <div className={s.circleLeft}>
+          <Image src={circle} />
+        </div>
+        <div className={s.circleRight}>
+          <Image src={circle} />
+        </div>
+        <p>¡ENAMÓRATE DE ISLA PALMA!</p>
       </section>
       <section className={s.sectionTwo}>
         <div className={s.bg}></div>
-        {articlesInfo.map(({ text, title, align, imagePath }) => (
+        {articlesInfo.map(({ text, title, align, imagePath, number }) => (
           <Article
             key={title}
             text={text}
             title={title}
             align={align}
             imagePath={imagePath}
+            number={number}
           />
         ))}
       </section>
@@ -73,7 +93,7 @@ const index = () => {
         <Image src={tropicalBgPath} placeholder="blur" />
         <div className={s.buttonPromotion}>
           <Button
-            onClick={() => router.push("/promotions")}
+            onClick={() => router.push("/promos")}
             text="Promociones"
             width={"154px"}
           />

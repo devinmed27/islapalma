@@ -44,6 +44,11 @@ import location_1 from "../public/static/assets/location-info.png";
 import location_2 from "../public/static/assets/location-info2.png";
 import birthday from "../public/static/assets/birthday.png";
 import anniversary from "../public/static/assets/anniversary.png";
+import number1 from "../public/static/assets/01.png"
+import number2 from "../public/static/assets/02.png"
+import number3 from "../public/static/assets/03.png"
+import number4 from "../public/static/assets/04.png"
+
 
 const homeTexts = [
   {
@@ -51,24 +56,28 @@ const homeTexts = [
     text: "Tenemos el privilegio de ver avifauna en nuestra isla, disfruta de su variedad y los colores de las aves y vegetación",
     align: "center",
     imagePath: article1Path,
+    number: number1
   },
   {
     title: "Experiencias",
     text: "Caminatas ecológicas, ejercicio al aire libre, buceo, Kayak y una exquisita gastronomía; son algunas de las experiencias que tenemos para ti.",
     align: "flex-end",
     imagePath: article2Path,
+    number: number2
   },
   {
     title: "Playa",
     text: "Conéctate con tus sentidos, escucha los sonidos del mar y las aves, además disfruta de unos paisajes que no olvidarás.",
     align: "flex-start",
     imagePath: article3Path,
+    number: number3
   },
   {
     title: "Privacidad",
     text: "Vive la experiencia de estar en una de las mejores playas privadas de nuestro país, brindándote tranquilidad y exclusividad.",
     align: "center",
     imagePath: article4Path,
+    number: number4
   },
 ]
 

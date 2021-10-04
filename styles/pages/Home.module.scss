@@ -17,8 +17,8 @@
       justify-content: flex-end;
       width: 100%;
       margin-bottom: 90px;
-      div:first-child{
-        width:260px;
+      div:first-child {
+        width: 260px;
         height: 174px;
       }
       .magicText {
@@ -42,10 +42,17 @@
         left: 46px;
         top: 88px;
       }
+      .stars2{
+        display: none
+      }
     }
+  }
+  .middle{
+    display: none;
   }
   .sectionTwo {
     position: relative;
+    width: 100%;
     .bg {
       position: absolute;
       z-index: -1;
@@ -61,10 +68,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .carouselContainer{
+    .carouselContainer {
       display: flex;
     }
-    p{
+    p {
       color: $first-color;
     }
     a {
@@ -82,8 +89,91 @@
     position: relative;
     .buttonPromotion {
       position: absolute;
-      right: 20px;
-      top: 220px;
+      right: 40px;
+      top: 150px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .sectionOne {
+      width: 95%;
+      align-items: center;
+      z-index: 2;
+      .textOne{
+        width: 60%;
+      }
+      .magic {
+        .stars2 {
+          position: absolute;
+          display: flex;
+          left: 100px;
+          top: 140px;
+        }
+        .stars{
+          left: 200px;
+          top: 300px;
+        }
+        .magicText {
+          display: flex;
+          align-items: center;
+          width: 300px;
+          position: absolute;
+          top: 240px;
+          left: 200px;
+        }
+        div:first-child {
+          width: 842px;
+          height: 577px;
+        }
+      }
+    }
+    .middle{
+      width: 100%;
+      margin-top: 50px;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      background-color: $first-color;
+      p{
+        width: 30%;
+        color: $second-color;
+        text-align: center;
+        position: absolute;
+        left: 480px;
+        top: 80px;
+        font-size: 34px;
+      }
+      .circleLeft{
+        position: absolute;
+        z-index: -1;
+        left: -20px;
+        top: -200px;
+        div:first-child{
+          width:730px;
+        }
+      }
+      .circleRight{
+        position: absolute;
+        z-index: -1;
+        right: -20px;
+        top: -250px;
+        div:first-child{
+          width:730px;
+        }
+      }
+    }
+    .sectionTwo{
+      .bg {
+        top: 0;
+        height: 2100px;
+        background-color: $first-color;
+      }
     }
   }
 }

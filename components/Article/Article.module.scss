@@ -1,11 +1,17 @@
 @import "../../styles/variables";
 .container {
-    display: flex;
-    flex-direction: column;
-    
-    div:first-child{
-        margin: 0 16px !important;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .bannerContainer {
+    div:first-child {
+      margin: 0 16px !important;
     }
+  }
+
+  .numberContainer {
+    display: none;
+  }
 
   .textContainer {
     position: relative;
@@ -14,34 +20,53 @@
     background-color: $second-color;
     padding: 30px 16px 20px;
     transform: translateY(-40px);
-    h2{
-        font-size: 22px;
-        font-family: 'Mate SC';
-        color: $first-color;
-        text-align: center;
-        margin-bottom: 10px;
+    h2 {
+      font-size: 22px;
+      font-family: "Mate SC";
+      color: $first-color;
+      text-align: center;
+      margin-bottom: 10px;
     }
     p {
-        font-size: 16px;
-        font-weight: 600;
-        color: $white;
-        text-align: center;
-        line-height: 24px;
+      font-size: 16px;
+      font-weight: 600;
+      color: $white;
+      text-align: center;
+      line-height: 24px;
     }
-    .rbleaft{
-        position: absolute;
-        right: 0;
-        bottom: 0;
+    .rbleaft {
+      position: absolute;
+      right: 0;
+      bottom: 0;
     }
-    .ltleaft{
-        position: absolute;
-        left: 0;
-        top: 0;
+    .ltleaft {
+      position: absolute;
+      left: 0;
+      top: 0;
     }
-    .lbleaft{
-        position: absolute;
-        left: 0;
-        bottom: 0;
+    .lbleaft {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    .numberContainer {
+      display: flex;
+      div:first-child {
+        width: 364px;
+        height: 294px;
+      }
+    }
+    .bannerContainer{
+
+        div:first-child {
+            width: 750px;
+            height: 447px;
+        }
     }
   }
 }
