@@ -13,7 +13,7 @@ import coPath from "../../public/static/assets/co_colombia.png";
 
 import whatsappPathD from "../../public/static/assets/whatsappD.png";
 import facebookPathD from "../../public/static/assets/FacebookD.png";
-import instagramPathD from "../../public/static/assets/instagramD.png";
+import instagramPathD from "../../public/static/assets/InstagramD.png";
 
 import logoPath from "../../public/static/assets/logoFooter.png";
 
