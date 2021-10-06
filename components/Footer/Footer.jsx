@@ -12,7 +12,7 @@ import caminoPath from "../../public/static/assets/camino_verde.png";
 import coPath from "../../public/static/assets/co_colombia.png";
 
 import whatsappPathD from "../../public/static/assets/whatsappD.png";
-import facebookPathD from "../../public/static/assets/facebookD.png";
+import facebookPathD from "../../public/static/assets/FacebookD.png";
 import instagramPathD from "../../public/static/assets/instagramD.png";
 
 import logoPath from "../../public/static/assets/logoFooter.png";
