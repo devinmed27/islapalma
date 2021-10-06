@@ -27,6 +27,7 @@ const CarouselView = () => {
       >
         {data.map((imgPath, index) => {
           return (
+            <div className={s.imgContainer}>
             <Image
               key={index}
               priority={true}
@@ -34,7 +35,8 @@ const CarouselView = () => {
               alt={"Carousel image"}
               placeholder="blur"
               blurDataURL={imgPath}
-            />
+              />
+              </div>
           );
         })}
       </Carousel>

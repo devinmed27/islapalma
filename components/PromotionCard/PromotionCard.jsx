@@ -19,7 +19,7 @@ const PromotionCard = ({
     <div className={s.container}>
       <div className={s.card}>
         <div className={s.imgContainer}>
-          <Image src={imagePath} />
+          <Image src={imagePath} alt="icon image"/>
         </div>
         <div className={s.title}>
           <h3>{title}</h3>

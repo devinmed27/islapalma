@@ -2,7 +2,7 @@ import React from "react";
 import SubHeader from "../components/SubHeader/SubHeader";
 import s from "../styles/pages/Terms.module.scss";
 
-const sansions = () => {
+const Sansions = () => {
   return (
     <div className={s.container}>
       <SubHeader text="PENALIDADES" />
@@ -90,4 +90,4 @@ const sansions = () => {
   );
 };
 
-export default sansions;
+export default Sansions;

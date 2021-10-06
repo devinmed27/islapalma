@@ -17,16 +17,16 @@ export const getServerSideProps = async (ctx) => {
   };
 };
 
-const promo = ({ promo }) => {
+const Promo = ({ promo }) => {
 
   return (
     <div className={s.container}>
       <div className={s.cardContainer}>
-        <Image src={promo.imagePath} />
+        <Image src={promo.imagePath} alt="promotion image"/>
       </div>
         <div className={s.info}>
             <div className={s.iconContainer}>
-                <Image src={leaf} />
+                <Image src={leaf} alt="leaf icon"/>
             </div>
           <h3 className={s.title}>{promo.title}</h3>
           <p className={s.description}>{promo.description}</p>
@@ -36,4 +36,4 @@ const promo = ({ promo }) => {
   );
 };
 
-export default promo;
+export default Promo;

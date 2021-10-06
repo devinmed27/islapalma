@@ -10,7 +10,7 @@ import Button from "../components/Button/Button";
 
 import { cardsInfo } from "../utils/texts";
 
-const experiences = () => {
+const Experiences = () => {
   const [url, setUrl] = useState(process.env.BOOK_URL_ES);
   const [size, setSize] = useState(null);
 
@@ -62,7 +62,7 @@ const experiences = () => {
         <p className={s.text}>
           ¿QUÉ ESPERAR PARA VIVIR LA EXPERIENCIA DE ISLA PALMA?
         </p>
-        <a href={url} target="_blank">
+        <a href={url} target="_blank" rel="noreferrer">
           <Button text="Reserva" />
         </a>
       </div>
@@ -71,4 +71,4 @@ const experiences = () => {
   );
 };
 
-export default experiences;
+export default Experiences;

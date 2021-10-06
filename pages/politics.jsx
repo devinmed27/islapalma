@@ -2,7 +2,7 @@ import React from "react";
 import SubHeader from "../components/SubHeader/SubHeader";
 import s from "../styles/pages/Terms.module.scss";
 
-const politics = () => {
+const Politics = () => {
   return (
     <div className={s.container}>
       <SubHeader text="NUESTRAS POLÍTICAS" />
@@ -24,4 +24,4 @@ const politics = () => {
   );
 };
 
-export default politics;
+export default Politics;

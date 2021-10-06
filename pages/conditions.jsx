@@ -2,7 +2,7 @@ import React from "react";
 import SubHeader from "../components/SubHeader/SubHeader";
 import s from "../styles/pages/Terms.module.scss";
 
-const conditions = () => {
+const Conditions = () => {
   return (
     <div className={s.container}>
       <SubHeader text="TÉRMINOS Y CONDICIONES" />
@@ -109,4 +109,4 @@ const conditions = () => {
   );
 };
 
-export default conditions;
+export default Conditions;

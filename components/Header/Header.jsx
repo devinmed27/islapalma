@@ -18,7 +18,7 @@ const Header = () => {
 
   useEffect(() => {
     setPath(window.location.pathname);
-  });
+  },[]);
 
   return (
     <header className={s.atomcontainerheader}>
@@ -26,25 +26,25 @@ const Header = () => {
         <div className={s.lang}>{`${es_lang.header.lang_selector}/`} </div>
         <Link href="/">
           <a className={s.logoContainer} onClick={() => setOpenMenu(false)}>
-            <Image height={44} width={54} src={logoPath} placeholder="blur" />
+            <Image height={44} width={54} src={logoPath} placeholder="blur" alt="logo icon"/>
           </a>
         </Link>
         <div className={s.contact}>
           <p>CONTÁCTANOS</p>
           <div className={s.iconsContainer}>
             <div className={s.iconContainer}>
-              <a href="https://wa.link/5x4d89" target="_blank">
-                <Image src={wppIcon} />
+              <a href="https://wa.link/5x4d89" target="_blank" rel="noreferrer">
+                <Image src={wppIcon} alt="whatsapp icon"/>
               </a>
             </div>
             <div className={s.iconContainer}>
-              <a href="https://instagram.com/hotel_islapalma?utm_medium=copy_link" target="_blank">
-                <Image src={igIcon} />
+              <a href="https://instagram.com/hotel_islapalma?utm_medium=copy_link" target="_blank" rel="noreferrer">
+                <Image src={igIcon} alt="whatsapp icon"/>
               </a>
             </div>
             <div className={s.iconContainer}>
-              <a href="https://www.facebook.com/isla.palma.1884" target="_blank">
-                <Image src={fbIcon} />
+              <a href="https://www.facebook.com/isla.palma.1884" target="_blank" rel="noreferrer">
+                <Image src={fbIcon} alt="facebook icon"/>
               </a>
             </div>
           </div>
@@ -54,6 +54,7 @@ const Header = () => {
             onClick={handleMenuToggle}
             className={s.barsImage}
             src={barsPath}
+            alt="bars icon"
           />
           <nav
             className={[
@@ -68,6 +69,7 @@ const Header = () => {
                   width={120}
                   src={logoPath}
                   placeholder="blur"
+                  alt="logo image"
                 />
               </a>
             </Link>
@@ -93,7 +95,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className={s.btnReserva}>
-                <a href={process.env.BOOK_URL_ES} target="_blank">
+                <a href={process.env.BOOK_URL_ES} target="_blank" rel="noreferrer">
                   Reserva ahora
                 </a>
               </li>

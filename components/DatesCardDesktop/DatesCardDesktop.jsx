@@ -8,11 +8,11 @@ const DatesCardDesktop = ({ title, imagePath, description, price1 }) => {
   return (
     <div className={s.container}>
       <div className={s.cardContainer}>
-        <Image src={imagePath} />
+        <Image src={imagePath} alt="banner image"/>
       </div>
       <div className={s.info}>
         <div className={s.iconContainer}>
-          <Image src={leaf} />
+          <Image src={leaf} alt="leaf image"/>
         </div>
         <h3 className={s.title}>{title}</h3>
         <p className={s.description}>{description}</p>

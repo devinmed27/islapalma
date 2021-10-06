@@ -17,7 +17,7 @@ const ExperienceCard = ({
     <div className={s.container} style={alignItem}>
       <div className={s.info}>
         <div className={s.iconContainer}>
-          <Image src={iconPath} />
+          <Image src={iconPath} alt="icon image"/>
         </div>
         <div className={s.title}>
           <h3>{title}</h3>
@@ -27,7 +27,7 @@ const ExperienceCard = ({
       </div>
       <div className={s.image}>
         <div className={s.imgContainer}>
-          <Image src={imagePath} />
+          <Image src={imagePath} alt="image banner"/>
         </div>
       </div>
     </div>

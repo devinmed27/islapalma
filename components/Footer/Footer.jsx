@@ -42,17 +42,17 @@ const Footer = () => {
         <div className={s.icons}>
           <Link href="https://wa.link/5x4d89">
             <a>
-              <Image src={size < 768 ? whatsappPathM : whatsappPathD} />
+              <Image src={size < 768 ? whatsappPathM : whatsappPathD} alt="whatsapp icon"/>
             </a>
           </Link>
           <Link href="https://instagram.com/hotel_islapalma?utm_medium=copy_link">
             <a target="_blank">
-              <Image src={size < 768 ? instagramPathM : instagramPathD} />
+              <Image src={size < 768 ? instagramPathM : instagramPathD} alt="instagram icon"/>
             </a>
           </Link>
           <Link href="https://www.facebook.com/isla.palma.1884">
             <a target="_blank">
-              <Image src={size < 768 ? facebookPathM : facebookPathD} />
+              <Image src={size < 768 ? facebookPathM : facebookPathD} alt="facebook icon"/>
             </a>
           </Link>
         </div>
@@ -60,11 +60,11 @@ const Footer = () => {
       <div className={s.contactContainer}>
         <p className={s.text}>Escríbenos o llámanos</p>
         <div className={s.contactInfo}>
-          <Image src={phonePath} width={16} height={16} />
+          <Image src={phonePath} width={16} height={16} alt="phine icon"/>
           <p>(+ 57) 314 525 1610 (+57) 314 551 9353</p>
         </div>
         <div className={s.contactInfo}>
-          <Image src={emailPath} width={18} height={16} />
+          <Image src={emailPath} width={18} height={16} alt="email icon"/>
           <p>Info@hotelislapalma.com</p>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Footer = () => {
           <div></div>
         ) : (
           <div className={s.imgContainer}>
-            <Image src={logoPath} />
+            <Image src={logoPath} alt="logo icon"/>
           </div>
         )}
         <div className={s.subContainer}>
@@ -81,17 +81,17 @@ const Footer = () => {
           <div>
             <Link href="/">
               <a>
-                <Image src={lagunaPath} />
+                <Image src={lagunaPath} alt="laguna image"/>
               </a>
             </Link>
             <Link href="/">
               <a>
-                <Image src={caminoPath} />
+                <Image src={caminoPath} alt="way image"/>
               </a>
             </Link>
             <Link href="/">
               <a>
-                <Image src={coPath} />
+                <Image src={coPath} alt="co icon"/>
               </a>
             </Link>
           </div>
@@ -101,7 +101,7 @@ const Footer = () => {
           NIT. 900.648.506-1
         </p>
         <p className={s.legalText}>
-          Desarrollado por <a href="https://devinmed.com">Dev in Med</a>
+          Desarrollado por <a href="https://devinmed.com" target="_blank" rel="noreferrer">Dev in Med</a>
         </p>
       </div>
     </footer>

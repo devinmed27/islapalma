@@ -18,7 +18,7 @@ export const getServerSideProps = async (ctx) => {
   };
 };
 
-const promo = ({ promo }) => {
+const Promo = ({ promo }) => {
   const [url, setUrl] = useState(process.env.BOOK_URL_ES);
 
   return (
@@ -28,19 +28,19 @@ const promo = ({ promo }) => {
         <p className={s.sub}>{promo.subtitle}</p>
       </div>
       <div className={s.imgContainer}>
-        <Image src={promo.bannerPath} />
+        <Image src={promo.bannerPath} alt="icon path"/>
       </div>
       <div className={s.infoPpal}>
         <div className={s.cardContainer}>
-          <Image src={promo.imagePath} />
+          <Image src={promo.imagePath} alt="promotion image"/>
         </div>
         <div className={s.features}>
           {promo.features.map(({ text, iconPath }) => (
-            <div className={s.feature}>
+            <div className={s.feature} key={text}>
               {iconPath != "" ? (
                 <div className={s.featureL}>
                   <div className={s.iconContainer}>
-                    <Image src={iconPath} />
+                    <Image src={iconPath} alt="icon image"/>
                   </div>
                 </div>
               ) : (
@@ -53,7 +53,7 @@ const promo = ({ promo }) => {
           ))}
           <div className={s.additionalInfo}>
             <p className={s.text}>{promo.description}</p>
-            <a href={url} target="_blank">
+            <a href={url} target="_blank" rel="noreferrer">
               <Button secondary={true} text="Reserva" />
             </a>
             <p className={s.info}>{promo.info}</p>
@@ -62,7 +62,7 @@ const promo = ({ promo }) => {
             {promo.pricePath != "" ? (
               <div className={s.topInfo}>
                 <div className={s.priceContainer}>
-                  <Image src={promo.pricePath} />
+                  <Image src={promo.pricePath} alt="promotion image"/>
                 </div>
                 <div className={s.text}>
                   <p>Adultos: {formatterPeso(promo.price1)}</p>
@@ -83,4 +83,4 @@ const promo = ({ promo }) => {
   );
 };
 
-export default promo;
+export default Promo;

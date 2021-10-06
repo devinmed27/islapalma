@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import { locationInfo } from "../utils/texts";
 
-const location = () => {
+const Location = () => {
   const [flag, setFlag] = useState(true);
 
   return (
@@ -34,18 +34,18 @@ const location = () => {
           <div className={s.leftInfo}>
             <h2 className={s.title}> {locationInfo[0].title}</h2>
             <div className={s.imgContainer}>
-              <Image src={locationInfo[0].imgPath} />
+              <Image src={locationInfo[0].imgPath} alt="map image"/>
             </div>
           </div>
           <div className={s.rightInfo}>
             <h2 className={s.subTitle}>{locationInfo[0].subtitle}</h2>
             {locationInfo[0].texts.map((element) => {
-              return <p>{element.text}</p>;
+              return <p key={element.text}>{element.text}</p>;
             })}
             <div className={s.line}></div>
             <h2>{locationInfo[0].titleSct2}</h2>
             {locationInfo[0].textsSct2.map((element) => {
-              return <p>{element.text}</p>;
+              return <p key={element.text}>{element.text}</p>;
             })}
           </div>
         </div>
@@ -54,23 +54,23 @@ const location = () => {
           <div className={s.leftInfo}>
             <h2 className={s.title}> {locationInfo[1].title}</h2>
             <div className={s.imgContainer}>
-              <Image src={locationInfo[1].imgPath} />
+              <Image src={locationInfo[1].imgPath} alt="map image"/>
             </div>
           </div>
           <div className={s.rightInfo}>
             <h2 className={s.subTitle}>{locationInfo[0].subtitle}</h2>
             {locationInfo[1].texts.map((element) => {
-              return <p>{element.text}</p>;
+              return <p key={element.text}>{element.text}</p>;
             })}
             <div className={s.line}></div>
             <h2>{locationInfo[1].titleSct2}</h2>
             {locationInfo[1].textsSct2.map((element) => {
-              return <p>{element.text}</p>;
+              return <p key={element.text}>{element.text}</p>;
             })}
             <div className={s.line}></div>
             <h2>{locationInfo[1].titleSct3}</h2>
             {locationInfo[1].textsSct3.map((element) => {
-              return <p>{element.text}</p>;
+              return <p key={element.text}>{element.text}</p>;
             })}
           </div>
         </div>
@@ -79,4 +79,4 @@ const location = () => {
   );
 };
 
-export default location;
+export default Location;

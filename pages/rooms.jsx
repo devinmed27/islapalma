@@ -5,11 +5,12 @@ import s from "../styles/pages/Rooms.module.scss";
 import Image from "next/image";
 import RoomCard from "../containers/RoomCard/RoomCard";
 import hotel_1 from "../public/static/assets/bannerPpalRooms.png";
+import line from "../public/static/assets/line_icon.png";
+import figure from "../public/static/assets/rooms_figure.png";
+import figure2 from "../public/static/assets/figure.png"
+import { dataRooms } from "../utils/texts";
 
-import {dataRooms} from "../utils/texts"
-
-
-const rooms = () => {
+const Rooms = () => {
   const data = dataRooms;
   return (
     <div className={s.container}>
@@ -21,29 +22,28 @@ const rooms = () => {
             distribuida en dos niveles para en total 40 habitaciones, capacidad
             máxima 120 personas. Amplias zonas de áreas sociales.
           </p>
-            <Image
-              src={hotel_1}
-              alt="Foto del hotel"
-              placeholder="blur"
-              objectFit="fill"
-            />
+          <Image
+            src={hotel_1}
+            alt="Foto del hotel"
+            placeholder="blur"
+            objectFit="fill"
+          />
           <div className={s.line}>
-            <img src="/static/assets/line_icon.png" alt="plant" />
+            <div className={s.iconContainer}>
+              <Image src={line} alt="plant" />
+            </div>
           </div>
-          <img
-            className={s.figure}
-            src="/static/assets/rooms_figure.png"
-            alt="figure"
-          />
-          <img
-            className={s.figure2}
-            src="/static/assets/figure.png"
-            alt="figure"
-          />
+          <div className={s.figure}>
+            <Image src={figure} alt="figure" />
+          </div>
+          <div className={s.figure2}>
+            <Image src={figure2} alt="figure" />
+          </div>
         </div>
         <div className={s.roomsContainer}>
           {data.map((room, index) => (
             <RoomCard
+            key={room.title}
               title={room.title}
               description={room.description}
               imgPath={room.imgPath}
@@ -58,4 +58,4 @@ const rooms = () => {
   );
 };
 
-export default rooms;
+export default Rooms;

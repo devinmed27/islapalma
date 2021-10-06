@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import s from "./Article.module.scss";
+import rbleaf from "../../public/static/assets/rbleaft.png";
+import ltleaf from "../../public/static/assets/ltleaft.png";
+import lbleaf from "../../public/static/assets/lbleaft.png";
 
 const Article = ({ text, title, imagePath, align, number }) => {
   const alignItem = {
@@ -9,17 +12,23 @@ const Article = ({ text, title, imagePath, align, number }) => {
   return (
     <article className={s.container}>
       <div className={s.numberContainer}>
-        <Image src={number} />
+        <Image src={number} alt="number" />
       </div>
       <div className={s.bannerContainer}>
-      <Image src={imagePath} placeholder="blur" />
+        <Image src={imagePath} placeholder="blur" alt="banner image" />
       </div>
       <div className={s.textContainer} style={alignItem}>
         <h2>{title}</h2>
         <p>{text}</p>
-        <img className={s.rbleaft} src="/static/assets/rbleaft.png" alt="" />
-        <img className={s.ltleaft} src="/static/assets/ltleaft.png" alt="" />
-        <img className={s.lbleaft} src="/static/assets/lbleaft.png" alt="" />
+        <div className={s.rbleaft} >
+          <Image src={rbleaf} alt="leaf icon" />
+        </div>
+        <div className={s.ltleaft} >
+          <Image src={ltleaf} alt="leaf icon" />
+        </div>
+        <div className={s.lbleaft} >
+          <Image src={lbleaf} alt="leaf icon" />
+        </div>
       </div>
     </article>
   );

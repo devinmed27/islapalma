@@ -25,20 +25,20 @@ const PromotionCardDesktop = ({
         <p className={s.sub}>{subtitle}</p>
       </div>
       <div className={s.imgContainer}>
-        <Image src={bannerPath} />
+        <Image src={bannerPath} alt="icon image"/>
       </div>
       <div className={s.infoPpal}>
         <div className={s.top}>
           <div className={s.cardContainer}>
-            <Image src={imagePath} />
+            <Image src={imagePath} alt="icon image"/>
           </div>
           <div className={s.features}>
             {features.map(({ text, iconPath }) => (
-              <div className={s.feature}>
+              <div key={text} className={s.feature}>
                 {iconPath != "" ? (
                   <div className={s.featureL}>
                     <div className={s.iconContainer}>
-                      <Image src={iconPath} />
+                      <Image src={iconPath} alt="icon image"/>
                     </div>
                   </div>
                 ) : (
@@ -52,7 +52,7 @@ const PromotionCardDesktop = ({
 
           <div className={s.additionalInfo}>
             <p className={s.text}>{description}</p>
-            <a href={url} target="_blank">
+            <a href={url} target="_blank" rel="noreferrer">
               <Button secondary={true} text="Reserva" />
             </a>
             <p className={s.info}>{info}</p>

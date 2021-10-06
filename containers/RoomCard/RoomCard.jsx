@@ -13,12 +13,12 @@ const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
         <h3>{title}</h3>
       </div>
       <div className={s.imgContainer}>
-        <Image src={bannerPath} />
+        <Image src={bannerPath} alt="banner image"/>
       </div>
       <div className={s.infoPpal}>
         <div className={s.left}>
           <div className={s.cardContainer}>
-            <Image src={imgPath} />
+            <Image src={imgPath} alt="image icon"/>
           </div>
           <div className={s.texts}>
             <p>Habitación</p>
@@ -36,9 +36,9 @@ const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
           <div className={s.features}>
             {features.map((el) => {
               return (
-                <div className={s.feature}>
+                <div className={s.feature} key={el.text}>
                   <div className={s.icon}>
-                    <Image src={el.iconPath} />
+                    <Image src={el.iconPath} alt="icon"/>
                   </div>
                   <p>{el.text}</p>
                 </div>
@@ -46,7 +46,7 @@ const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
             })}
           </div>
           <div className={s.btn}>
-            <a href={url} target="_blank">
+            <a href={url} target="_blank" rel="noreferrer">
               <Button secondary={true} text="Reserva" />
             </a>
           </div>

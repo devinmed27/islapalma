@@ -7,7 +7,7 @@ import Image from "next/image";
 import banner from "../public/static/assets/contact-banner.png";
 import SubHeader from "../components/SubHeader/SubHeader";
 
-const contact = () => {
+const Contact = () => {
   const [size, setSize] = useState(null);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const contact = () => {
     <div className={s.container}>
       {size < 768 ? (
         <div className={s.bannerContainer}>
-          <Image src={banner} />
+          <Image src={banner} alt="banner image"/>
         </div>
       ) : (
         <SubHeader text="CONTÁCTANOS" />
@@ -48,4 +48,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

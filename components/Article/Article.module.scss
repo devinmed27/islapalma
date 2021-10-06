@@ -16,7 +16,7 @@
   .textContainer {
     position: relative;
     width: 246px;
-    height: 242px;
+    height: 280px;
     background-color: $second-color;
     padding: 30px 16px 20px;
     transform: translateY(-40px);
@@ -36,30 +36,44 @@
     }
     .rbleaft {
       position: absolute;
-      right: 0;
-      bottom: 0;
+      div:first-child{
+        left: 170px;
+        bottom: 25px;
+      }
     }
     .ltleaft {
       position: absolute;
-      left: 0;
-      top: 0;
+      div:first-child{
+        right: 10px;
+        top: -188px;
+      }
     }
     .lbleaft {
       position: absolute;
-      left: 0;
-      bottom: 0;
+      div:first-child{
+        right: 15px;
+        bottom: 0;
+      }
     }
   }
 }
 
 @media (min-width: 768px) {
   .container {
+    position: relative;
+    margin-top: 50px;
+    width: 50%;
     .numberContainer {
       display: flex;
+      position: absolute;
       div:first-child {
         width: 364px;
         height: 294px;
+        left: -350px;
       }
+    }
+    .textContainer{
+    transform: translateY(-140px);
     }
     .bannerContainer{
 

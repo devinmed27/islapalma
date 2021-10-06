@@ -90,7 +90,7 @@ const BookBar = () => {
           <div className={s.field}>
             <select name="adults">
               {options.map((element) => (
-                <option value={element.value}> {element.label} </option>
+                <option value={element.value} key={element.value}> {element.label} </option>
               ))}
             </select>
           </div>
@@ -100,12 +100,12 @@ const BookBar = () => {
           <div className={s.field}>
             <select name="kids">
               {options.map((element) => (
-                <option value={element.value}> {element.label} </option>
+                <option value={element.value} key={element.value}> {element.label} </option>
               ))}
             </select>
           </div>
         </div>
-        <a href={url} target="_blank">
+        <a href={url} target="_blank" rel="noreferrer">
           <Button text="RESERVA" width="90px" height="30px" fontSize="13px" />
         </a>
       </div>

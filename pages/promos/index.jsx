@@ -13,7 +13,7 @@ import DatesCardDesktop from "../../components/DatesCardDesktop/DatesCardDesktop
 
 import { cardsInfoP, cardsInfoP2 } from "../../utils/texts";
 
-const index = () => {
+const Index = () => {
   const [size, setSize] = useState(null);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const index = () => {
     <div className={s.container}>
       <SubHeader text="Planes" />
       <div className={s.bannerContainer}>
-        {size < 768 ? <Image src={banner} /> : <Image src={bannerDesktop} />}
+        {size < 768 ? <Image src={banner} alt="banner image"/> : <Image src={bannerDesktop} alt="banner image"/>}
       </div>
       {size < 768 ? (
         <div className={s.cardsContainer}>
@@ -67,9 +67,9 @@ const index = () => {
       )}
       <div className={s.bannerContainer}>
         {size < 768 ? (
-          <Image src={subBanner} />
+          <Image src={subBanner} alt="banner image" />
         ) : (
-          <Image src={subBannerDesktop} />
+          <Image src={subBannerDesktop} alt="banner image"/>
         )}
       </div>
       {size < 768 ? (
@@ -103,4 +103,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
