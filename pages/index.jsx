@@ -16,11 +16,14 @@ import start from "../public/static/assets/stars.png";
 import start2 from "../public/static/assets/stars2.png";
 import arrow from "../public/static/assets/right-arrow.png"
 
-import { homeTexts } from "../utils/texts";
+import { homeTexts, homeCarousel } from "../utils/texts";
 
 const Index = () => {
   const router = useRouter();
   const articlesInfo = homeTexts;
+
+  const data = homeCarousel;
+
 
   const [size, setSize] = useState(null)
 
@@ -86,7 +89,7 @@ const Index = () => {
           </div>
         )}
         <div className={s.carouselContainer}>
-          <CarouselView />
+          <CarouselView data = {data}/>
         </div>
         <Link href="/experiences">
           <a>

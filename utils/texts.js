@@ -49,6 +49,12 @@ import number2 from "../public/static/assets/02.png"
 import number3 from "../public/static/assets/03.png"
 import number4 from "../public/static/assets/04.png"
 
+import img1 from "../public/static/assets/carr1.jpg";
+import img2 from "../public/static/assets/carr2.jpg";
+import img3 from "../public/static/assets/carr3.jpg";
+import img4 from "../public/static/assets/carr4.jpg";
+import img5 from "../public/static/assets/carr5.jpg";
+
 
 const homeTexts = [
   {
@@ -661,4 +667,5 @@ const photos = [
   ],
 ];
 
-module.exports = { homeTexts, dataRooms, cardsInfo, cardsInfoP, locationInfo, cardsInfoP2, photos }
+const homeCarousel = [img1,img2,img3,img4,img5]
+module.exports = { homeTexts, dataRooms, cardsInfo, cardsInfoP, locationInfo, cardsInfoP2, photos, homeCarousel }
