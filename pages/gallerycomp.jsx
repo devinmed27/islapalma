@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SubHeader from "../components/SubHeader/SubHeader";
 import s from "../styles/pages/Gallery.module.scss";
-import GalleryComp from "react-photo-gallery";
+import Gallery from "react-photo-gallery";
 import Image from "next/image";
 import beach from "../public/static/assets/beach.svg";
 import bar from "../public/static/assets/bar.svg";
@@ -10,7 +10,7 @@ import kitchen from "../public/static/assets/kitchen.svg";
 
 import {photos} from "../utils/texts"
 
-const Gallery = () => {
+const GalleryComp = () => {
   const [flag, setFlag] = useState([true, false, false, false]);
   const [indexSelected, setIndexSelected] = useState(0);
   
@@ -56,10 +56,10 @@ const Gallery = () => {
         </div>
       </div>
       <div className={s.photosContainer}>
-      <GalleryComp photos={photos[indexSelected]} />
+      <Gallery photos={photos[indexSelected]} />
       </div>
     </div>
   );
 };
 
-export default Gallery;
+export default GalleryComp;
