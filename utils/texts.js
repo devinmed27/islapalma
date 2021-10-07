@@ -42,8 +42,8 @@ import card3PathP from "../public/static/assets/plan3-image.jpg";
 import banner3Path from "../public/static/assets/plan3-banner.jpg";
 import location_1 from "../public/static/assets/location-info.png";
 import location_2 from "../public/static/assets/location-info2.png";
-import birthday from "../public/static/assets/birthday.png";
-import anniversary from "../public/static/assets/anniversary.png";
+import birthday from "../public/static/assets/birthday.jpg";
+import anniversary from "../public/static/assets/anniversary.jpg";
 import number1 from "../public/static/assets/01.png"
 import number2 from "../public/static/assets/02.png"
 import number3 from "../public/static/assets/03.png"
