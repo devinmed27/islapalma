@@ -90,7 +90,7 @@ const Header = () => {
                 </Link>
               </li>
               <li onClick={handleMenuToggle}>
-                <Link href="/gallerycomp">
+                <Link href="/gallery">
                   <a>Galería</a>
                 </Link>
               </li>
@@ -134,7 +134,7 @@ const Header = () => {
           </a>
         </Link>
 
-        <Link href="/gallerycomp">
+        <Link href="/gallery">
           <a className={path.includes("galery") ? s.selected : s.noSelected}>
             GALERÍA
           </a>
