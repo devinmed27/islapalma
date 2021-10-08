@@ -562,6 +562,21 @@ const photos = [
       width: 4,
       height: 3,
     },
+    {
+      src: `${process.env.URL}static/assets/img114.jpg`,
+      width: 3,
+      height: 4,
+    },
+    {
+      src: `${process.env.URL}static/assets/img116.jpg`,
+      width: 1,
+      height: 1,
+    },
+    {
+      src: `${process.env.URL}static/assets/img115.jpg`,
+      width: 4,
+      height: 3,
+    },
   ],
   [
       {
@@ -599,6 +614,21 @@ const photos = [
           width: 4,
           height: 3,
         },
+        {
+          src: `${process.env.URL}static/assets/img221.jpg`,
+          width: 1,
+          height: 1,
+        },
+        {
+          src: `${process.env.URL}static/assets/img222.jpg`,
+          width: 3,
+          height: 4,
+        },
+        {
+          src: `${process.env.URL}static/assets/img29.jpg`,
+          width: 4,
+          height: 3,
+        },
   ],
   [
     {
@@ -617,7 +647,7 @@ const photos = [
       height: 1,
     },
     {
-      src: `${process.env.URL}static/assets/img35.jpg`,
+      src: `${process.env.URL}static/assets/img37.jpg`,
       width: 1,
       height: 1,
     },
@@ -627,9 +657,14 @@ const photos = [
       height: 4,
     },
     {
-      src: `${process.env.URL}static/assets/img34.jpg`,
+      src: `${process.env.URL}static/assets/img35.jpg`,
       width: 1,
       height: 1,
+    },
+    {
+      src: `${process.env.URL}static/assets/img34.jpg`,
+      width: 4,
+      height: 3,
     },
   ],
   [
@@ -645,12 +680,12 @@ const photos = [
     },
 
     {
-      src: `${process.env.URL}static/assets/img42.jpg`,
+      src: `${process.env.URL}static/assets/img45.jpg`,
       width: 1,
       height: 1,
     },
     {
-      src: `${process.env.URL}static/assets/img45.jpg`,
+      src: `${process.env.URL}static/assets/img42.jpg`,
       width: 1,
       height: 1,
     },
@@ -668,4 +703,5 @@ const photos = [
 ];
 
 const homeCarousel = [img1,img2,img3,img4,img5]
+
 module.exports = { homeTexts, dataRooms, cardsInfo, cardsInfoP, locationInfo, cardsInfoP2, photos, homeCarousel }
