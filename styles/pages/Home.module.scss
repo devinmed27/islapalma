@@ -122,27 +122,29 @@
           display: flex;
           div:first-child {
             width: 145px;
-            height: 120px;
-            right: 950px;
-            top: 140px;
+            height: 100px;
+            right: 580px;
+            top: 280px;
           }
         }
         .stars {
+          position: absolute;
+          display: flex;
           div:first-child {
             width: 100px;
             height: 96px;
-            right: 200px;
-            top: 240px;
+            left: -550px;
+            top: 460px;
           }
         }
         .magicText {
           display: flex;
           align-items: center;
           width: 300px;
-          height: 120px;
+          height: 150px;
           position: absolute;
-          top: 240px;
-          left: 350px;
+          top: 350px;
+          left: 50px;
         }
         div:first-child {
           width: 842px;
@@ -224,6 +226,60 @@
         color: $first-color;
         font-size:36px;
         line-height: 36px;
+      }
+    }
+  }
+}
+
+@media (min-width:1024px){
+  .container{
+    .sectionOne{
+      .magic{
+        .stars{
+          div:first-child{
+            top: 350px;
+            left: -840px;
+            
+          }
+        }
+        .stars2{
+          div:first-child{
+            top: 180px;
+            left: -850px;
+            
+          }
+        }
+        .magicText {
+          top: 240px;
+          left: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:1440px){
+  .container{
+    .sectionOne{
+      .magic{
+        .stars{
+          div:first-child{
+            top: 350px;
+            left: -910px;
+            
+          }
+        }
+        .stars2{
+          div:first-child{
+            top: 160px;
+            left: -950px;
+            
+          }
+        }
+        .magicText {
+          top: 240px;
+          left: 350px;
+        }
       }
     }
   }
