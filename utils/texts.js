@@ -10,15 +10,25 @@ import icon5 from "../public/static/assets/closet.png";
 import icon6 from "../public/static/assets/bed.png";
 import icon7 from "../public/static/assets/tv.png";
 import bannerPath1 from "../public/static/assets/bannerRoom1.jpg";
-import imgPath1 from "../public/static/assets/imgRoom1.jpg";
+import imgPath11 from "../public/static/assets/garzas1.jpg";
+import imgPath12 from "../public/static/assets/garzas2.jpg";
+import imgPath13 from "../public/static/assets/garzas3.jpg";
 import bannerPath2 from "../public/static/assets/bannerRoom2.jpg";
-import imgPath2 from "../public/static/assets/imgRoom2.jpg";
+import imgPath21 from "../public/static/assets/gaviotas1.jpg";
+import imgPath22 from "../public/static/assets/gaviotas2.jpg";
+import imgPath23 from "../public/static/assets/gaviotas3.jpg";
 import bannerPath3 from "../public/static/assets/bannerRoom3.jpg";
-import imgPath3 from "../public/static/assets/imgRoom3.jpg";
+import imgPath31 from "../public/static/assets/pelicanos1.jpg";
+import imgPath32 from "../public/static/assets/pelicanos2.jpg";
+import imgPath33 from "../public/static/assets/pelicanos3.jpg";
 import bannerPath4 from "../public/static/assets/bannerRoom4.jpg";
-import imgPath4 from "../public/static/assets/imgRoom4.jpg";
+import imgPath41 from "../public/static/assets/guacamayas1.jpg";
+import imgPath42 from "../public/static/assets/guacamayas2.jpg";
+import imgPath43 from "../public/static/assets/guacamayas3.jpg";
 import bannerPath5 from "../public/static/assets/bannerRoom5.jpg";
-import imgPath5 from "../public/static/assets/imgRoom5.jpg";
+import imgPath51 from "../public/static/assets/flamingo1.jpg";
+import imgPath52 from "../public/static/assets/flamingo2.jpg";
+import imgPath53 from "../public/static/assets/flamingo3.jpg";
 import icon2Path from "../public/static/assets/surf-icon.png";
 import icon4Path from "../public/static/assets/sub-icon.png";
 import icon3Path from "../public/static/assets/snorkel-icon.png";
@@ -90,7 +100,7 @@ const homeTexts = [
 const dataRooms = [
   {
     title: "GARZAS",
-    imgPath: imgPath1,
+    imgPath: [imgPath11,imgPath12,imgPath13],
     bannerPath: bannerPath1,
     description:
       "Aquí encontraras un espacio de conexión con la naturaleza, con los que amas y contigo mismo. Este lugar esta diseñado para tu descanso y diversión con toda la magia que trae un ambiente caribeño.",
@@ -123,7 +133,7 @@ const dataRooms = [
   },
   {
     title: "GAVIOTAS",
-    imgPath: imgPath2,
+    imgPath: [imgPath21,imgPath22,imgPath23],
     bannerPath: bannerPath2,
     description:
       "Hermosa y comoda habitacion dotada de todo lo que necesitas para un placido descanso en medio de la naturaleza, vén y disfruta de una experiencia inolvidables.",
@@ -156,7 +166,7 @@ const dataRooms = [
   },
   {
     title: "PELICANOS",
-    imgPath: imgPath3,
+    imgPath: [imgPath31,imgPath32,imgPath33],
     bannerPath: bannerPath3,
     description:
       "Aquí encontraras un espacio de conexión con la naturaleza, con los que amas y contigo mismo. Este lugar esta diseñado para tu descanso y diversión con toda la magia que trae un ambiente caribeño.",
@@ -189,7 +199,7 @@ const dataRooms = [
   },
   {
     title: "GUACAMAYOS",
-    imgPath: imgPath4,
+    imgPath: [imgPath41,imgPath42,imgPath43],
     bannerPath: bannerPath4,
     description:
       "Vén y vive los mejores momentos al lado de los que amas. Drisfruta con tu familia  todas las maravillas que nos ofrece el mar.",
@@ -222,7 +232,7 @@ const dataRooms = [
   },
   {
     title: "FLAMINGOS",
-    imgPath: imgPath5,
+    imgPath: [imgPath51,imgPath52,imgPath53],
     bannerPath: bannerPath5,
     description:
       "Aquí encontraras un espacio de conexión con la naturaleza, con los que amas y contigo mismo. Este lugar esta diseñado para tu descanso y diversión con toda la magia que trae un ambiente caribeño.",

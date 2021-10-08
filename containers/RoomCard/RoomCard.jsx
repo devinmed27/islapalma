@@ -3,6 +3,7 @@ import s from "./RoomCard.module.scss";
 import Image from "next/image";
 import leafIcon from "../../public/static/assets/subheader_icon.png";
 import Button from "../../components/Button/Button";
+import CarouselView from "../../components/CarouselView/CarouselView";
 
 const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
   const [url, setUrl] = useState(process.env.BOOK_URL_ES);
@@ -13,12 +14,13 @@ const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
         <h3>{title}</h3>
       </div>
       <div className={s.imgContainer}>
-        <Image src={bannerPath} alt="banner image"/>
+        <Image src={bannerPath} alt="banner image" />
       </div>
       <div className={s.infoPpal}>
         <div className={s.left}>
           <div className={s.cardContainer}>
-            <Image src={imgPath} alt="image icon"/>
+            {/* <Image src={imgPath} alt="image icon"/> */}
+            <CarouselView data={imgPath} />
           </div>
           <div className={s.texts}>
             <p>Habitación</p>
@@ -38,7 +40,7 @@ const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
               return (
                 <div className={s.feature} key={el.text}>
                   <div className={s.icon}>
-                    <Image src={el.iconPath} alt="icon"/>
+                    <Image src={el.iconPath} alt="icon" />
                   </div>
                   <p>{el.text}</p>
                 </div>
