@@ -14,8 +14,14 @@
       display: none;
     }
 
-    .barsImage {
-      margin: 7px;
+    .icon {
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      div:first-child{
+        width:30px;
+        height: 40px;
+      }
     }
     .navMenu {
       display: flex;
@@ -23,6 +29,12 @@
       align-items: center;
       justify-content: flex-start;
       padding: 12px 0;
+      .logoContainer{
+        div:first-child{
+          width: 90px;
+          height: 100px;
+        }
+      }
       ul {
         height: 70%;
         width: 100%;

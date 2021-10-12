@@ -63,7 +63,7 @@ const Header = () => {
             ].join(" ")}
           >
             <Link href="/">
-              <a onClick={handleMenuToggle}>
+              <a className={s.logoContainer} onClick={handleMenuToggle}>
                 <Image
                   height={90}
                   width={120}
