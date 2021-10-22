@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const CarouselView = ({data}) => {
-
+console.log("d",data)
   return (
     <div className={s.container}>
       <Carousel
@@ -27,6 +27,8 @@ const CarouselView = ({data}) => {
               alt={"Carousel image"}
               placeholder="blur"
               blurDataURL={imgPath}
+              width= {650}
+              height={650}
               />
               </div>
           );

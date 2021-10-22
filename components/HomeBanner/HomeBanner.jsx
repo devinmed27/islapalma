@@ -2,13 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Button from "../Button/Button";
 import s from "./HomeBanner.module.scss";
-import bgPath from "../../public/static/assets/home-banner.jpg";
 import downArrowPath from "../../public/static/assets/arrow.png";
 
-const HomeBanner = () => {
+const HomeBanner = ({img}) => {
   return (
     <div className={s.container}>
-      <Image objectFit="cover" src={bgPath} layout="fill" alt="background image"/>
+      <Image objectFit="cover" src={img} layout="fill" alt="background image"/>
+      {/* <img  src={img} alt="background image"/> */}
       <div className={s.info}>
         <h3>RELAX, AVENTURA Y BUENOS MOMENTOS</h3>
         <div className={s.buttonArrow}>

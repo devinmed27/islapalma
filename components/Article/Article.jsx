@@ -12,10 +12,10 @@ const Article = ({ text, title, imagePath, align, number }) => {
   return (
     <article className={s.container}>
       <div className={s.numberContainer}>
-        <Image src={number} alt="number" />
+        <Image src={number} alt="number" width= {364} height= {294}/>
       </div>
       <div className={s.bannerContainer}>
-        <Image src={imagePath} placeholder="blur" alt="banner image" />
+        <Image src={imagePath} alt="banner image" width= {750} height= {447}/>
       </div>
       <div className={s.textContainer} style={alignItem}>
         <h2>{title}</h2>

@@ -7,8 +7,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Article from "../components/Article/Article";
 import CarouselView from "../components/CarouselView/CarouselView";
-import muellePath from "../public/static/assets/muelle.jpg";
-import tropicalBgPath from "../public/static/assets/tropical-bg.jpg";
 import Button from "../components/Button/Button";
 import circle from "../public/static/assets/circle.png";
 import womanPath from "../public/static/assets/woman-vector.png";
@@ -16,13 +14,34 @@ import start from "../public/static/assets/stars.png";
 import start2 from "../public/static/assets/stars2.png";
 import arrow from "../public/static/assets/right-arrow.png"
 
-import { homeTexts, homeCarousel } from "../utils/texts";
+import { createClient } from "contentful";
 
-const Index = () => {
+export const getServerSideProps = async (res) => {
+  var client = await createClient({
+    space: process.env.CONTENTFUL_SPACE,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  });
+  try {
+    const home = await client
+      .getEntries({ content_type: "home" })
+      .then((entries) => entries.items);
+    
+    return { props: { home, statusCode: 200 } };
+  } catch (e) {
+    res.statusCode = 503;
+    return { props: { home: {}, statusCode: 503 } };
+  }
+};
+
+const Index = ({home}) => {
+  // console.log(home[0].fields.testImage.fields.file.url)
+  // console.log(home[0].fields.homeCarousel)
   const router = useRouter();
-  const articlesInfo = homeTexts;
+  const articlesInfo = home[0].fields.articles;
 
-  const data = homeCarousel;
+  const data = home[0].fields.homeCarousel;
+
+  const img = "http:" + home[0].fields.bannerImage.fields.file.url
 
 
   const [size, setSize] = useState(null)
@@ -33,17 +52,15 @@ const Index = () => {
 
   return (
     <div className={s.container}>
-      <HomeBanner />
+      <HomeBanner img={img}/>
       <section className={s.sectionOne}>
         <p className={s.textOne}>
-          Vivir la magia de Isla Palma es conectarse con la naturaleza,
-          sorprenderse inmensidad de un majestuoso mar, es disfrutar cada
-          instante dentro de nuestro maravilloso hotel.
+          {home[0].fields.section1.title}
         </p>
         <article className={s.magic}>
-          <Image src={muellePath} placeholder="blur" alt="banner image"/>
+          <Image src={home[0].fields.section1.url} alt="banner image"  width= {260} height= {174}/>
           <div className={s.magicText}>
-            <p>Desconéctate, vive y disfruta la magia de Isla palma</p>
+            <p>{home[0].fields.section1.text}</p>
           </div>
           <div className={s.stars}>
             <Image src={start} alt="Pequeñas estrellas" />
@@ -102,7 +119,7 @@ const Index = () => {
         </Link>
       </section>
       <section className={s.sectionFour}>
-        <Image src={tropicalBgPath} placeholder="blur" alt="tropical image"/>
+        <Image src={home[0].fields.section4.imagePath}  alt="tropical image"  width= {1440} height= {877}/>
         <div className={s.buttonPromotion}>
           <Button
             onClick={() => router.push("/promos")}
@@ -110,7 +127,7 @@ const Index = () => {
             width={"154px"}
           />
         </div>
-          {size < 768 ? (<p></p>) : (<p>DESCUBRE LAS OFERTAS QUE TENEMOS PREPARADAS SOLO PARA TI.</p>)}
+          {size < 768 ? (<p></p>) : (<p>{home[0].fields.section4.text}</p>)}
       </section>
       <BookBar />
     </div>
@@ -118,3 +135,4 @@ const Index = () => {
 };
 
 export default Index;
+
