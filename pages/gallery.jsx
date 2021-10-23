@@ -8,9 +8,32 @@ import bar from "../public/static/assets/bar.svg";
 import flowers from "../public/static/assets/flowers.svg";
 import kitchen from "../public/static/assets/kitchen.svg";
 
-import {photos} from "../utils/texts"
+// import {photos} from "../utils/texts"
 
-const Gallery = () => {
+import { createClient } from "contentful";
+
+export const getServerSideProps = async (res) => {
+  var client = await createClient({
+    space: process.env.CONTENTFUL_SPACE,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  });
+  try {
+    const gallery = await client
+      .getEntries({ content_type: "gallery" })
+      .then((entries) => entries.items);
+    
+    return { props: { gallery, statusCode: 200 } };
+  } catch (e) {
+    res.statusCode = 503;
+    return { props: { gallery: {}, statusCode: 503 } };
+  }
+};
+
+const Gallery = ({gallery}) => {
+  console.log(gallery[0].fields.test.fields.file.url)
+  // console.log(gallery[0].fields.photos)
+  
+  const photos = gallery[0].fields.photos
   const [flag, setFlag] = useState([true, false, false, false]);
   const [indexSelected, setIndexSelected] = useState(0);
   
