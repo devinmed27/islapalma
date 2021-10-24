@@ -8,9 +8,42 @@ import ExperienceCard from "../components/ExperienceCard/ExperienceCard";
 
 import Button from "../components/Button/Button";
 
-import { cardsInfo } from "../utils/texts";
+import { createClient } from "contentful";
 
-const Experiences = () => {
+export const getServerSideProps = async (res) => {
+  var client = await createClient({
+    space: process.env.CONTENTFUL_SPACE,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  });
+  try {
+    const bannerExperiences = await client
+      .getEntries({ content_type: "bannerExperiences" })
+      .then((entries) => entries.items);
+
+      const experienceCard = await client
+      .getEntries({ content_type: "experienceCard" })
+      .then((entries) => entries.items);
+
+      const experienceText = await client
+      .getEntries({ content_type: "experienceText" })
+      .then((entries) => entries.items);
+
+    return {
+      props: {
+        bannerExperiences,
+        experienceCard,
+        experienceText,
+        statusCode: 200,
+      },
+    };
+  } catch (e) {
+    res.statusCode = 503;
+    return { props: { home: {}, statusCode: 503 } };
+  }
+};
+
+const Experiences = ({bannerExperiences, experienceCard, experienceText}) => {
+  const cardsInfo = experienceCard.reverse();
   const [url, setUrl] = useState(process.env.BOOK_URL_ES);
   const [size, setSize] = useState(null);
 
@@ -34,20 +67,19 @@ const Experiences = () => {
           <Image src={banner} alt= "imagen de playa" objectFit="fill"/>
         </div>
         <p className={s.text}>
-          AQUI ENCONTRARÁS LAS MEJORES AVENTURAS, QUE SE CONVERTIRÁN EN MOMENTOS
-          INOLVIDABLES
+          {bannerExperiences[0].fields.title}
         </p>
       </div>
       <div className={s.sectionTwo}>
         {cardsInfo.map(
-          ({ text, title, service, imagePath, iconPath }, index) => (
+          ({ fields }, index) => (
             <ExperienceCard
-              key={title}
-              text={text}
-              title={title}
-              service={service}
-              imagePath={imagePath}
-              iconPath={iconPath}
+              key={fields.title}
+              text={fields.text}
+              title={fields.title}
+              service={fields.service}
+              imagePath={fields.image.fields.file.url}
+              iconPath={fields.icon.fields.file.url}
               align={aux[index]}
             />
           )
@@ -56,11 +88,11 @@ const Experiences = () => {
       <div className={s.sectionThree}>
         <div className={s.title}>
           <div></div>
-          <p>VEN A VIVIR</p>
+          <p>{experienceText[0].fields.title}</p>
           <div></div>
         </div>
         <p className={s.text}>
-          ¿QUÉ ESPERAR PARA VIVIR LA EXPERIENCIA DE ISLA PALMA?
+        {experienceText[0].fields.text}
         </p>
         <a href={url} target="_blank" rel="noreferrer">
           <Button text="Reserva" />
