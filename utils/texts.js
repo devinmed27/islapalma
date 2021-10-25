@@ -100,7 +100,7 @@ const homeTexts = [
 const dataRooms = [
   {
     title: "GARZAS",
-    imgPath: [imgPath11,imgPath12,imgPath13],
+    imgPath: [imgPath11, imgPath12, imgPath13],
     bannerPath: bannerPath1,
     description:
       "Aquí encontraras un espacio de conexión con la naturaleza, con los que amas y contigo mismo. Este lugar esta diseñado para tu descanso y diversión con toda la magia que trae un ambiente caribeño.",
@@ -133,7 +133,7 @@ const dataRooms = [
   },
   {
     title: "GAVIOTAS",
-    imgPath: [imgPath21,imgPath22,imgPath23],
+    imgPath: [imgPath21, imgPath22, imgPath23],
     bannerPath: bannerPath2,
     description:
       "Hermosa y comoda habitacion dotada de todo lo que necesitas para un placido descanso en medio de la naturaleza, vén y disfruta de una experiencia inolvidables.",
@@ -166,7 +166,7 @@ const dataRooms = [
   },
   {
     title: "PELICANOS",
-    imgPath: [imgPath31,imgPath32,imgPath33],
+    imgPath: [imgPath31, imgPath32, imgPath33],
     bannerPath: bannerPath3,
     description:
       "Aquí encontraras un espacio de conexión con la naturaleza, con los que amas y contigo mismo. Este lugar esta diseñado para tu descanso y diversión con toda la magia que trae un ambiente caribeño.",
@@ -199,7 +199,7 @@ const dataRooms = [
   },
   {
     title: "GUACAMAYOS",
-    imgPath: [imgPath41,imgPath42,imgPath43],
+    imgPath: [imgPath41, imgPath42, imgPath43],
     bannerPath: bannerPath4,
     description:
       "Vén y vive los mejores momentos al lado de los que amas. Drisfruta con tu familia  todas las maravillas que nos ofrece el mar.",
@@ -232,7 +232,7 @@ const dataRooms = [
   },
   {
     title: "FLAMINGOS",
-    imgPath: [imgPath51,imgPath52,imgPath53],
+    imgPath: [imgPath51, imgPath52, imgPath53],
     bannerPath: bannerPath5,
     description:
       "Aquí encontraras un espacio de conexión con la naturaleza, con los que amas y contigo mismo. Este lugar esta diseñado para tu descanso y diversión con toda la magia que trae un ambiente caribeño.",
@@ -589,56 +589,56 @@ const photos = [
     },
   ],
   [
-      {
-          src: `${process.env.URL}static/assets/img21.jpg`,
-          width: 4,
-          height: 3,
-        },
-        {
-          src: `${process.env.URL}static/assets/img24.jpg`,
-          width: 1,
-          height: 1,
-        },
-        {
-          src: `${process.env.URL}static/assets/img23.jpg`,
-          width: 3,
-          height: 4,
-        },
-        {
-          src: `${process.env.URL}static/assets/img26.jpg`,
-          width: 4,
-          height: 3,
-        },
-        {
-          src: `${process.env.URL}static/assets/img25.jpg`,
-          width: 3,
-          height: 4,
-        },
-        {
-          src: `${process.env.URL}static/assets/img22.jpg`,
-          width: 1,
-          height: 1,
-        },
-        {
-          src: `${process.env.URL}static/assets/img28.jpg`,
-          width: 4,
-          height: 3,
-        },
-        {
-          src: `${process.env.URL}static/assets/img221.jpg`,
-          width: 1,
-          height: 1,
-        },
-        {
-          src: `${process.env.URL}static/assets/img222.jpg`,
-          width: 3,
-          height: 4,
-        },
-        {
-          src: `${process.env.URL}static/assets/img29.jpg`,
-          width: 4,
-          height: 3,
-        },
+    {
+      src: `${process.env.URL}static/assets/img21.jpg`,
+      width: 4,
+      height: 3,
+    },
+    {
+      src: `${process.env.URL}static/assets/img24.jpg`,
+      width: 1,
+      height: 1,
+    },
+    {
+      src: `${process.env.URL}static/assets/img23.jpg`,
+      width: 3,
+      height: 4,
+    },
+    {
+      src: `${process.env.URL}static/assets/img26.jpg`,
+      width: 4,
+      height: 3,
+    },
+    {
+      src: `${process.env.URL}static/assets/img25.jpg`,
+      width: 3,
+      height: 4,
+    },
+    {
+      src: `${process.env.URL}static/assets/img22.jpg`,
+      width: 1,
+      height: 1,
+    },
+    {
+      src: `${process.env.URL}static/assets/img28.jpg`,
+      width: 4,
+      height: 3,
+    },
+    {
+      src: `${process.env.URL}static/assets/img221.jpg`,
+      width: 1,
+      height: 1,
+    },
+    {
+      src: `${process.env.URL}static/assets/img222.jpg`,
+      width: 3,
+      height: 4,
+    },
+    {
+      src: `${process.env.URL}static/assets/img29.jpg`,
+      width: 4,
+      height: 3,
+    },
   ],
   [
     {
@@ -712,6 +712,6 @@ const photos = [
   ],
 ];
 
-const homeCarousel = [img1,img2,img3,img4,img5]
+const homeCarousel = [img1, img2, img3, img4, img5]
 
 module.exports = { homeTexts, dataRooms, cardsInfo, cardsInfoP, locationInfo, cardsInfoP2, photos, homeCarousel }

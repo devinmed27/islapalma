@@ -4,15 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const PromotionCard = ({
-  text,
   title,
   imagePath,
-  bannerPath,
-  features,
-  description,
-  info,
-  price1,
-  price2,
   index
 }) => {
   return (

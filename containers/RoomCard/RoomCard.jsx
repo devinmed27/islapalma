@@ -7,20 +7,24 @@ import CarouselView from "../../components/CarouselView/CarouselView";
 
 const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
   const [url, setUrl] = useState(process.env.BOOK_URL_ES);
+  const img = "http:" + bannerPath
+  let images = []
 
+  imgPath.map((el) => {
+    images.push(el.url)
+  })
   return (
     <div className={s.container}>
       <div className={s.title}>
         <h3>{title}</h3>
       </div>
       <div className={s.imgContainer}>
-        <Image src={bannerPath} alt="banner image" />
+        <Image src={img} alt="banner image" width={1444} height={962} />
       </div>
       <div className={s.infoPpal}>
         <div className={s.left}>
           <div className={s.cardContainer}>
-            {/* <Image src={imgPath} alt="image icon"/> */}
-            <CarouselView data={imgPath} />
+            <CarouselView data={images} />
           </div>
           <div className={s.texts}>
             <p>Habitación</p>
@@ -40,7 +44,7 @@ const RoomCard = ({ title, description, imgPath, bannerPath, features }) => {
               return (
                 <div className={s.feature} key={el.text}>
                   <div className={s.icon}>
-                    <Image src={el.iconPath} alt="icon" />
+                    <Image src={el.iconPath} alt="icon" width={25} height={25}/>
                   </div>
                   <p>{el.text}</p>
                 </div>
