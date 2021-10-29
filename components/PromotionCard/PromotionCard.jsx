@@ -8,11 +8,13 @@ const PromotionCard = ({
   imagePath,
   index
 }) => {
+  const img = "http:" + imagePath
+
   return (
     <div className={s.container}>
       <div className={s.card}>
         <div className={s.imgContainer}>
-          <Image src={imagePath} alt="icon image"/>
+          <Image src={img} alt="icon image" width={1444} height={1425}/>
         </div>
         <div className={s.title}>
           <h3>{title}</h3>

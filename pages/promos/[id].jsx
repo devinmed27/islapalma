@@ -4,23 +4,41 @@ import formatterPeso from "../../utils/formatterPeso";
 import Button from "../../components/Button/Button";
 import Image from "next/image";
 
-import { cardsInfoP } from "../../utils/texts";
+import { createClient } from "contentful";
 
-// // posible getStatic paths
 export const getServerSideProps = async (ctx) => {
-
-  const idx = ctx.params.id;
-  const promo = cardsInfoP[idx];
-  return {
-    props: {
-      promo,
-    },
-  };
+  var client = await createClient({
+    space: process.env.CONTENTFUL_SPACE,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  });
+  try {
+    const promoCard = await client
+      .getEntries({ content_type: "promoCard" })
+      .then((entries) => entries.items);
+    const idx = ctx.params.id;
+    
+    return {
+      props: {
+        promoCard,
+        idx,
+        statusCode: 200,
+      },
+    };
+  } catch (e) {
+    res.statusCode = 503;
+    return { props: { home: {}, statusCode: 503 } };
+  }
 };
 
-const Promo = ({ promo }) => {
+const Promo = ({ promoCard,idx }) => {
+  const cardsInfoP = promoCard;
+  // const cardsInfoP = promoCard;
+  const promo = cardsInfoP[idx].fields;
   const [url, setUrl] = useState(process.env.BOOK_URL_ES);
-
+  const image = "http:" + promo.image.fields.file.url
+  const banner = "http:" + promo.banner.fields.file.url
+  // const price = "http:" + promo.pricePath.fields.file.url
+  
   return (
     <div className={s.container}>
       <div className={s.title}>
@@ -28,11 +46,11 @@ const Promo = ({ promo }) => {
         <p className={s.sub}>{promo.subtitle}</p>
       </div>
       <div className={s.imgContainer}>
-        <Image src={promo.bannerPath} alt="icon path"/>
+        <Image src={banner} alt="icon path" width={1444} height={960}/>
       </div>
       <div className={s.infoPpal}>
         <div className={s.cardContainer}>
-          <Image src={promo.imagePath} alt="promotion image"/>
+          <Image src={image} alt="promotion image" width={1444} height={1425}/>
         </div>
         <div className={s.features}>
           {promo.features.map(({ text, iconPath }) => (
@@ -40,7 +58,7 @@ const Promo = ({ promo }) => {
               {iconPath != "" ? (
                 <div className={s.featureL}>
                   <div className={s.iconContainer}>
-                    <Image src={iconPath} alt="icon image"/>
+                    <Image src={iconPath} alt="icon image" width={36} height={36}/>
                   </div>
                 </div>
               ) : (
@@ -59,14 +77,14 @@ const Promo = ({ promo }) => {
             <p className={s.info}>{promo.info}</p>
           </div>
           <div className={s.priceInfo}>
-            {promo.pricePath != "" ? (
+            {promo.price1 != 1 ? (
               <div className={s.topInfo}>
-                <div className={s.priceContainer}>
-                  <Image src={promo.pricePath} alt="promotion image"/>
-                </div>
+                {/* <div className={s.priceContainer}>
+                  <Image src={price} alt="promotion image" width={36} height={36}/>
+                </div> */}
                 <div className={s.text}>
                   <p>Adultos: {formatterPeso(promo.price1)}</p>
-                  {promo.price2 != "" ? (
+                  {promo.price2 != 1? (
                     <p>Niños de 4 a 7: {formatterPeso(promo.price2)}</p>
                   ) : (
                     <p></p>

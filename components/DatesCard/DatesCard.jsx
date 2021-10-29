@@ -8,11 +8,12 @@ const DateCard = ({
   imagePath,
   index
 }) => {
+  const image = "http:" + imagePath
   return (
     <div className={s.container}>
       <div className={s.card}>
         <div className={s.imgContainer}>
-          <Image src={imagePath} alt="image"/>
+          <Image src={image} alt="image" width={1444} height={963}/>
         </div>
         <div className={s.title}>
           <h3>{title}</h3>

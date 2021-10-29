@@ -6,23 +6,41 @@ import leaf from "../../public/static/assets/rbleaft.png"
 
 import { cardsInfoP2 } from "../../utils/texts";
 
-// // posible getStatic paths
+import { createClient } from "contentful";
+
 export const getServerSideProps = async (ctx) => {
-  const idx = ctx.params.id;
-  const promo = cardsInfoP2[idx];
-  return {
-    props: {
-      promo,
-    },
-  };
+  var client = await createClient({
+    space: process.env.CONTENTFUL_SPACE,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  });
+  try {
+    const datesCard = await client
+      .getEntries({ content_type: "datesCard" })
+      .then((entries) => entries.items);
+    const idx = ctx.params.id;
+    
+    return {
+      props: {
+        datesCard,
+        idx,
+        statusCode: 200,
+      },
+    };
+  } catch (e) {
+    res.statusCode = 503;
+    return { props: { home: {}, statusCode: 503 } };
+  }
 };
 
-const Promo = ({ promo }) => {
+const Promo = ({ datesCard,idx }) => {
+  const cardsInfoP = datesCard.reverse();
+  const promo = cardsInfoP[idx].fields;
+  const image = "http:" + promo.image.fields.file.url
 
   return (
     <div className={s.container}>
       <div className={s.cardContainer}>
-        <Image src={promo.imagePath} alt="promotion image"/>
+        <Image src={image} alt="promotion image" width={1444} height={963}/>
       </div>
         <div className={s.info}>
             <div className={s.iconContainer}>

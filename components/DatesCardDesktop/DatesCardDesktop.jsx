@@ -5,10 +5,11 @@ import leaf from "../../public/static/assets/rbleaft.png";
 import formatterPeso from "../../utils/formatterPeso";
 
 const DatesCardDesktop = ({ title, imagePath, description, price1 }) => {
+  const image = "http:" + imagePath
   return (
     <div className={s.container}>
       <div className={s.cardContainer}>
-        <Image src={imagePath} alt="banner image"/>
+        <Image src={image} alt="banner image" width={1444} height={963}/>
       </div>
       <div className={s.info}>
         <div className={s.iconContainer}>

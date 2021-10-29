@@ -18,6 +18,13 @@ const PromotionCardDesktop = ({
 }) => {
   const [url, setUrl] = useState(process.env.BOOK_URL_ES);
 
+  const image = "http:" + imagePath
+  const banner = "http:" + bannerPath
+  const price = "http:" + pricePath
+
+
+  console.log(image)
+  console.log(banner)
   return (
     <div className={s.container}>
       <div className={s.title}>
@@ -25,12 +32,12 @@ const PromotionCardDesktop = ({
         <p className={s.sub}>{subtitle}</p>
       </div>
       <div className={s.imgContainer}>
-        <Image src={bannerPath} alt="icon image"/>
+        <Image src={banner} alt="icon image" width={1444} height={960}/>
       </div>
       <div className={s.infoPpal}>
         <div className={s.top}>
           <div className={s.cardContainer}>
-            <Image src={imagePath} alt="icon image"/>
+            <Image src={image} alt="icon image" width={1444} height={1425}/>
           </div>
           <div className={s.features}>
             {features.map(({ text, iconPath }) => (
@@ -38,7 +45,7 @@ const PromotionCardDesktop = ({
                 {iconPath != "" ? (
                   <div className={s.featureL}>
                     <div className={s.iconContainer}>
-                      <Image src={iconPath} alt="icon image"/>
+                      <Image src={iconPath} alt="icon image" width={36} height={36}/>
                     </div>
                   </div>
                 ) : (
@@ -65,15 +72,15 @@ const PromotionCardDesktop = ({
           {pricePath != "" ? (
             <div className={s.topInfo}>
               {/* <div className={s.priceContainer}>
-                <Image src={pricePath} />
+                <Image src={price} />
               </div> */}
               <div className={s.text}>
-              {price1 != "" ? (
+              {price1 != 1 ? (
                   <p>Adultos: {formatterPeso(price1)}</p>
                 ) : (
                   <p></p>
                 )}
-                {price2 != "" ? (
+                {price2 != 1 ? (
                   <p>Niños de 4 a 7: {formatterPeso(price2)}</p>
                 ) : (
                   <p></p>

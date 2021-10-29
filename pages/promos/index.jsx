@@ -11,9 +11,39 @@ import subBannerDesktop from "../../public/static/assets/subBannerProm2.png";
 import PromotionCardDesktop from "../../components/PromotionCardDesktop/PromotionCardDesktop";
 import DatesCardDesktop from "../../components/DatesCardDesktop/DatesCardDesktop";
 
-import { cardsInfoP, cardsInfoP2 } from "../../utils/texts";
+import { createClient } from "contentful";
 
-const Index = () => {
+export const getServerSideProps = async (res) => {
+  var client = await createClient({
+    space: process.env.CONTENTFUL_SPACE,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  });
+  try {
+    const promoCard = await client
+      .getEntries({ content_type: "promoCard" })
+      .then((entries) => entries.items);
+
+    const datesCard = await client
+      .getEntries({ content_type: "datesCard" })
+      .then((entries) => entries.items);
+
+    return {
+      props: {
+        promoCard,
+        datesCard,
+        statusCode: 200,
+      },
+    };
+  } catch (e) {
+    res.statusCode = 503;
+    return { props: { home: {}, statusCode: 503 } };
+  }
+};
+
+const Index = ({promoCard, datesCard}) => {
+  const cardsInfoP = promoCard;
+  const cardsInfoP2 = datesCard.reverse();
+
   const [size, setSize] = useState(null);
 
   useEffect(() => {
@@ -28,38 +58,38 @@ const Index = () => {
       </div>
       {size < 768 ? (
         <div className={s.cardsContainer}>
-          {cardsInfoP.map((card, index) => (
+          {cardsInfoP.map(({fields}, index) => (
             <PromotionCard
-              key={card.title}
-              text={card.text}
-              title={card.title}
-              subtitle={card.subtitle}
-              info={card.info}
-              imagePath={card.imagePath}
-              bannerPath={card.bannerPath}
-              features={card.features}
-              description={card.description}
-              price1={card.price1}
-              price2={card.price2}
+              key={fields.title}
+              text={fields.text}
+              title={fields.title}
+              subtitle={fields.subtitle}
+              info={fields.info}
+              imagePath={fields.image.fields.file.url}
+              bannerPath={fields.banner.fields.file.url}
+              features={fields.features}
+              description={fields.description}
+              price1={fields.price1}
+              price2={fields.price2}
               index={index}
             />
           ))}
         </div>
       ) : (
         <div className={s.cardsContainerDesktop}>
-          {cardsInfoP.map((card, index) => (
+          {cardsInfoP.map(({fields},index) => (
             <PromotionCardDesktop
-              key={card.title}
-              text={card.text}
-              title={card.title}
-              subtitle={card.subtitle}
-              info={card.info}
-              imagePath={card.imagePath}
-              bannerPath={card.bannerPath}
-              features={card.features}
-              description={card.description}
-              price1={card.price1}
-              price2={card.price2}
+              key={fields.title}
+              text={fields.text}
+              title={fields.title}
+              subtitle={fields.subtitle}
+              info={fields.info}
+              imagePath={fields.image.fields.file.url}
+              bannerPath={fields.banner.fields.file.url}
+              features={fields.features}
+              description={fields.description}
+              price1={fields.price1}
+              price2={fields.price2}
               index={index}
             />
           ))}
@@ -74,26 +104,26 @@ const Index = () => {
       </div>
       {size < 768 ? (
         <div className={s.cardsContainer}>
-          {cardsInfoP2.map((card, index) => (
+          {cardsInfoP2.map(({fields},index) => (
             <DatesCard
-              key={card.title}
-              title={card.title}
-              imagePath={card.imagePath}
-              description={card.description}
-              price1={card.price1}
+              key={fields.title}
+              title={fields.title}
+              imagePath={fields.image.fields.file.url}
+              description={fields.description}
+              price1={fields.price1}
               index={index}
             />
           ))}
         </div>
       ) : (
         <div className={s.cardsContainerDesktop}>
-          {cardsInfoP2.map((card, index) => (
+          {cardsInfoP2.map(({fields},index) => (
             <DatesCardDesktop
-              key={card.title}
-              title={card.title}
-              imagePath={card.imagePath}
-              description={card.description}
-              price1={card.price1}
+              key={fields.title}
+              title={fields.title}
+              imagePath={fields.image.fields.file.url}
+              description={fields.description}
+              price1={fields.price1}
               index={index}
             />
           ))}
