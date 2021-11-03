@@ -7,6 +7,7 @@ import beach from "../public/static/assets/beach.svg";
 import bar from "../public/static/assets/bar.svg";
 import flowers from "../public/static/assets/flowers.svg";
 import kitchen from "../public/static/assets/kitchen.svg";
+import gallery_structure from "../utils/gallery";
 
 // import {photos} from "../utils/texts"
 
@@ -18,22 +19,33 @@ export const getServerSideProps = async (res) => {
     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
   });
   try {
-    const gallery = await client
-      .getEntries({ content_type: "gallery" })
+    const galleryBeach = await client
+      .getEntries({ content_type: "galleryBeach" })
+      .then((entries) => entries.items);
+
+    const galleryRestaurant = await client
+      .getEntries({ content_type: "galleryRestaurant" })
+      .then((entries) => entries.items);
+
+    const galleryBar = await client
+      .getEntries({ content_type: "galleryBar" })
+      .then((entries) => entries.items);
+
+    const galleryNature = await client
+      .getEntries({ content_type: "galleryNature" })
       .then((entries) => entries.items);
     
-    return { props: { gallery, statusCode: 200 } };
+    return { props: { galleryBeach, galleryRestaurant, galleryBar, galleryNature, statusCode: 200 } };
   } catch (e) {
     res.statusCode = 503;
     return { props: { gallery: {}, statusCode: 503 } };
   }
 };
 
-const Gallery = ({gallery}) => {
-  console.log(gallery[0].fields.test.fields.file.url)
-  // console.log(gallery[0].fields.photos)
+const Gallery = ({galleryBeach, galleryRestaurant, galleryBar, galleryNature}) => {
+  const photos = gallery_structure(galleryBeach, galleryRestaurant,galleryBar,galleryNature)
   
-  const photos = gallery[0].fields.photos
+  // const photos = gallery[0].fields.photos
   const [flag, setFlag] = useState([true, false, false, false]);
   const [indexSelected, setIndexSelected] = useState(0);
   
