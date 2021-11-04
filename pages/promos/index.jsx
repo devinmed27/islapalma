@@ -10,6 +10,7 @@ import subBanner from "../../public/static/assets/subBannerProm.png";
 import subBannerDesktop from "../../public/static/assets/subBannerProm2.png";
 import PromotionCardDesktop from "../../components/PromotionCardDesktop/PromotionCardDesktop";
 import DatesCardDesktop from "../../components/DatesCardDesktop/DatesCardDesktop";
+import BookBar from "../../containers/BookBar/BookBar";
 
 import { createClient } from "contentful";
 
@@ -40,7 +41,7 @@ export const getServerSideProps = async (res) => {
   }
 };
 
-const Index = ({promoCard, datesCard}) => {
+const Index = ({ promoCard, datesCard }) => {
   const cardsInfoP = promoCard;
   const cardsInfoP2 = datesCard.reverse();
 
@@ -54,11 +55,15 @@ const Index = ({promoCard, datesCard}) => {
     <div className={s.container}>
       <SubHeader text="Planes" />
       <div className={s.bannerContainer}>
-        {size < 768 ? <Image src={banner} alt="banner image"/> : <Image src={bannerDesktop} alt="banner image"/>}
+        {size < 768 ? (
+          <Image src={banner} alt="banner image" />
+        ) : (
+          <Image src={bannerDesktop} alt="banner image" />
+        )}
       </div>
       {size < 768 ? (
         <div className={s.cardsContainer}>
-          {cardsInfoP.map(({fields}, index) => (
+          {cardsInfoP.map(({ fields }, index) => (
             <PromotionCard
               key={fields.title}
               text={fields.text}
@@ -77,7 +82,7 @@ const Index = ({promoCard, datesCard}) => {
         </div>
       ) : (
         <div className={s.cardsContainerDesktop}>
-          {cardsInfoP.map(({fields},index) => (
+          {cardsInfoP.map(({ fields }, index) => (
             <PromotionCardDesktop
               key={fields.title}
               text={fields.text}
@@ -99,12 +104,12 @@ const Index = ({promoCard, datesCard}) => {
         {size < 768 ? (
           <Image src={subBanner} alt="banner image" />
         ) : (
-          <Image src={subBannerDesktop} alt="banner image"/>
+          <Image src={subBannerDesktop} alt="banner image" />
         )}
       </div>
       {size < 768 ? (
         <div className={s.cardsContainer}>
-          {cardsInfoP2.map(({fields},index) => (
+          {cardsInfoP2.map(({ fields }, index) => (
             <DatesCard
               key={fields.title}
               title={fields.title}
@@ -117,7 +122,7 @@ const Index = ({promoCard, datesCard}) => {
         </div>
       ) : (
         <div className={s.cardsContainerDesktop}>
-          {cardsInfoP2.map(({fields},index) => (
+          {cardsInfoP2.map(({ fields }, index) => (
             <DatesCardDesktop
               key={fields.title}
               title={fields.title}
@@ -129,6 +134,7 @@ const Index = ({promoCard, datesCard}) => {
           ))}
         </div>
       )}
+      <BookBar />
     </div>
   );
 };

@@ -7,6 +7,7 @@ import beach from "../public/static/assets/beach.svg";
 import bar from "../public/static/assets/bar.svg";
 import flowers from "../public/static/assets/flowers.svg";
 import kitchen from "../public/static/assets/kitchen.svg";
+import BookBar from "../containers/BookBar/BookBar";
 import gallery_structure from "../utils/gallery";
 
 // import {photos} from "../utils/texts"
@@ -93,6 +94,7 @@ const Gallery = ({galleryBeach, galleryRestaurant, galleryBar, galleryNature}) =
       <div className={s.photosContainer}>
       <GalleryComp photos={photos[indexSelected]} />
       </div>
+      <BookBar />
     </div>
   );
 };

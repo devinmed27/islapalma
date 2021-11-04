@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SubHeader from "../components/SubHeader/SubHeader";
 import s from "../styles/pages/Location.module.scss";
 import Image from "next/image";
+import BookBar from "../containers/BookBar/BookBar";
 
 import { locationInfo } from "../utils/texts";
 
@@ -75,6 +76,7 @@ const Location = () => {
           </div>
         </div>
       )}
+      <BookBar />
     </div>
   );
 };
