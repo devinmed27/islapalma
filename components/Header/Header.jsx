@@ -8,6 +8,8 @@ import Link from "next/link";
 import wppIcon from "../../public/static/assets/whatsappHeader.png";
 import igIcon from "../../public/static/assets/instagramHeader.png";
 import fbIcon from "../../public/static/assets/facebookHeader.png";
+// import logoPath from "../../public/static/assets/logoFooter.png";
+
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -26,7 +28,7 @@ const Header = () => {
         <div className={s.lang}>{`${es_lang.header.lang_selector}`} </div>
         <Link href="/">
           <a className={s.logoContainer} onClick={() => setOpenMenu(false)}>
-            <Image height={44} width={54} src={logoPath} placeholder="blur" alt="logo icon"/>
+            <Image layout='responsive' src={logoPath} placeholder="blur" alt="logo icon"/>
           </a>
         </Link>
         <div className={s.contact}>

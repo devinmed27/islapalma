@@ -7,6 +7,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .logoContainer{
+      div:first-child{
+        width: 54px;
+        height: 44px;
+      }
+      }
     .lang{
       color: $first-color;
     }
