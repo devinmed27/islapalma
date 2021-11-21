@@ -40,7 +40,7 @@ const Footer = () => {
       <div className={s.socialContainer}>
         <p className={s.text}>Síguenos en nuestras redes</p>
         <div className={s.icons}>
-          <Link href="https://wa.link/5x4d89">
+          <Link href="https://wa.link/uw4uep">
             <a>
               <Image src={size < 768 ? whatsappPathM : whatsappPathD} alt="whatsapp icon"/>
             </a>
@@ -61,7 +61,7 @@ const Footer = () => {
         <p className={s.text}>Escríbenos o llámanos</p>
         <div className={s.contactInfo}>
           <Image src={phonePath} width={16} height={16} alt="phine icon"/>
-          <p>(+ 57) 314 525 1610 (+57) 314 551 9353</p>
+          <p>(+ 57) 314 524 1610 (+57) 314 551 9353</p>
         </div>
         <div className={s.contactInfo}>
           <Image src={emailPath} width={18} height={16} alt="email icon"/>
