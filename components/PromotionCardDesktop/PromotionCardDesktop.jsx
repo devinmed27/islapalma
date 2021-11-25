@@ -76,12 +76,12 @@ const PromotionCardDesktop = ({
               </div> */}
               <div className={s.text}>
               {price1 != 1 ? (
-                  <p>Adultos: {formatterPeso(price1)}</p>
+                  <p>Adultos desde: {formatterPeso(price1)}</p>
                 ) : (
                   <p></p>
                 )}
                 {price2 != 1 ? (
-                  <p>Niños de 4 a 7: {formatterPeso(price2)}</p>
+                  <p>Niños de 4 a 7 desde: {formatterPeso(price2)}</p>
                 ) : (
                   <p></p>
                 )}

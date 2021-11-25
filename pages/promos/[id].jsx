@@ -83,9 +83,9 @@ const Promo = ({ promoCard,idx }) => {
                   <Image src={price} alt="promotion image" width={36} height={36}/>
                 </div> */}
                 <div className={s.text}>
-                  <p>Adultos: {formatterPeso(promo.price1)}</p>
+                  <p>Adultos desde: {formatterPeso(promo.price1)}</p>
                   {promo.price2 != 1? (
-                    <p>Niños de 4 a 7: {formatterPeso(promo.price2)}</p>
+                    <p>Niños de 4 a 7 desde: {formatterPeso(promo.price2)}</p>
                   ) : (
                     <p></p>
                   )}
