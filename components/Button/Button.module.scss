@@ -8,6 +8,7 @@
   width: 100px;
   height: 40px;
   font-size: 16px;
+  cursor:pointer;
   @media (min-width: 768px) {
     &:hover {
       background-color: $first-color;
@@ -32,6 +33,7 @@
   height: 39px;
   font-weight: 600;
   font-size: 16px;
+  cursor:pointer;
   @media (min-width: 768px) {
     &:hover {
       background-color: $first-color;

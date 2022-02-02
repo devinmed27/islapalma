@@ -7,10 +7,10 @@ const Sansions = () => {
     <div className={s.container}>
       <SubHeader text="PENALIDADES" />
       <div className={s.info}>
-        <p>
-          PENALIDADES: 
+        <h3>
+          h3ENALIDADES: 
 
-          </p>
+          </h3>
           <p>
           TEMPORADA BAJA: Desde el 17 de enero de 2020 hasta el 26
           de marzo y desde el 5 de abril hasta el 20 de diciembre de 2021 • 16 ó

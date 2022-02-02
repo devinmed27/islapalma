@@ -10,6 +10,10 @@ import emailPath from "../../public/static/assets/email_icon.png";
 import lagunaPath from "../../public/static/assets/laguna_beach.png";
 import caminoPath from "../../public/static/assets/camino_verde.png";
 import coPath from "../../public/static/assets/co_colombia.png";
+import check1 from "../../public/static/assets/check1.jpeg";
+import check2 from "../../public/static/assets/check2.jpg";
+import approve from "../../public/static/assets/approve.svg";
+
 
 import whatsappPathD from "../../public/static/assets/whatsappD.png";
 import facebookPathD from "../../public/static/assets/FacebookD.png";
@@ -35,6 +39,9 @@ const Footer = () => {
         </Link>
         <Link href="/sansions">
           <a>PENALIDADES</a>
+        </Link>
+        <Link href="/sostenibility">
+          <a>SOSTENIBILIDAD</a>
         </Link>
       </div>
       <div className={s.socialContainer}>
@@ -103,6 +110,23 @@ const Footer = () => {
         <p className={s.legalText}>
           Desarrollado por <a href="https://devinmed.com" target="_blank" rel="noreferrer">Dev in Med</a>
         </p>
+        <div className={s.logosSubContainer}>
+            <Link href="/">
+              <a>
+                <Image src={check1} width={100} height={100} alt="check1 image"/>
+              </a>
+            </Link>
+            <Link href="/">
+              <a>
+                <Image src={check2} width={100} height={100} alt="check2 image"/>
+              </a>
+            </Link>
+            <Link href="/">
+              <a>
+                <Image src={approve} width={100} height={100} alt="approve icon"/>
+              </a>
+            </Link>
+          </div>
       </div>
     </footer>
   );

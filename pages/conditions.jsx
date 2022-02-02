@@ -7,7 +7,7 @@ const Conditions = () => {
     <div className={s.container}>
       <SubHeader text="TÉRMINOS Y CONDICIONES" />
       <div className={s.info}>
-        <p>TÉRMINOS Y CONDICIONES DE RESERVA</p>
+        <h3>TÉRMINOS Y CONDICIONES DE RESERVA</h3>
         <p>
           Cuando se adquiere un plan de alojamiento incluye : Bebida de
           bienvenida, alojamiento según acomodación y noches adquiridas
