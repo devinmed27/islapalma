@@ -25,7 +25,8 @@ const Header = () => {
   return (
     <header className={s.atomcontainerheader}>
       <div className={s.topContent}>
-        <div className={s.lang}>{`${es_lang.header.lang_selector}`} </div>
+        {/* <div className={s.lang}>{`${es_lang.header.lang_selector}`} </div> */}
+        <div className={s.lang}></div>
         <Link href="/">
           <a className={s.logoContainer} onClick={() => setOpenMenu(false)}>
             <Image layout='responsive' src={logoPath} placeholder="blur" alt="logo icon"/>
