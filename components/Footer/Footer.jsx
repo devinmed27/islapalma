@@ -104,8 +104,8 @@ const Footer = () => {
           </div>
         </div>
         <p className={s.legalText}>
-          2021 Hotel Isla Palma - todos los derechos reservados. RNT No. 53813 -
-          NIT. 900.648.506-1 test
+          2021 Hotel Isla Palma - todos los derechos reservados. RNT No. 5381 -
+          NIT. 900.648.506-1
         </p>
         <p className={s.legalText}>
           Desarrollado por <a href="https://devinmed.com" target="_blank" rel="noreferrer">Dev in Med</a>
