@@ -68,17 +68,21 @@ const Footer = () => {
         <p className={s.text}>Escríbenos o llámanos</p>
         <div className={s.contactInfo}>
           <Image src={phonePath} width={16} height={16} alt="phine icon"/>
-           <p>(+57) 314 524 1610 </p><br>
+           <p>(+57) 314 524 1610 </p>
+           </div>
+         <div className={s.contactInfo}>
           <Image src={phonePath} width={16} height={16} alt="phine icon"/>
-           <p>(+57) 314 551 9353</p>  
-                  </div>
+           <p> (+57) 314 551 9353</p> 
+             </div>
         <div className={s.contactInfo}>
           <Image src={emailPath} width={18} height={16} alt="email icon"/>
-           <p> ventas@hotelislapalma.com </p> <br>
+           <p> ventas@hotelislapalma.com </p>
+            </div>
+            <div className={s.contactInfo}>
            <Image src={emailPath} width={18} height={16} alt="email icon"/>
-            <p>info@hotelislapalma.com</p>
-        </div>
-      </div>
+            <p> info@hotelislapalma.com</p>
+            </div>      
+      
       <div className={s.logosContainer}>
         {size < 768 ? (
           <div></div>
