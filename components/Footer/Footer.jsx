@@ -72,7 +72,8 @@ const Footer = () => {
         </div>
         <div className={s.contactInfo}>
           <Image src={emailPath} width={18} height={16} alt="email icon"/>
-          <p>Info@hotelislapalma.com</p>
+          <p>ventas@hotelislapalma.com</p>
+          <p>info@hotelislapalma.com</p>
         </div>
       </div>
       <div className={s.logosContainer}>
@@ -104,7 +105,7 @@ const Footer = () => {
           </div>
         </div>
         <p className={s.legalText}>
-          2021 Hotel Isla Palma - todos los derechos reservados. RNT No. 5381 -
+          2021 Hotel Isla Palma - todos los derechos reservados. RNT No. 65926 -
           NIT. 900.648.506-1
         </p>
         <p className={s.legalText}>
