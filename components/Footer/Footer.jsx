@@ -68,12 +68,12 @@ const Footer = () => {
         <p className={s.text}>Escríbenos o llámanos</p>
         <div className={s.contactInfo}>
           <Image src={phonePath} width={16} height={16} alt="phine icon"/>
-          <p>(+57) 314 524 1610</p>
+          <p>(+57)3145241610</p>
                  </div>
 
          <div className={s.contactInfo}>
           <Image src={phonePath} width={16} height={16} alt="phine icon"/>
-          <p>(+57) 314 551 9353</p>
+          <p>(+57)3145519353</p>
                  </div>
         <div className={s.contactInfo}>
           <Image src={emailPath} width={18} height={16} alt="email icon"/>
