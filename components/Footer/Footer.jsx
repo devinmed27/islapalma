@@ -81,7 +81,7 @@ const Footer = () => {
                </div>
          <div className={s.contactInfo}>
           <Image src={emailPath} width={18} height={16} alt="email icon"/>
-           <p> jarly@hotelislapalma.com</p>
+           <p> info@hotelislapalma.com</p>
                </div>
       </div>
       <div className={s.logosContainer}>
