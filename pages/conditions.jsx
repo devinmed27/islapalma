@@ -5,7 +5,7 @@ import s from "../styles/pages/Terms.module.scss";
 const Conditions = () => {
   return (
     <div className={s.container}>
-      <SubHeader text="POLITICAS, TÉRMINOS Y CONDICIONES 2" />
+      <SubHeader text="POLITICAS, TÉRMINOS Y CONDICIONES " />
       <div className={s.info}>
         <center> <h3>TÉRMINOS Y CONDICIONES DE RESERVA</h3> </center>
         <p>
