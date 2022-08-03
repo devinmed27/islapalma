@@ -154,7 +154,7 @@ const Index = ({
         </div>
         <Link href="/experiences">
           <a>
-            Ver mas experiencias <Image src={arrow} alt="Flecha a la derecha" />
+            Ver mas experiencias-2 <Image src={arrow} alt="Flecha a la derecha" />
           </a>
         </Link>
       </section>
