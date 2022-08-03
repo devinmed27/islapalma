@@ -88,10 +88,9 @@ Autorizo expresamente al HOTEL ISLA PALMA RESERVA NATURAL, para que conforme a l
 
          </div>
 
- <div className={s.container}>
-      <SubHeader text="POLITICAS, TÉRMINOS Y CONDICIONES" />
+ 
       <div className={s.info}>
-        <h3>TÉRMINOS Y CONDICIONES DE RESERVA</h3>
+        <h3>TURISMO SOSTENIBLE</h3>
         <p>
           Cuando se adquiere un plan de alojamiento incluye :
 Bebida de bienvenida, alojamiento según acomodación y noches adquiridas
