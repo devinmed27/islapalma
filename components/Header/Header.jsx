@@ -88,6 +88,12 @@ const Header = () => {
               <li onClick={handleMenuToggle}>
                 <Link href='/location'>
                   <a>¿Cómo llegar?</a>
+                  <ul>
+              <li><a href="">Frontend</a></li>
+              <li><a href="">Backend</a></li>
+              <li><a href="">Mobile</a></li>
+            </ul>  
+                  
                 </Link>
               </li>
               <li onClick={handleMenuToggle}>
