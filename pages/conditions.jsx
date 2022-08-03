@@ -10,7 +10,7 @@ const Conditions = () => {
         <h3>TÉRMINOS Y CONDICIONES DE RESERVA</h3>
         <p>
           Cuando se adquiere un plan de alojamiento incluye :
-Bebida de bienvenida, alojamiento según acomodación y noches adquiridass
+Bebida de bienvenida, alojamiento según acomodación y noches adquiridas
 Alimentación tipo buffet desayuno(7:00-10:00), almuerzo (12:30- 14:00), cena (19:00-20:30). La alimentación está sujeta a la solicitud de reserva. Pensión completa; el día de ingreso es con almuerzo y el día de salida con desayuno.
 Servicios de  WIFI en algunas  áreas comunes del hotel
 Visita al Bioparque, Kayaks y tablas de Paddle Board, sillas asoleadoras, camas balinesas, piscina, bar.
