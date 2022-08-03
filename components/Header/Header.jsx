@@ -92,7 +92,7 @@ const Header = () => {
               </li>
               <li onClick={handleMenuToggle}>
                 <Link href='/contact'>
-                  <a>Contáctanos</a>
+                  <a>Contácta</a>
                 </Link>
               </li>
             </ul>
