@@ -90,7 +90,7 @@ Autorizo expresamente al HOTEL ISLA PALMA RESERVA NATURAL, para que conforme a l
 
  
       <div className={s.info}>
-        <h3>TURISMO SOSTENIBLE</h3>
+        <center><h3>TURISMO SOSTENIBLE</h3></center>
         <p>
           HOTEL ISLA PALMA RESERVA NATURAL  estamos comprometidos con la conservación, protección y buen manejo de los recursos naturales, así como con el fortalecimiento de la responsabilidad social y cultural de nuestras comunidades locales, mediante la sensibilización de nuestro personal, proveedores y visitantes sobre buenas prácticas ambientales.
  
