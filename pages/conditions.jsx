@@ -86,11 +86,7 @@ Autorizo expresamente al HOTEL ISLA PALMA RESERVA NATURAL, para que conforme a l
 
  
 
-
-      </div>
-<div className={s.info}>
-        <h3>TÉRMINOS Y CONDICIONES DE RESERVA</h3>
-        <p>
+    <p>
           Cuando se adquiere un plan de alojamiento incluye :
 Bebida de bienvenida, alojamiento según acomodación y noches adquiridas
 Alimentación tipo buffet desayuno(7:00-10:00), almuerzo (12:30- 14:00), cena (19:00-20:30). La alimentación está sujeta a la solicitud de reserva. Pensión completa; el día de ingreso es con almuerzo y el día de salida con desayuno.
@@ -101,6 +97,9 @@ Salida de habitaciones (CHECK-OUT): hasta las 11 horas
  Horario de Bares de 10:00 AM a 12:00 PM 
 
         </p>
+      </div>
+
+    
   );
 };
 
