@@ -102,7 +102,8 @@ Salida de habitaciones (CHECK-OUT): hasta las 11 horas
  Horario de Bares de 10:00 AM a 12:00 PM 
 
         </p>
-
+ </div>
+ </div>
     
   );
 };
