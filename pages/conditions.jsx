@@ -20,7 +20,7 @@ Salida de habitaciones (CHECK-OUT): hasta las 11 horas
 
         </p>
         <p>
-         <font color="blue"> NO INCLUYE</font> : Transporte Cartagena o Tolú, favor revisar la información
+         <font color="#3498DB"> NO INCLUYE</font> : Transporte Cartagena o Tolú, favor revisar la información
           de COMO LLEGAR y los operadores, reserva previa es necesaria. El hotel
           no se hace responsable por gastos adicionales generados por transporte
           marítimo fuera de los horarios estipulados. Impuesto de zarpe desde
