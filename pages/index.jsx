@@ -169,6 +169,19 @@ const Index = ({
         </div>
         {size < 768 ? <p></p> : <p>{sectionFourHome[0].fields.text}</p>}
       </section>
+         
+         
+         <section className={s.sectionFour}>
+        <Image src={img4} alt="tropical image" width={1440} height={877} />
+        <div className={s.buttonPromotion}>
+          <Button
+            onClick={() => router.push("/promos")}
+            text="Promociones"
+            width={"154px"}
+          />
+        </div>
+        {size < 768 ? <p></p> : <p>{sectionFourHome[0].fields.text}</p>}
+      </section>
       <BookBar />
     </div>
   );
