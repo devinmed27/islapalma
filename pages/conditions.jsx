@@ -7,7 +7,7 @@ const Conditions = () => {
     <div className={s.container}>
       <SubHeader text="POLITICAS, TÉRMINOS Y CONDICIONES" />
       <div className={s.info}>
-        <h3>TÉRMINOS Y CONDICIONES DE RESERVA</h3>
+        <center> <h3>TÉRMINOS Y CONDICIONES DE RESERVA</h3> </certer>
         <p>
           Cuando se adquiere un plan de alojamiento incluye :
 Bebida de bienvenida, alojamiento según acomodación y noches adquiridas
@@ -20,7 +20,7 @@ Salida de habitaciones (CHECK-OUT): hasta las 11 horas
 
         </p>
         <p>
-          NO INCLUYE: Transporte Cartagena o Tolú, favor revisar la información
+          <h3 style="color:#FF0000";>NO INCLUYE</h3>: Transporte Cartagena o Tolú, favor revisar la información
           de COMO LLEGAR y los operadores, reserva previa es necesaria. El hotel
           no se hace responsable por gastos adicionales generados por transporte
           marítimo fuera de los horarios estipulados. Impuesto de zarpe desde
