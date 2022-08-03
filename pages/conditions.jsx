@@ -89,7 +89,7 @@ Autorizo expresamente al HOTEL ISLA PALMA RESERVA NATURAL, para que conforme a l
          </div>
 
  
-      <div className={s.info}>
+      <!–– <div className={s.info}>
         <center><h3>TURISMO SOSTENIBLE</h3></center>
         <p>
           HOTEL ISLA PALMA RESERVA NATURAL  estamos comprometidos con la conservación, protección y buen manejo de los recursos naturales, así como con el fortalecimiento de la responsabilidad social y cultural de nuestras comunidades locales, mediante la sensibilización de nuestro personal, proveedores y visitantes sobre buenas prácticas ambientales.
@@ -115,7 +115,7 @@ Los residuos orgánicos (cáscaras y cascarillas de frutas y verduras, restos de
 Contamos  con 36 paneles solares que nos proveen 60 kwa para el uso de la energía durante el día.En la noche trabajamos con planta eléctrica para minimizar las emisiones de CO2
 
   </p>
- </div>
+ </div> ––>
  </div>
     
   );
