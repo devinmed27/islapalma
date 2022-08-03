@@ -89,33 +89,7 @@ Autorizo expresamente al HOTEL ISLA PALMA RESERVA NATURAL, para que conforme a l
          </div>
 
  
-      <!–– <div className={s.info}>
-        <center><h3>TURISMO SOSTENIBLE</h3></center>
-        <p>
-          HOTEL ISLA PALMA RESERVA NATURAL  estamos comprometidos con la conservación, protección y buen manejo de los recursos naturales, así como con el fortalecimiento de la responsabilidad social y cultural de nuestras comunidades locales, mediante la sensibilización de nuestro personal, proveedores y visitantes sobre buenas prácticas ambientales.
- 
-
-        </p>
-
-<p> Comercio ilegal de vida silvestre
-HOTEL ISLA PALMA RESERVA NATURAL  está en contra del comercio ilegal de especies de flora y fauna, por lo que lo invitamos a no comprar ni consumir productos de especies en peligro de extinción. Ley 165 de 1994, Ley 1453 de 2011; Resolución 192 de 2014 (Colombia).
-
-            </p>
-
-<p> Manejo de residuos
-En el HOTEL ISLA PALMA RESERVA NATURAL  estamos comprometidos con la separación y ordenamiento de todo tipo de residuos que generamos.
-Los residuos utilizables (cartón, vidrio, plástico, latas y papel) se envían a una empresa de recicladores que se encarga de su gestión y reutilización
-Hemos reducido a un 80% el uso de plástico de un solo uso.
-Los aceites usados se entregan a la FUNDACIÓN TURISMO SOSTENIBLE, que se encarga de la producción de jabones ecológicos
-Los residuos orgánicos (cáscaras y cascarillas de frutas y verduras, restos de café y té, etc.) Se utilizan para preparar un abono orgánico con fines de jardinería en las áreas verdes de las instalaciones del hotel.
-
-            </p>
-
-<p>Energía renovable
-Contamos  con 36 paneles solares que nos proveen 60 kwa para el uso de la energía durante el día.En la noche trabajamos con planta eléctrica para minimizar las emisiones de CO2
-
-  </p>
- </div> ––>
+      
  </div>
     
   );
