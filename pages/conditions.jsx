@@ -83,9 +83,9 @@ Autorizo expresamente al HOTEL ISLA PALMA RESERVA NATURAL, para que conforme a l
  <p>
                NO ABUSO SEXUAL: El hotel el hotel Isla Palma está comprometido con el código de conducta contra la explotación y violencia sexual infantil y en cumplimiento de los artículos 16 y 17 de la ley 679 De la ley de infancia y adolecencia.
                       </p>
- <p>
-           
-           </p>
+
+ <h3>TURISMO SOSTENIBLE  </h3>
+
       </div>
     </div>
   );
