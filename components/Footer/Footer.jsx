@@ -32,7 +32,7 @@ const Footer = () => {
     <footer className={s.container}>
       <div className={s.linksContainer}>
         <Link href="/conditions">
-          <a>TERMINOS Y CONDICIONES</a>
+          <a>TERMINOS,POLITICAS  Y CONDICIONES</a>
         </Link>
         <Link href="/politics">
           <a>NUESTRAS POLÍTICAS</a>
