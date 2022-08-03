@@ -85,10 +85,12 @@ Autorizo expresamente al HOTEL ISLA PALMA RESERVA NATURAL, para que conforme a l
                       </p>
 
  
-<div className={s.info}>
-  <h3>TURISMO SOSTENIBLE  </h3>
+
 
       </div>
+<div className={s.info}>
+  <h3>TURISMO SOSTENIBLE  </h3>
+</div>
     </div>
   );
 };
