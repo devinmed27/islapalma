@@ -27,7 +27,11 @@ const Sansions = () => {
           h3ENALIDADES: 
 
           </h3>
-<p><Image src={check2} width={100} height={100} alt="check2 image"/></p>
+<div className={s.logosSubContainer}>
+            <Link href="/">
+              <a>
+                <Image src={check1} width={100} height={100} alt="check1 image"/>
+              </a>
           <p>
           TEMPORADA BAJA: Desde el 17 de enero de 2020 hasta el 26
           de marzo y desde el 5 de abril hasta el 20 de diciembre de 2021 • 16 ó
