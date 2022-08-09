@@ -23,13 +23,13 @@ export const getServerSideProps = async (res) => {
 const Politics = ({politics}) => {
   return (
     <div className={s.container}>
-      <SubHeader text="NUESTRAS POLÍTICAS" />
+      <SubHeader text="NUESTRAS POLÍTICAS AMBIENTALES" />
       <div className={s.info}>
         {/* <h3>{politics[1].fields.title}</h3>
         <p>{politics[1].fields.paragraph}</p>
         <p>{politics[1].fields.paragraph2}</p>
         <p>{politics[1].fields.paragraph3}</p> */}
-        <h3>POLITICA AMBIENTAL</h3>
+       <center> <h3>POLITICA AMBIENTAL</h3></center>
         <p>Nuestro modelo de gestión ambiental desarrolla y despliega nuestra Política Ambiental basada en los siguientes principios:</p>
 
 <p>► Llevar a cabo una gestión ambiental adecuada a la realidad de nuestra organización y a nuestras actividades y servicios, intentado con ello mejorar nuestra gestión desde la sostenibilidad.<br />
