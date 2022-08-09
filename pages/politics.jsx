@@ -29,10 +29,31 @@ const Politics = ({politics}) => {
         <p>{politics[1].fields.paragraph}</p>
         <p>{politics[1].fields.paragraph2}</p>
         <p>{politics[1].fields.paragraph3}</p> */}
-        <h3>CANCELACIONES Y REEMBOLSO</h3>
-        <p>Toda cancelación y solicitud de reembolso generará de forma automática y sin excepción, un cargo por gastos administrativos de $50.000, además de los cargos que correspondan según lo detallado en el párrafo de cancelaciones y penalidades.</p>
-        <p>Los gastos financieros por comisiones y/o transferencias generados en los procesos de reintegros serán descontados del monto total del reintegro. Las tarifas de OFERTA no tienen desembolso, únicamente cambio de fecha con cargo administrativo.</p>
-        <p>Las reservas de grupos se aceptan cambios de fecha 60 días antes y aplican penalidad del 50% valor de la reserva.</p>
+        <h3>POLITICA AMBIENTAL</h3>
+        <p class="blubox-jck" style="text-align: justify;">Nuestro modelo de gestión ambiental desarrolla y despliega nuestra Política Ambiental basada en los siguientes principios:</p>
+
+<p style="text-align: justify;">► Llevar a cabo una gestión ambiental adecuada a la realidad de nuestra organización y a nuestras actividades y servicios, intentado con ello mejorar nuestra gestión desde la sostenibilidad.<br />
+<br />
+► Dar formación continua y adecuada al personal para mejorar la implicación y capacitación de sus labores con criterios de respeto al medio ambiente.<br />
+<br />
+► Promover entre los contratistas y proveedores el cumplimiento de nuestra Política Ambiental.<br />
+<br />
+► Mejorar constantemente nuestra actuación ambiental y evaluarla periódicamente, consiguiendo con ello, la mejora ambiental de nuestra organización.<br />
+<br />
+► Cumplir con todos los requisitos establecidos por la legislación medioambiental vigente, los requisitos legales de aplicación específica al sector, requisitos voluntarios y otras exigencias establecidas por terceras partes.<br />
+<br />
+► Evaluar los aspectos ambientales asociados a nuestras actividades, indicando y llevando a cabo las medidas adecuadas, para maximizar los beneficios y evitar, minimizar o corregir los riesgos.<br />
+<br />
+► Aplicar el principio básico de prevención&nbsp; de la contaminación desde la planificación y evaluación de decisiones.<br />
+<br />
+► Practicar la utilización sostenible de los recursos naturales y materias primas, así como fomentar el uso eficiente de la energía y realizar prácticas de reutilización y reciclado de los residuos generados por la actividad.<br />
+<br />
+► Proporcionar la información medioambiental de nuestras actividades y difundir nuestra Política Ambiental a las personas que trabajen para la organización, clientes, al público en general y asegurar su actualización y adecuación.<br />
+<br />
+► Implementar, documentar y mantener esta política como marco para el establecimiento de nuestro Programa de Gestión Ambiental mediante los objetivos y metas correspondientes.</p>
+
+<p style="text-align: justify;">&nbsp;</p>
+
       </div>
     </div>
   );
