@@ -7,12 +7,12 @@ import s from "../styles/pages/Terms.module.scss";
 const Sansions = () => {
   return (
     <div className={s.container}>
-      <SubHeader text="PENALIDADES" />
+      <SubHeader text="CODIGO DE CONDUCTA" />
       <div className={s.info}>
-        <h3>
-          h3ENALIDADES: 
+        <center><h3>
+          CODIGO DE CONDUCTA: 
 
-          </h3>
+          </h3></center>
 
 <p>Con el fin de contrarrestar la explotación, la pornografía y el turismo sexual con niños, niñas y adolescentes, el <strong>HOTEL ISLA PALMA</strong>&nbsp;en cumplimiento de la Ley 679 de 2001 adicionada por la Ley 1336 de 2009, se compromete a cumplir con las siguientes obligaciones legales:</p>
 
