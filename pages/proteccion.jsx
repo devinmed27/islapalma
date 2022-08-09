@@ -83,7 +83,7 @@ Al ingresar a la página web www.hotelislapalma.com autoriza que su información
 <br />
 Los datos y en general la información que se recibe cuando ingresa a la página web www.hotelislapalma.com puede ser tanto suya como del equipo desde el cual está ingresando. Con el ánimo de optimizar y hacer más eficiente su experiencia visitando la página www.hotelislapalma.com, podrán utilizarse cookies y/o web beacons, así como podrá obtenerse y almacenarse la información de las páginas de internet visitadas, de su dirección IP, del sistema operativo del equipo desde el cual esté ingresando, mediante un proceso de reconocimiento y rastreo que permita identificar sus preferencias e identificarlo cuando visite nuevamente página y almacenar determinados registros, a partir de su dirección IP. La dirección IP no se asocia ni se vincula a su nombre ni a sus datos personales.
 <br />
-          
+          </p>
 
       </div>
     </div>
