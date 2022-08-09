@@ -18,7 +18,7 @@ const Proteccion = () => {
 <p>Tenemos especial interés en proteger y respetar su información y datos personales y por ello hemos diseñado estas políticas de tratamiento de la información, dentro del marco de la ley 1581 de 2012 y el decreto reglamentario 1377 de 2.013.
 <br />
 <br />
-<h2>1.1.- Introducción.</h2>
+<h5>1.1.- Introducción.</h5>
 <br />
 <br />
 3. Proteger a los menores de edad nacionales o extranjeros de toda forma de explotación y violencia sexual originada por turistas nacionales o extranjeros.<br />
