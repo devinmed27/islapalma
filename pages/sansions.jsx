@@ -32,7 +32,7 @@ const Sansions = () => {
           cambios de tarifa o temporada. 
           </p>
           <p>
-          EXCEPCIONES: No aplican penalidades en
+          EXCEPCIONES: No aplican penalidades enj
           caso de fuerza mayor, caso fortuito o incapacidad del titular de la
           reserva o un familiar en primer grado de consanguinidad. La solicitud
           de exoneración debe acompañarse del(os) correspondiente(s) soporte(s)
