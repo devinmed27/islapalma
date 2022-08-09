@@ -44,4 +44,4 @@ const Sansions = () => {
   );
 };
 
-export default proteccion;
+export default Proteccion;
