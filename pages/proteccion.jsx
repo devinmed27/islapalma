@@ -4,7 +4,7 @@ import s from "../styles/pages/Terms.module.scss";
 
 
 
-const Sansions = () => {
+const Proteccion = () => {
   return (
     <div className={s.container}>
       <SubHeader text="CODIGO DE CONDUCTA" />
@@ -44,4 +44,4 @@ const Sansions = () => {
   );
 };
 
-export default Sansions;
+export default Proteccion;
