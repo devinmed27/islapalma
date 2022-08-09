@@ -10,7 +10,7 @@ const Sansions = () => {
       <SubHeader text="CODIGO DE CONDUCTA" />
       <div className={s.info}>
         <center><h3>
-          CODIGO DE CONDUCTA: 
+          CODIGO DE CONDUCTA 
 
           </h3></center>
 
