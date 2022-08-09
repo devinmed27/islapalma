@@ -39,8 +39,8 @@ Se entenderán aceptadas las consideraciones acá establecidas por el Titular de
  De conformidad con la ley 1581 de 2012 y el decreto 1377 de 2.013, las siguientes definiciones regirán las políticas de tratamiento de la información personal.
 <br />
 <br />
-<font color="#C0392B "> 1.3.1.</font> <font color="#17202A ">- Autorización:</font> Consentimiento previo, expreso e informado del Titular para llevar a cabo el Tratamiento de datos personales.<br />
-<font color="#C0392B ">1.3.2.</font> <font color="#17202A ">- Base de Datos:</font> Conjunto organizado de datos personales que sea objeto de Tratamiento;<br />
+<font color="#C0392B "> 1.3.1.</font> <font color="#17202A "> Autorización:</font> Consentimiento previo, expreso e informado del Titular para llevar a cabo el Tratamiento de datos personales.<br />
+<font color="#C0392B ">1.3.2.</font> <strong> Base de Datos:</strong> Conjunto organizado de datos personales que sea objeto de Tratamiento;<br />
 <font color="#C0392B ">1.3.3.</font> <font color="#17202A ">- Dato personal:</font> Cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables;<br />
 <font color="#C0392B ">1.3.4.</font> <font color="#17202A ">- Encargado del Tratamiento:</font> Por encargado del tratamiento se tiene a la persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del Responsable del Tratamiento;<br />
 <font color="#C0392B ">1.3.5.</font> <font color="#17202A ">- Responsable del Tratamiento:</font> Por responsable del tratamiento se tiene a la persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el Tratamiento de los datos;<br />
