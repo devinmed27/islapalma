@@ -1,67 +1,144 @@
-<div class="mkdf-grid-row mkdf-footer-top-alignment-left">
-							<div class="mkdf-column-content mkdf-grid-col-4">
-					<div id="text-6" class="widget mkdf-footer-column-1 widget_text">			<div class="textwidget"><img data-src="https://www.isladelencanto.com.co/wp-content/uploads/2020/04/isla_del_encanto_logo.png" data-sizes="auto" class="lazy-loaded lazyautosizes lazyloaded" src="https://www.isladelencanto.com.co/wp-content/uploads/2020/04/isla_del_encanto_logo.png" sizes="187px"><noscript>&lt;img class="lazy lazy-hidden" src="//www.isladelencanto.com.co/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.isladelencanto.com.co/wp-content/uploads/2020/04/isla_del_encanto_logo.png"&gt;&lt;noscript&gt;&lt;img src="https://www.isladelencanto.com.co/wp-content/uploads/2020/04/isla_del_encanto_logo.png"&gt;</noscript>
-<br>
-<p style="text-align:justify; font-size: 14px;">Disfruta un inolvidable y reparador descanso en el hotel más encantador del Parque Natural Corales del Rosario, en la zona insular de Cartagena.</p>
-</div>
-		</div><div id="custom_html-3" class="widget_text widget mkdf-footer-column-1 widget_custom_html"><h5 class="mkdf-widget-title">Síguenos</h5><div class="textwidget custom-html-widget"></div></div>
-        <a class="mkdf-icon-widget-holder" href="https://www.facebook.com/HotelIslaDelEncanto/" target="_blank" style="color: #fff;font-size: 25px;margin: 0px 10px 0px 0px">
-            <span class="mkdf-icon-widget fa fa-facebook-square     "></span>                    </a>
-    
-        <a class="mkdf-icon-widget-holder" href="https://www.instagram.com/hotelisladelencanto/" target="_blank" style="color: #fff;font-size: 25px;margin: 10px 10px 10px 0px">
-            <span class="mkdf-icon-widget fa fa-instagram     "></span>                    </a>
-    
-        <a class="mkdf-icon-widget-holder" href="https://www.tripadvisor.co/Hotel_Review-g297476-d2309997-Reviews-Hotel_Isla_del_Encanto-Cartagena_Cartagena_District_Bolivar_Department.html" target="_blank" style="color: #fff;font-size: 25px;margin: 10px 10px 10px 0px">
-            <span class="mkdf-icon-widget fa fa-tripadvisor     "></span>                    </a>
-    
-        <a class="mkdf-icon-widget-holder" href="https://twitter.com/idelencantoctg" target="_blank" style="color: #fff;font-size: 25px;margin: 0px 0px 0px 10px">
-            <span class="mkdf-icon-widget fa fa-twitter-square     "></span>                    </a>
-    <div class="widget mkdf-separator-widget"><div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
-	<div class="mkdf-separator" style="border-style: solid"></div>
-</div>
-</div><div id="text-19" class="widget mkdf-footer-column-1 widget_text">			<div class="textwidget"></div>
-		</div>				</div>
-							<div class="mkdf-column-content mkdf-grid-col-4">
-					<div id="text-17" class="widget mkdf-footer-column-2 widget_text">			<div class="textwidget"><p><a style="color: #fff; font-weight: 100;" href="tel:(60)(5) 665 54 54"><i class="tele fa fa-phone" aria-hidden="true"></i>(60)(5) 665 54 54 – (60)(5) 665 83 15</a></p>
-<p>*Horario de atención línea fija hasta las 5:00 P.M.</p>
-<div style="font-size: 13px;">
-<ul>
-<li><strong style="color: #00842b;">HOSPEDAJE</strong>: 3214933631 – 3154271409</li>
-<li><strong style="color: #00842b;">DAY TOUR</strong>: 3106310928– 3008169666</li>
-<li><strong style="color: #00842b;">EVENTS</strong>: &nbsp;3104605052 – 3144540777</li>
-</ul>
-<p>Bocagrande, Av. San Martín. Nº 5-84, local 101<br>
-Cartagena de Indias, Colombia.<br>
-RNT: 30259/4719<br>
-DIMAR Nº 060</p>
-</div>
-<div></div>
-<div></div>
-<p>&nbsp;</p>
-<div class="covid"><b>COVID-19</b> <a href="https://www.youtube.com/watch?v=7wkfN50KpqM" target="_blank" rel="noopener"> <b> Mayo-2020</b> </a><a href="https://www.isladelencanto.com.co/wp-content/uploads/2020/04/comunicado_covid_19.png" target="_blank" rel="noopener"><b> Marzo-2020 </b> </a></div>
-</div>
-		</div>		
-		<div class="widget mkdf-raw-html-widget  ">
-			<div id="icon-responsabilidad-ambiental">
-				                            <a href="https://isladelencanto.com.co/sostenibilidad-turistica/" class="social-icon" title="Sostenibilidad ambiental" style="color: #00842b">
-				                            	<ul class="row">
-				                            		<li class="left"><i class="fa fa-leaf" aria-hidden="true"></i></li>
-				                            		<li class="right">Conoce nuestra <br>sostenibilidad Turística</li>
-				                            	</ul>
-				                            </a>
-			                            </div>		</div>
-		<div class="widget mkdf-separator-widget"><div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
-	<div class="mkdf-separator" style="border-style: solid"></div>
-</div>
-</div>				</div>
-							<div class="mkdf-column-content mkdf-grid-col-4">
-					<div id="nav_menu-2" class="widget mkdf-footer-column-3 widget_nav_menu"><h5 class="mkdf-widget-title">Enlaces de Interés</h5><div class="menu-enlaces-de-interes-es-container"><ul id="menu-enlaces-de-interes-es" class="menu"><li id="menu-item-12498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12498"><a href="https://www.isladelencanto.com.co/es/nosotros/">Nosotros</a></li>
-<li id="menu-item-12497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12497"><a href="https://www.isladelencanto.com.co/es/alquiler-de-embarcaciones/">Alquiler de Embarcaciones</a></li>
-<li id="menu-item-12495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12495"><a href="https://www.isladelencanto.com.co/es/trabaja-con-nosotros/">Trabaja con Nosotros</a></li>
-<li id="menu-item-12496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12496"><a href="https://www.isladelencanto.com.co/es/cartagena/">Cartagena</a></li>
-<li id="menu-item-12817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12817"><a href="https://www.isladelencanto.com.co/es/politicas-terminos-y-condiciones/">Políticas, Términos y Condiciones</a></li>
-<li id="menu-item-13073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13073"><a href="https://www.isladelencanto.com.co/es/politicas-para-el-tratamiento-de-datos/">Políticas para el Tratamiento de Datos</a></li>
-<li id="menu-item-12820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12820"><a href="https://www.isladelencanto.com.co/es/leyes-y-normatividad/">Leyes y Normatividad</a></li>
-<li id="menu-item-14777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14777"><a href="https://www.sic.gov.co/">Superintendencia de Industria y Comercio – SIC</a></li>
-</ul></div></div>				</div>
-					﷯</div>
+import React, { useState, useEffect } from "react";
+import s from "./Footer.module.scss";
+import Link from "next/link";
+import Image from "next/image";
+import whatsappPathM from "../../public/static/assets/whatsapp.png";
+import facebookPathM from "../../public/static/assets/facebook.png";
+import instagramPathM from "../../public/static/assets/instagram.png";
+import phonePath from "../../public/static/assets/phone_icon.png";
+import emailPath from "../../public/static/assets/email_icon.png";
+import lagunaPath from "../../public/static/assets/laguna_beach.png";
+import caminoPath from "../../public/static/assets/camino_verde.png";
+import coPath from "../../public/static/assets/co_colombia.png";
+import check1 from "../../public/static/assets/check1.jpeg";
+import check2 from "../../public/static/assets/check2.jpg";
+import approve from "../../public/static/assets/approve.svg";
+
+
+import whatsappPathD from "../../public/static/assets/whatsappD.png";
+import facebookPathD from "../../public/static/assets/FacebookD.png";
+import instagramPathD from "../../public/static/assets/InstagramD.png";
+
+import logoPath from "../../public/static/assets/logoFooter.png";
+
+const Footer = () => {
+  const [size, setSize] = useState(null);
+
+  useEffect(() => {
+    setSize(screen.width);
+  }, []);
+
+  return (
+    <footer className={s.container}>
+      <div className={s.linksContainer}>
+        <Link href="/conditions">
+          <a>TERMINOS,POLITICAS  Y CONDICIONES</a>
+        </Link>
+        <Link href="/politics">
+          <a>NUESTRAS POLÍTICAS</a>
+        </Link>
+        <Link href="/sansions">
+          <a>PENALIDADES</a>
+        </Link>
+        <Link href="/sostenibility">
+          <a>SOSTENIBILIDAD</a>
+        </Link>
+      </div>
+      <div className={s.socialContainer}>
+        <p className={s.text}>Síguenos en nuestras redes</p>
+        <div className={s.icons}>
+          <Link href="https://wa.link/uw4uep">
+            <a>
+              <Image src={size < 768 ? whatsappPathM : whatsappPathD} alt="whatsapp icon"/>
+            </a>
+          </Link>
+          <Link href="https://instagram.com/hotel_islapalma?utm_medium=copy_link">
+            <a target="_blank">
+              <Image src={size < 768 ? instagramPathM : instagramPathD} alt="instagram icon"/>
+            </a>
+          </Link>
+          <Link href="https://www.facebook.com/isla.palma.1884">
+            <a target="_blank">
+              <Image src={size < 768 ? facebookPathM : facebookPathD} alt="facebook icon"/>
+            </a>
+          </Link>
+        </div>
+      </div>
+      <div className={s.contactContainer}>
+        <p className={s.text}>Escríbenos o llámanos</p>
+        <div className={s.contactInfo}>
+          <Image src={phonePath} width={16} height={16} alt="phine icon"/>
+          <p>(+57)3145241610</p>
+                 </div>
+
+         <div className={s.contactInfo}>
+          <Image src={phonePath} width={16} height={16} alt="phine icon"/>
+          <p>(+57)3145519353</p>
+                 </div>
+        <div className={s.contactInfo}>
+          <Image src={emailPath} width={18} height={16} alt="email icon"/>
+           <p> ventas@hotelislapalma.com</p>
+               </div>
+         <div className={s.contactInfo}>
+          <Image src={emailPath} width={18} height={16} alt="email icon"/>
+           <p> info@hotelislapalma.com</p>
+               </div>
+      </div>
+      <div className={s.logosContainer}>
+        {size < 768 ? (
+          <div></div>
+        ) : (
+          <div className={s.imgContainer}>
+            <Image src={logoPath} alt="logo icon"/>
+          </div>
+        )}
+        <div className={s.subContainer}>
+          <p>Visitanos también en </p>
+          <div>
+            <Link href="/">
+              <a>
+                <Image src={lagunaPath} alt="laguna image"/>
+              </a>
+            </Link>
+            <Link href="/">
+              <a>
+                <Image src={caminoPath} alt="way image"/>
+              </a>
+            </Link>
+            <Link href="/">
+              <a>
+                <Image src={coPath} alt="co icon"/>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <p className={s.legalText}>
+          2021 Hotel Isla Palma - todos los derechos reservados. RNT No. 65926 -
+          NIT. 900.648.506-1
+        </p>
+        <p className={s.legalText}>
+          Desarrollado por <a href="https://devinmed.com" target="_blank" rel="noreferrer">Dev in Med</a>
+        </p>
+        <div className={s.logosSubContainer}>
+            <Link href="/">
+              <a>
+                <Image src={check1} width={100} height={100} alt="check1 image"/>
+              </a>
+            </Link>
+            <Link href="/">
+              <a>
+                <Image src={check2} width={100} height={100} alt="check2 image"/>
+              </a>
+            </Link>
+            <Link href="/">
+              <a>
+                <Image src={approve} width={100} height={100} alt="approve icon"/>
+              </a>
+            </Link>
+          </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
