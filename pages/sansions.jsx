@@ -2,6 +2,22 @@ import React from "react";
 import SubHeader from "../components/SubHeader/SubHeader";
 import s from "../styles/pages/Terms.module.scss";
 
+import React, { useState, useEffect } from "react";
+import s from "./Footer.module.scss";
+import Link from "next/link";
+import Image from "next/image";
+import whatsappPathM from "../../public/static/assets/whatsapp.png";
+import facebookPathM from "../../public/static/assets/facebook.png";
+import instagramPathM from "../../public/static/assets/instagram.png";
+import phonePath from "../../public/static/assets/phone_icon.png";
+import emailPath from "../../public/static/assets/email_icon.png";
+import lagunaPath from "../../public/static/assets/laguna_beach.png";
+import caminoPath from "../../public/static/assets/camino_verde.png";
+import coPath from "../../public/static/assets/co_colombia.png";
+import check1 from "../../public/static/assets/check1.jpeg";
+import check2 from "../../public/static/assets/check2.jpg";
+import approve from "../../public/static/assets/approve.svg";
+
 const Sansions = () => {
   return (
     <div className={s.container}>
