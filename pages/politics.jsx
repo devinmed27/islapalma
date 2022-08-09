@@ -30,9 +30,9 @@ const Politics = ({politics}) => {
         <p>{politics[1].fields.paragraph2}</p>
         <p>{politics[1].fields.paragraph3}</p> */}
         <h3>POLITICA AMBIENTAL</h3>
-        <p class="blubox-jck" style="text-align: justify;">Nuestro modelo de gestión ambiental desarrolla y despliega nuestra Política Ambiental basada en los siguientes principios:</p>
+        <p>Nuestro modelo de gestión ambiental desarrolla y despliega nuestra Política Ambiental basada en los siguientes principios:</p>
 
-<p style="text-align: justify;">► Llevar a cabo una gestión ambiental adecuada a la realidad de nuestra organización y a nuestras actividades y servicios, intentado con ello mejorar nuestra gestión desde la sostenibilidad.<br />
+<p>► Llevar a cabo una gestión ambiental adecuada a la realidad de nuestra organización y a nuestras actividades y servicios, intentado con ello mejorar nuestra gestión desde la sostenibilidad.<br />
 <br />
 ► Dar formación continua y adecuada al personal para mejorar la implicación y capacitación de sus labores con criterios de respeto al medio ambiente.<br />
 <br />
@@ -52,7 +52,7 @@ const Politics = ({politics}) => {
 <br />
 ► Implementar, documentar y mantener esta política como marco para el establecimiento de nuestro Programa de Gestión Ambiental mediante los objetivos y metas correspondientes.</p>
 
-<p style="text-align: justify;">&nbsp;</p>
+<p>NADA</p>
 
       </div>
     </div>
