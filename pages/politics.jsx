@@ -52,7 +52,7 @@ const Politics = ({politics}) => {
 <br />
 ► Implementar, documentar y mantener esta política como marco para el establecimiento de nuestro Programa de Gestión Ambiental mediante los objetivos y metas correspondientes.</p>
 
-<p>NADA</p>
+
 
       </div>
     </div>
