@@ -7,18 +7,19 @@ import s from "../styles/pages/Terms.module.scss";
 const Proteccion = () => {
   return (
     <div className={s.container}>
-      <SubHeader text="CODIGO DE CONDUCTA" />
+      <SubHeader text="PROTECCIÓN DE DATOS PERSONALES" />
       <div className={s.info}>
         <center><h3>
-          CODIGO DE CONDUCTA 
-
+          POLÍTICAS  DE TRATAMIENTO DE LA INFORMACIÓN PERSONAL HUÉSPEDES, CLIENTES Y USUARIOS
           </h3></center>
 
-<p>Con el fin de contrarrestar la explotación, la pornografía y el turismo sexual con niños, niñas y adolescentes, el <strong>HOTEL ISLA PALMA</strong>&nbsp;en cumplimiento de la Ley 679 de 2001 adicionada por la Ley 1336 de 2009, se compromete a cumplir con las siguientes obligaciones legales:</p>
+<h3>PRIMERO: GENERALIDADES</h3>
 
-<p>1. Abstenernos de ofrecer en los programas de promoción turística y en planes turísticos, expresa o subrepticiamente, planes de explotación sexual de menores.<br />
+<p>Tenemos especial interés en proteger y respetar su información y datos personales y por ello hemos diseñado estas políticas de tratamiento de la información, dentro del marco de la ley 1581 de 2012 y el decreto reglamentario 1377 de 2.013.
 <br />
-2. Adoptar las medidas tendientes a impedir que los trabajadores de <strong>HOTEL ISLA PALMA</strong>, dependientes o intermediarios, ofrezcan servicios turísticos que incluyan contactos sexuales con menores de edad.<br />
+<br />
+<h2>1.1.- Introducción.</h2>
+<br />
 <br />
 3. Proteger a los menores de edad nacionales o extranjeros de toda forma de explotación y violencia sexual originada por turistas nacionales o extranjeros.<br />
 <br />
