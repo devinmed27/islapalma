@@ -18,7 +18,7 @@ const Sansions = () => {
 
 <p>1. Abstenernos de ofrecer en los programas de promoción turística y en planes turísticos, expresa o subrepticiamente, planes de explotación sexual de menores.<br />
 <br />
-2. Adoptar las medidas tendientes a impedir que los trabajadores de <strong>Hotel ISLA PALMA</strong>, dependientes o intermediarios, ofrezcan servicios turísticos que incluyan contactos sexuales con menores de edad.<br />
+2. Adoptar las medidas tendientes a impedir que los trabajadores de <strong>HOTEL ISLA PALMA</strong>, dependientes o intermediarios, ofrezcan servicios turísticos que incluyan contactos sexuales con menores de edad.<br />
 <br />
 3. Proteger a los menores de edad nacionales o extranjeros de toda forma de explotación y violencia sexual originada por turistas nacionales o extranjeros.<br />
 <br />
