@@ -40,7 +40,7 @@ const Footer = () => {
         <Link href="/sansions">
           <a>CODIGO DE CONDUCTA</a>
         </Link>
-        <Link href="/sostenibility">
+        <Link href="/proteccion">
           <a>PROTECCION DE DATOS PERSONALES</a>
         </Link>
       </div>
