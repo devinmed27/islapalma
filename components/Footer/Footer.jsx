@@ -84,13 +84,6 @@ const Footer = () => {
            <p> info@hotelislapalma.com</p>
                </div>
 
-<div className={s.contactInfo}>
-<ul>
-<li><strong style="color: #00842b;">HOSPEDAJE</strong>: 3214933631 – 3154271409</li>
-<li><strong style="color: #00842b;">DAY TOUR</strong>: 3106310928– 3008169666</li>
-<li><strong style="color: #00842b;">EVENTS</strong>: &nbsp;3104605052 – 3144540777</li>
-</ul>
- </div>
 
       </div>
       <div className={s.logosContainer}>
