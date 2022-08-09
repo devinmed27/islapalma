@@ -14,73 +14,31 @@ const Sansions = () => {
 
           </h3>
 
-        
-          <p>
-          TEMPORADA ALTA: Desde el 27 de marzo hasta el 4 de
-          abril de 2021 y diciembre 21 de 2021 a Enero 16 de 2022 • 30 ó + días
-          al check in se reembolsa 90% del total del plan. • Entre 29 y 10 días
-          se reembolsa el 50 % del total del plan. • Menos de 10 días no se
-          harán reintegros. 
-          </p>
-          <p>
-          CAMBIOS DE FECHA: Los cambios de fecha o
-          cancelaciones de reservas, serán recibidos únicamente de forma escrita
-          por correo electrónico recepcion@hotelislapalma.com –
-          ventas@hotelislapalma.com Todo cambio de fechas de reservas
-          confirmadas generará de forma automática y sin excepción, un cargo por
-          gastos administrativos de $50.000, además de los incrementos por
-          cambios de tarifa o temporada. 
-          </p>
-          <p>
-          EXCEPCIONES: No aplican penalidades enj
-          caso de fuerza mayor, caso fortuito o incapacidad del titular de la
-          reserva o un familiar en primer grado de consanguinidad. La solicitud
-          de exoneración debe acompañarse del(os) correspondiente(s) soporte(s)
-          y presentarse dentro de los 15 días corrientes contados a partir de la
-          fecha inicial del viaje, vía correo electrónico. El cliente y /o
-          agencia debe enviar los siguientes documentos para tramitar un estudio
-          de exoneración: Por muerte: Acta de defunción. Registro civil de
-          nacimiento de cada pasajero. Acta de matrimonio o documento que
-          certifique unión marital de hecho. Por enfermedad: Soporte médico o
-          Incapacidad médica firmada y sellada por médico tratante. Fotocopia de
-          la cédula de ciudadanía de los pasajeros a exonerar. Acta de
-          matrimonio o documento que certifique unión marital de hecho. Por
-          cambios Operacionales: Certificado expedido por la aerolínea sujeto a
-          verificación. Todo lo anterior debe enviarse vía correo electrónico,
-          con el fin de dar respuesta a la solicitud. 
-          </p>
-          <p>
-          NO PRESENTADOS (NO SHOW):
-          Toda reserva confirmada que no se presente el día previsto de llegada,
-          tendrá un cargo por penalidad equivalente al total de la estadía más
-          impuestos, por cada habitación no utilizada, quedando a disposición
-          del Hotel la venta de la misma. 
-          </p>
-          <p>
-          SALIDA ANTICIPADA (EARLY DEPARTURE):
-          Las salidas anticipadas están sujetas a cobro de penalidad del total
-          de la estadía más impuestos. Excepto por causas de fuerza mayor o caso
-          fortuito debidamente comprobado. Ejemplo; razones de clima, huracanes,
-          terremotos, actos de terrorismo, calamidad o emergencia médica. En
-          estos casos se reintegrará los valores de acuerdo a las penalidades y
-          gastos administrativos correspondientes.
-          </p>
-          <p>
-          POLÍTICA DE RETRACTO: Cuando
-          reserve nuestros servicios a través de www.hotelislapalma.com o de la
-          Central de Reservas, podrá ejercer el derecho de retracto a más tardar
-          dentro de los cinco días hábiles siguientes a partir de la
-          confirmación de compra. El retracto no procederá para reservas cuya
-          fecha de ingreso sea antes de cinco días. Para retractarse, envíe un
-          correo electrónico a info@hotelislapalma.com, si realizó su compra a
-          través de la página web, o comuníquese con la Central de Reservas si
-          realizó su compra por dicho canal. El reembolso del dinero se
-          realizará sin deducciones de ninguna clase, mediante consignación
-          bancaria a nombre del titular de la reserva o mediante reversión a la
-          tarjeta de crédito utilizada para la compra, según el método de pago
-          utilizado, dentro de los 30 días calendario siguientes al ejercicio
-          del retracto.
-        </p>
+<p class="infotip-jck" style="text-align: justify;">Con el fin de contrarrestar la explotación, la pornografía y el turismo sexual con niños, niñas y adolescentes, el <strong>HOTEL CAMINO VERDE</strong>&nbsp;en cumplimiento de la Ley 679 de 2001 adicionada por la Ley 1336 de 2009, se compromete a cumplir con las siguientes obligaciones legales:</p>
+
+<p class="blubox-jck" style="text-align: justify;">1. Abstenernos de ofrecer en los programas de promoción turística y en planes turísticos, expresa o subrepticiamente, planes de explotación sexual de menores.<br />
+<br />
+2. Adoptar las medidas tendientes a impedir que los trabajadores de <strong>Hotel Camino Verde</strong>, dependientes o intermediarios, ofrezcan servicios turísticos que incluyan contactos sexuales con menores de edad.<br />
+<br />
+3. Proteger a los menores de edad nacionales o extranjeros de toda forma de explotación y violencia sexual originada por turistas nacionales o extranjeros.<br />
+<br />
+4. Incorporar en nuestra publicidad turística, información sobre las consecuencias legales de la explotación, la pornografía y el turismo sexual con niños, niñas y adolescentes.<br />
+<br />
+7. Abstenernos de dar información a los turistas, directamente o por intermedio de sus empleados acerca de lugares desde donde se coordinen o donde se presten servicios sexuales con menores de edad.<br />
+<br />
+8. Abstenernos de conducir a los turistas a establecimientos o lugares donde se practique la prostitución de menores de edad.<br />
+<br />
+9. Abstenernos de conducir a los menores de edad, directamente o por intermedio de los empleados, a los sitios donde se encuentran hospedados los turistas, incluso si se trata de lugares localizados en altamar, con fines de prostitución de menores de edad.<br />
+<br />
+10. Abstenernos de arrendar o utilizar vehículos en rutas turísticas con fines de prostitución o de abuso sexual con menores de edad.<br />
+<br />
+11. Impedir el ingreso de menores a los hoteles o lugares de alojamiento y hospedaje, bares, negocios similares y demás establecimientos turísticos con fines de prostitución o de abuso sexual de menores de edad.<br />
+<br />
+12. Denunciar ante el Ministerio de Comercio, Industria y Turismo, la Fiscalía General de la Nación, el ICBF, y demás organismos competentes, los hechos relacionados con explotación sexual de menores de edad.</p>
+
+<p style="text-align: center;">{videobox}V6KKtO415qw|VIDEO - Campaña #OjosEnTodasPartes|{/videobox}</p>        
+          
+
       </div>
     </div>
   );
