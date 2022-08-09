@@ -14,9 +14,9 @@ const Sansions = () => {
 
           </h3>
 
-<p  style="text-align: justify;">Con el fin de contrarrestar la explotación, la pornografía y el turismo sexual con niños, niñas y adolescentes, el <strong>HOTEL CAMINO VERDE</strong>&nbsp;en cumplimiento de la Ley 679 de 2001 adicionada por la Ley 1336 de 2009, se compromete a cumplir con las siguientes obligaciones legales:</p>
+<p>Con el fin de contrarrestar la explotación, la pornografía y el turismo sexual con niños, niñas y adolescentes, el <strong>HOTEL CAMINO VERDE</strong>&nbsp;en cumplimiento de la Ley 679 de 2001 adicionada por la Ley 1336 de 2009, se compromete a cumplir con las siguientes obligaciones legales:</p>
 
-<p style="text-align: justify;">1. Abstenernos de ofrecer en los programas de promoción turística y en planes turísticos, expresa o subrepticiamente, planes de explotación sexual de menores.<br />
+<p>1. Abstenernos de ofrecer en los programas de promoción turística y en planes turísticos, expresa o subrepticiamente, planes de explotación sexual de menores.<br />
 <br />
 2. Adoptar las medidas tendientes a impedir que los trabajadores de <strong>Hotel Camino Verde</strong>, dependientes o intermediarios, ofrezcan servicios turísticos que incluyan contactos sexuales con menores de edad.<br />
 <br />
