@@ -14,9 +14,7 @@ const Sansions = () => {
 
           </h3>
 
-         <p>
-          <img src="https://www.hotelcaminoverde.co/images/sostenibilidad/ojos-en-todas-partes.jpg">
-        </p>
+         
           <p>
           TEMPORADA ALTA: Desde el 27 de marzo hasta el 4 de
           abril de 2021 y diciembre 21 de 2021 a Enero 16 de 2022 • 30 ó + días
