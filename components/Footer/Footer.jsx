@@ -35,13 +35,13 @@ const Footer = () => {
           <a>TERMINOS,POLITICAS  Y CONDICIONES</a>
         </Link>
         <Link href="/politics">
-          <a>NUESTRAS POLÍTICAS</a>
+          <a>POLITICA AMBIENTAL</a>
         </Link>
         <Link href="/sansions">
-          <a>PENALIDADES</a>
+          <a>CODIGO DE CONDUCTA</a>
         </Link>
         <Link href="/sostenibility">
-          <a>SOSTENIBILIDAD</a>
+          <a>PROTECCION DE DATOS PERSONALES</a>
         </Link>
       </div>
       <div className={s.socialContainer}>
