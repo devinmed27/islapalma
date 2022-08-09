@@ -11,7 +11,7 @@ const Sansions = () => {
           h3ENALIDADES: 
 
           </h3>
-<p><img alt="" class="img-rounded" src="public/static/assets/ojos-en-todas-partes.jpg?raw=true" /></p>
+<p><img alt=""  src="https://www.hotelcaminoverde.co/images/sostenibilidad/ojos-en-todas-partes.jpg" /></p>
           <p>
           TEMPORADA BAJA: Desde el 17 de enero de 2020 hasta el 26
           de marzo y desde el 5 de abril hasta el 20 de diciembre de 2021 • 16 ó
