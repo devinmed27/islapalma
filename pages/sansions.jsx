@@ -15,12 +15,7 @@ const Sansions = () => {
           </h3>
 
           <p>
-          TEMPORADA BAJA: Desde el 17 de enero de 2020 hasta el 26
-          de marzo y desde el 5 de abril hasta el 20 de diciembre de 2021 • 16 ó
-          + días al check in se reembolsará 90% del total del plan. • Entre 15 y
-          5 días se reembolsa el 50% del total del plan. • Menos de 5 días no se
-          harán reintegros. 
-          </p>
+          <img src="https://www.hotelcaminoverde.co/images/sostenibilidad/ojos-en-todas-partes.jpg">
           <p>
           
           TEMPORADA ALTA: Desde el 27 de marzo hasta el 4 de
