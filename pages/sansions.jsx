@@ -1,7 +1,7 @@
 import React from "react";
 import SubHeader from "../components/SubHeader/SubHeader";
 import s from "../styles/pages/Terms.module.scss";
-import check1 from "../../public/static/assets/check1.jpeg";
+
 
 
 const Sansions = () => {
