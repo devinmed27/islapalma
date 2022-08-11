@@ -45,7 +45,7 @@ const Header = () => {
               </a>
             </div>
             <div className={s.iconContainer}>
-              <a href='https://www.facebook.com/isla.palma.1884' target='_blank' rel='noreferrer'>
+              <a href='https://es-la.facebook.com/HotelIslaPalma/' target='_blank' rel='noreferrer'>
                 <Image src={fbIcon} alt='facebook icon' />
               </a>
             </div>
