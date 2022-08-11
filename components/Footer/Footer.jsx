@@ -57,7 +57,7 @@ const Footer = () => {
               <Image src={size < 768 ? instagramPathM : instagramPathD} alt="instagram icon"/>
             </a>
           </Link>
-          <Link href="https://www.facebook.com/isla.palma.1884">
+          <Link href="https://es-la.facebook.com/HotelIslaPalma/">
             <a target="_blank">
               <Image src={size < 768 ? facebookPathM : facebookPathD} alt="facebook icon"/>
             </a>
