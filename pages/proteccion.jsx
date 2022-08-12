@@ -458,7 +458,7 @@ return (
                     <h4>1.1 - Introducción.</h4>
 <br />
                  <br />
- Logística HOTEL ISLA PALMA RESERVA NATURAL y las sociedades adscritas, operadoras de los hoteles “una experiencia GHL” y responsables del tratamiento de la información, podrán recolectar datos personales de sus proveedores, y en general de quien les venda bienes o servicios, en desarrollo de la relación comercial para facilitar su ejecución y procurar la mayor eficiencia posible. La recolección se hará bajo expresa autorización del titular de los datos y el tratamiento de estos estará sujeto a lo establecido por la ley y la presente política.
+ Logística HOTEL ISLA PALMA RESERVA NATURAL y las sociedades adscritas, operadoras de los hoteles una experiencia GHL y responsables del tratamiento de la información, podrán recolectar datos personales de sus proveedores, y en general de quien les venda bienes o servicios, en desarrollo de la relación comercial para facilitar su ejecución y procurar la mayor eficiencia posible. La recolección se hará bajo expresa autorización del titular de los datos y el tratamiento de estos estará sujeto a lo establecido por la ley y la presente política.
      <br />
                  <br />
      La información personal podrá ser recolectada directamente de los proveedores o a partir de aquella información contenida en el certificado de existencia y representación legal expedido por la Cámara de Comercio, en el RUT, en contratos, cotizaciones, propuestas, facturas, órdenes de compra y en general en cualquier documento que corresponda a la relación comercial.
