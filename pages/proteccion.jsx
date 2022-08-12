@@ -448,6 +448,7 @@ return (
             <br />
                     
             <h3> PRIMERO: GENERALIDADES </h3>
+</p>
 
                 <p>
                 En desarrollo de nuestras relaciones comerciales, tenemos especial interés en proteger y respetar su información y datos personales y por ello hemos diseñando estas políticas de tratamiento de la información, dentro del marco de la ley 1581 de 2012 y el decreto reglamentario 1377 de 2.013.
@@ -500,7 +501,7 @@ return (
 
 
 
-        </p>
+    
 
 
     </div>
