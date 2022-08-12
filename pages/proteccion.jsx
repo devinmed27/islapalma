@@ -92,7 +92,43 @@ Al ingresar a la página web www.hotelislapalma.com autoriza que su información
 Los datos y en general la información que se recibe cuando ingresa a la página web www.hotelislapalma.com puede ser tanto suya como del equipo desde el cual está ingresando. Con el ánimo de optimizar y hacer más eficiente su experiencia visitando la página www.hotelislapalma.com, podrán utilizarse cookies y/o web beacons, así como podrá obtenerse y almacenarse la información de las páginas de internet visitadas, de su dirección IP, del sistema operativo del equipo desde el cual esté ingresando, mediante un proceso de reconocimiento y rastreo que permita identificar sus preferencias e identificarlo cuando visite nuevamente página y almacenar determinados registros, a partir de su dirección IP. La dirección IP no se asocia ni se vincula a su nombre ni a sus datos personales.
 <br />
   <br />
-          </p>
+ <font color="#C0392B ">3.3</font><strong>Datos sensibles y datos correspondientes a niños y adolescentes.</strong>
+   <br />
+   <br />
+  En ningún evento y bajo ninguna circunstancia se tratarán datos considerados como sensibles, ni la recolección de datos está orientada a recoger información de carácter sensible.
+ <br />
+   <br />
+    La recolección de datos correspondientes a niños y adolescentes menores de edad, y la autorización respectiva, deberá darse siempre a través de su representante legal, previo ejercicio del menor de su derecho a ser escuchado. El tratamiento de datos correspondientes a niños y adolescentes deberá responder y respetar el interés superior de niños y adolescentes, y sus derechos fundamentales.
+  <br />
+   <br /> 
+      En el evento en que por algún motivo alguna pregunta pueda conducir a que la respuesta versen  sobre datos sensibles o datos de niñas, niños y adolescentes, la respuesta a tal pregunta tendrá carácter facultativo.
+<br />
+        <br />
+<font color="#C0392B ">3.4</font><strong>- Deberes del responsable del tratamiento de la información.</strong>
+  <br />
+        <br />
+  Los responsables de la información, y/o responsables y encargados del tratamiento de datos personales, se obligan a: a) Garantizar al Titular, en todo tiempo, el pleno y efectivo ejercicio del derecho de hábeas data; b) Solicitar y conservar, en las condiciones previstas en la ley, copia de la respectiva autorización otorgada por el Titular; c) Informar debidamente al Titular sobre la finalidad de la recolección y los derechos que le asisten por virtud de la autorización otorgada; d) Conservar la información bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento; e) Garantizar que la información que se suministre al Encargado del Tratamiento sea veraz, completa, exacta, actualizada, comprobable y comprensible; f) Actualizar la información, comunicando de forma oportuna al Encargado del Tratamiento, todas las novedades respecto de los datos que previamente le haya suministrado y adoptar las demás medidas necesarias para que la información suministrada a este se mantenga actualizada; g) Rectificar la información cuando sea incorrecta y comunicar lo pertinente al Encargado del Tratamiento; h) Suministrar al Encargado del Tratamiento, según el caso, únicamente datos cuyo Tratamiento esté previamente autorizado de conformidad con lo previsto en la presente ley; i) Exigir al Encargado del Tratamiento en todo momento, el respeto a las condiciones de seguridad y privacidad de la información del Titular; j) Tramitar las consultas y reclamos formulados en los términos señalados en la ley; k) Informar al Encargado del Tratamiento cuándo determinada información se encuentra en discusión por parte del Titular, una vez se haya presentado la reclamación y no haya finalizado el trámite respectivo; l) Informar a solicitud del Titular sobre el uso dado a sus datos; m) Informar a la autoridad de protección de datos cuando se presenten violaciones a los códigos de seguridad y existan riesgos en la Administración de la información de los Titulares.  n) Cumplir las instrucciones y requerimientos que imparta la Superintendencia de Industria y Comercio.
+<br />
+        <br />
+  
+      </p>
+
+
+<h3>CUARTO: DERECHOS Y FACULTADES DEL TITULAR</h3>
+
+<p>
+ <font color="#C0392B ">4.1</font><strong>- Derechos del titula:</strong> 
+   <br>
+   <br>
+   Una vez otorgada la autorización por parte del Titular para el tratamiento correspondiente, éste tiene derecho a: a) Conocer, actualizar y rectificar sus datos personales. Este derecho se podrá ejercer frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo Tratamiento esté expresamente prohibido o no haya sido autorizado; b) Solicitar prueba de la autorización otorgada, salvo cuando expresamente se exceptúa  como requisito para el Tratamiento, de conformidad con lo previsto en el artículo 10 de la ley 1581 de 2012; c) Ser informado por el responsable y/o encargado de los datos personales, previa solicitud, del uso que se le ha dado a sus datos personales; d) Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en la ley; e) Revocar la autorización y/o solicitar la supresión del dato cuando en el Tratamiento no se respeten los principios, derechos y garantías constitucionales y legales. La revocatoria y/o supresión procederá cuando la Superintendencia de Industria y Comercio haya determinado que en el Tratamiento se ha incurrió en conductas contrarias a esta ley y a la Constitución; f) Solicitar, en todo momento al responsable o encargado, la supresión de sus datos personales y/o revocar la autorización otorgada para el Tratamiento de los mismos, mediante la presen­tación de un reclamo, no procederán cuando el Titular tenga un deber legal o contractual de permanecer en la base de datos. g) Acceder en forma gratuita a sus datos personales que hayan sido objeto de Tratamiento: (i) al menos una vez cada mes calendario, y (ii) cada vez que existan modificaciones sustanciales de las Políticas de Tratamiento de la información que motiven nuevas consultas. En caso de solicitudes cuya periodicidad sea mayor a una por cada mes calendario, el responsable y/o encargado, podrá cobrar al Titular los gastos de envío, reproducción y, en su caso, certificación de documentos.
+<br />
+     <br />
+     <font color="#C0392B ">3.1</font><strong>-Legitimación para el ejercicio de los derechos del titular.:</strong> 
+     <br>
+       <br>
+      Las siguientes personas están también legitimadas para ejercer los derechos que le asisten al titular de la información: a). El titular mismo, que deberá acreditar su identidad en forma suficiente por los medios que ponga a su disposición el responsable; b). Sus causahabientes, quienes deberán acreditar tal calidad; c). El representante y/o apoderado del Titular, previa acreditación de la representación o apoderamiento; d). Por estipulación a favor de otro o para otro; e). Los derechos de los niños, niñas o adolescentes se ejercerán por las personas que estén facultadas para representarlos, previa acreditación de la facultad de representación.
+
+  </p>
 
       </div>
     </div>
