@@ -244,6 +244,8 @@ Los datos y en general la información que se recibe cuando ingresa a la página
 
                     <br />
        <br />
+                                <br />
+       <br />
                         <center> <h3>POLITICAS DE TRATAMIENTO DE LA INFORMACIÓN PERSONAL PROVEEDORES</h3></center>
 
                     <br />
