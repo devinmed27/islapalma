@@ -736,7 +736,7 @@ return (
             
              <br />
             <br />
-            font color="#C0392B "> 4.4.</font> - Procedimiento para la corrección, actualización o supresión de
+            <font color="#C0392B "> 4.4.</font> - Procedimiento para la corrección, actualización o supresión de
                 datos y para la presentación de quejas y reclamos.
 
             <br />
@@ -776,6 +776,36 @@ return (
             
 
             
+                    
+                    
+                    
+                    <font color="#C0392B "> 4.4.3.- El término máximo para atender el reclamo será de quince (15) días hábiles
+                contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo
+                dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se
+                atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al
+                vencimiento del primer término. 
+
+
+                <br />
+                <br />
+                <font color="#C0392B "> 4.5.</font> <strong>- Consulta y acceso a la información.</strong>
+
+                <br />
+                <br />
+                Las consultas de datos personales contenidos en la base de datos se atenderán mediante solicitud escrita
+                a través del correo electrónico info@hotelislapalma.com.
+                <br />
+                <br />
+
+                Las consultas serán atendidas en un término máximo de diez (10) días hábiles contados a partir de la
+                fecha de su recibo. Cuando no fuere posible atender la consulta dentro de dicho término, se informará al
+                interesado antes del vencimiento de diez (10) días hábiles, expresando los motivos de la demora y
+                señalando la fecha en que se atenderá la consulta, la cual en ningún caso podrá superar los cinco (5)
+                días hábiles siguientes al vencimiento del primer plazo.
+
+                
+                <br />
+                <br /> 
             
             
 
