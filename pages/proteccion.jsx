@@ -649,7 +649,33 @@ return (
 
         <p>
            
-            
+             <font color="#C0392B ">4.1.</font> <strong>- Derechos del titular.</strong> Una vez otorgada la autorización
+            por parte del Titular para el tratamiento correspondiente, éste tiene derecho a: a) Conocer, actualizar y
+            rectificar sus datos personales. Este derecho se podrá ejercer frente a datos parciales, inexactos,
+            incompletos, fraccionados, que induzcan a error, o aquellos cuyo Tratamiento esté expresamente prohibido o
+            no haya sido autorizado; b) Solicitar prueba de la autorización otorgada, salvo cuando expresamente se
+            exceptúe como requisito para el Tratamiento, de conformidad con lo previsto en el artículo 10 de la ley 1581
+            de 2012; c) Ser informado por el responsable y/o encargado de los datos personales, previa solicitud, del
+            uso que se le ha dado a sus datos personales; d) Presentar ante la Superintendencia de Industria y Comercio
+            quejas por infracciones a lo dispuesto en la ley; e) Revocar la autorización y/o solicitar la supresión del
+            dato cuando en el Tratamiento no se respeten los principios, derechos y garantías constitucionales y
+            legales. La revocatoria y/o supresión procederá cuando la Superintendencia de Industria y Comercio haya
+            determinado que en el Tratamiento se ha incurrió en conductas contrarias a esta ley y a la Constitución; f)
+            Solicitar, en todo momento al responsable o encargado, la supresión de sus datos personales y/o revocar la
+            autorización otorgada para el Tratamiento de los mismos, mediante la presen­tación de un reclamo, no
+            procederán cuando el Titular tenga un deber legal o contractual de permanecer en la base de datos. g)
+            Acceder en forma gratuita a sus datos personales que hayan sido objeto de Tratamiento: (i) al menos una vez
+            cada mes calendario, y (ii) cada vez que existan modificaciones sustanciales de las Políticas de Tratamiento
+            de la información que motiven nuevas consultas. En caso de solicitudes cuya periodicidad sea mayor a una por
+            cada mes calendario, el responsable y/o encargado, podrá cobrar al Titular los gastos de envío, reproducción
+            y, en su caso, certificación de documentos.
+            <br />
+            <br />
+            <font color="#C0392B "> 4.2.</font> <strong>- Legitimación para el ejercicio de los derechos del
+                titular.</strong>
+
+            <br />
+            <br />
             
             Las siguientes personas están también legitimadas para ejercer los derechos que le asisten al titular de la
             información: a). El titular mismo, que deberá acreditar su identidad en forma suficiente por los medios que
@@ -758,3 +784,9 @@ return (
 
 
         </p>
+</div>
+</div>
+);
+};
+
+export default Proteccion;
