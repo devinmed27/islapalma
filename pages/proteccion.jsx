@@ -616,16 +616,62 @@ return (
 
     <br />
     <br />
+               Los procedimientos de acceso, actualización, supresión y rectificación de datos personales, y de revocatoria de la autorización, podrán adelantarse mediante consultas o reclamos, dirigidos al correo electrónico info@hotelislapalma.com o a la dirección Avenida Calle 72 No. 6 - 30 Bogotá, Colombia, según el objeto que persigan, estableciendo como mínimo, la legitimación que se tiene para realizar la solicitud y exponiendo de manera clara y concreta, lo que se pretende.
     <br />
     <br />
+                   Todas las peticiones, sugerencias y recomendaciones relacionadas con el tratamiento de información deberán remitirse al correo electrónico info@hotelislapalma.com y se les dará respuesta a más tardar dentro de los diez (10) días hábiles siguientes a su recepción.
+
     <br />
     <br />
+                       El titular de la información o la persona legitimada, deberá acompañar a su escrito la prueba de la calidad en la que actúa, y deberá suministrar los datos y documentos que hagan falta para dar cuenta de su identidad y de su calidad.
+
+                       <br />
+    <br />
+                           En el correo electrónico deberá especificarse el motivo u objeto de la comunicación, y para ello bastará con que en el texto se indique que se está ejerciendo el derecho a conocer, actualizar, rectificar, suprimir o revocar la autorización concedida.
+
+                       <br />
+    <br />
+                              font color="#C0392B "> 4.4.</font> <strong>- Procedimiento para la corrección, actualización o supresión de datos y para la presentación de quejas y reclamos.</strong>
+
+                       <br />
+    <br />
+                                  Quien esté legitimado por la ley, y considere que la información contenida debe ser objeto de corrección, actualización o supresión; o cuando considere que el tratamiento dado a los datos personales infringe normas legales, podrá presentar, en concordancia con el artículo 15 de la Ley 1581 de 2012, reclamos al correo electrónico info@hotelislapalma.com.
+                       <br />
+    <br />
+                                      <strong>Las quejas y reclamos serán tramitados bajo las siguientes reglas:</strong>
+
+                                  <br />
+                                  <br />
+                                         <font color="#C0392B "> 4.4.1.</font> <strong>- El reclamo se formulará mediante solicitud dirigida al Responsable del Tratamiento o al Encargado del Tratamiento, con la identificación del Titular, la descripción de los hechos que dan lugar al reclamo y la dirección, acompañando los documentos que se quiera hacer valer. Si el reclamo resulta incompleto, se requerirá al interesado dentro de los cinco (5) días hábiles siguientes a la recepción del reclamo para que subsane las fallas. Transcurridos dos (2) meses desde la fecha del requerimiento, sin que el solicitante presente la información requerida, se entenderá que ha desistido del reclamo.</strong>
+
+                                  <br />
+                                  <br />
+                                              En caso de que quien reciba el reclamo no sea competente para resolverlo, se dará traslado del mismo a quien corresponda en un término máximo de dos (2) días hábiles y se informará de la situación al interesado.
+
+                                  <br />
+                                  <br />
+                                                 <font color="#C0392B "> 4.4.2.</font> <strong>- Una vez recibido el reclamo completo, se incluirá en la base de datos una leyenda que diga "reclamo en trámite" y el motivo del mismo, en un término no mayor a dos (2) días hábiles. Dicha leyenda deberá mantenerse hasta que el reclamo sea decidido.</strong>
+
+                                  <br />
+                                  <br />
+                                 <font color="#C0392B "> 4.4.3.- El término máximo para atender el reclamo será de quince (15) días hábiles contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al vencimiento del primer término.</strong>
+
+    
+   <br />
+    <br /> 
+                                   <font color="#C0392B ">  4.5.</font> <strong>- Consulta y acceso a la información.</strong>
+
+                                       <br />
+    <br /> 
+                                       Las consultas de datos personales contenidos en la base de datos se atenderán mediante solicitud escrita a través del correo electrónico info@hotelislapalma.com.
+                                       <br />
+    <br /> 
+    
+    Las consultas serán atendidas en un término máximo de diez (10) días hábiles contados a partir de la fecha de su recibo. Cuando no fuere posible atender la consulta dentro de dicho término, se informará al interesado antes del vencimiento de diez (10) días hábiles, expresando los motivos de la demora y señalando la fecha en que se atenderá la consulta, la cual en ningún caso podrá superar los cinco (5) días hábiles siguientes al vencimiento del primer plazo.
     
     
-    
-    
-    
-    
+    <br />
+                                  <br />
     
     
     
