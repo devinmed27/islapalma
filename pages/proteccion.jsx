@@ -740,7 +740,8 @@ return (
 
             <br />
             <br />
-            En caso de que quien reciba el reclamo no sea competente para resolverlo, se dará traslado del mismo a quien
+                    
+            /* En caso de que quien reciba el reclamo no sea competente para resolverlo, se dará traslado del mismo a quien
             corresponda en un término máximo de dos (2) días hábiles y se informará de la situación al interesado.
 
             <br />
@@ -755,7 +756,7 @@ return (
                 contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo
                 dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se
                 atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al
-                vencimiento del primer término.</strong>
+                vencimiento del primer término.</strong> */
 
 
                 <br />
