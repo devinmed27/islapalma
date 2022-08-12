@@ -475,6 +475,44 @@ return (
 
         <br />
         <br />
+            
+            
+            
+            
+            Se entenderá que el Titular de la Información ha aceptado los términos y condiciones de estas políticas cuando
+        emita la propuesta o cotización y/o cuando suscriba el contrato correspondiente o documento equivalente.
+
+        <br />
+        <br />
+        <font color="#C0392B ">1.2</font><strong> -Principios generales.</strong>
+        <br />
+        <br />
+        La obtención y recolección de datos personales, al igual que el uso, tratamiento, procesamiento, intercambio,
+        transferencia y transmisión de estos, estará siempre guiada por principios de legalidad, libertad, veracidad,
+        transparencia, seguridad, confidencialidad, principio de acceso y de circulación restringida.
+        <br />
+        <br />
+        <font color="#C0392B ">1.3</font><strong> -Definiciones legales.</strong>
+        <br />
+        <br />
+        De conformidad con la ley 1581 de 2012 y el decreto 1377 de 2.013, las siguientes definiciones regirán las
+        políticas de tratamiento de la información personal.
+        <br />
+        <br />
+        <font color="#C0392B ">1.3.1.</font> <strong>- Autorización:</strong> Consentimiento previo, expreso e informado
+        del Titular para llevar a cabo el Tratamiento de datos personales.><br />
+        <font color="#C0392B ">1.3.2.</font> <strong>- Base de Datos:</strong> Conjunto organizado de datos personales
+        que sea objeto de Tratamiento;<br />
+        <font color="#C0392B ">1.3.3.</font> <strong>- Dato personal:</strong> Cualquier información vinculada o que
+        pueda asociarse a una o varias personas naturales determinadas o determinables;<br />
+        <font color="#C0392B ">1.3.4.</font> <strong>- Encargado del Tratamiento: </strong>Por encargado del tratamiento
+        se tiene a la persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el
+        Tratamiento de datos personales por cuenta del Responsable del Tratamiento;<br />
+        
+            
+
+        <br />
+        <br />
         
         </p>
 
