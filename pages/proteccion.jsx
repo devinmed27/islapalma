@@ -162,7 +162,7 @@ Los datos y en general la información que se recibe cuando ingresa a la página
     <br />
      <br />
        
-       <font color="#C0392B">4.4.2</font> - nada
+       <font color="#C0392B">4.4.2</font> - Una vez recibido el reclamo completo, se incluirá en la base de datos una leyenda que diga (reclamo en trámite) y el motivo del mismo, en un término no mayor a dos (2) días hábiles. Dicha leyenda deberá mantenerse hasta que el reclamo sea decidido.
        <br />
      <br />
          
