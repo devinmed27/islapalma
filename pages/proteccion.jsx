@@ -730,7 +730,7 @@ return (
 
             <br />
             <br />
-            <font color="#C0392B "> 4.4.1.</font> <strong>- El reclamo se formulará mediante solicitud dirigida al
+            /* <font color="#C0392B "> 4.4.1.</font> <strong>- El reclamo se formulará mediante solicitud dirigida al
                 Responsable del Tratamiento o al Encargado del Tratamiento, con la identificación del Titular, la
                 descripción de los hechos que dan lugar al reclamo y la dirección, acompañando los documentos que se
                 quiera hacer valer. Si el reclamo resulta incompleto, se requerirá al interesado dentro de los cinco (5)
@@ -741,7 +741,7 @@ return (
             <br />
             <br />
                     
-            /* En caso de que quien reciba el reclamo no sea competente para resolverlo, se dará traslado del mismo a quien
+             En caso de que quien reciba el reclamo no sea competente para resolverlo, se dará traslado del mismo a quien
             corresponda en un término máximo de dos (2) días hábiles y se informará de la situación al interesado.
 
             <br />
