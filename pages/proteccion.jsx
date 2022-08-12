@@ -545,9 +545,91 @@ return (
         
         </p>
 
+     
+<p>
+            <h3>SEGUNDO: AUTORIZACIÓN DEL TITULAR</h3>
+       <br />
+        <br />
+                Los datos suministrados estarán sujetos a tratamiento autorizado, concedido de manera previa, expresa e informada por el Titular de los mismos. Al suministrar sus datos para la celebración del negocio jurídico correspondiente a la compra de bienes o servicios está autorizando el tratamiento en los términos y condiciones establecidos en la presente política.
+<br />
+        <br />
+   En todo caso, la recolección de datos estará limitada a aquellos datos personales que sean pertinentes y adecuados para la finalidad perseguida.
+                    <br />
+        <br />
+       <font color="#C0392B ">3.1</font> <strong>- Datos recolectados</strong>.  La recolección de datos para el desarrollo del Tratamiento y fines por éste perseguidos, recaerá sobre los datos personales que se reciban en desarrollo o ejecución de la relación comercial entre las partes y concretamente de aquellos que se reciban respecto de la compra de bienes o servicios.
 
 
+                    <br />
+        <br />
+        Sin perjuicio de que en algunos casos se trate de datos públicos, la información recogida y objeto de tratamiento será la correspondiente al nombre, número de identificación (NIT, cédula de ciudadanía, pasaporte) datos de contacto como teléfono, dirección física, dirección de correo electrónico, la información contenida en el RUT, tipo de bienes o servicios ofrecidos, categoría en la que se encuentra, actividad económica, referencias comerciales y personales, referencias bancarias, números de cuentas bancarias para pagos, y toda la información que sea necesaria para cumplir con las obligaciones contractualmente asumidas, con las obligaciones legales y con la correcta ejecución y desarrollo de la relación comercial entre las partes.
 
+                    <br />
+        <br />
+            <font color="#C0392B ">3.2</font> <strong>Tratamiento al que serán sometidos los datos y finalidad del mismo.</strong>
+                <br />
+                <br />
+                Los datos y la información obtenidos serán usados en el curso normal de sus actividades comerciales únicamente con la finalidad establecida en las presentes políticas de tratamiento de la información, de manera que la relación comercial y como tal la adquisición de alimentos y bienes y la prestación de los servicios que se contraten se ejecute y desarrolle adecuadamente.
+<br />
+                <br />
+                    El tratamiento que se dará a los datos consiste en el manejo y disposición de los datos para contar con la información que permita adelantar la gestión administrativa y contable de los proveedores; el control sobre el estado de pagos, saldos, descuentos; el manejo del inventario de los bienes adquiridos; la atención y cumplimiento de los requerimientos fiscales, tributarios, legales y de cualquier otra naturaleza con entidades del gobierno nacional, distrital o municipal; la categorización y clasificación del proveedor de acuerdo con los bienes o servicios ofrecidos, precio, calidad; soportar procesos de auditoría interna o externa.
+                    <br />
+                <br />
+                        La autorización para el uso de la información o datos suministrados que sean recolectados, recogidos o almacenados acorde con las presentes políticas comprende expresamente la autorización para que los datos y la información sean compartidos, procesados, transmitidos, transferidos, actualizados y/o suprimidos con el propósito definido en las presente políticas, para ser utilizados de la manera establecida.
+
+                    <br />
+                <br />
+               <font color="#C0392B "> 3.3.</font> <strong>- Datos sensibles y datos correspondientes a niños y adolescentes.</strong>
+                       <br />
+                <br />
+                   En ningún evento y bajo ninguna circunstancia se tratarán datos considerados como sensibles ni datos correspondientes a niños ni adolescentes. La recolección de datos de proveedores no está orientada a recoger información de carácter sensible ni información de niños ni de adolescentes.
+
+                       <br />
+                <br />
+                       <font color="#C0392B ">3.4.</font> <strong>- Deberes del responsable del tratamiento de la información.</strong>
+
+                       <br />
+                <br />
+                           Los responsables de la información, y/o responsables y encargados del tratamiento de datos personales, se obligan a: a) Garantizar al Titular, en todo tiempo, el pleno y efectivo ejercicio del derecho de hábeas data; b) Solicitar y conservar, en las condiciones previstas en la ley, copia de la respectiva autorización otorgada por el Titular; c) Informar debidamente al Titular sobre la finalidad de la recolección y los derechos que le asisten por virtud de la autorización otorgada; d) Conservar la información bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento; e) Garantizar que la información que se suministre al Encargado del Tratamiento sea veraz, completa, exacta, actualizada, comprobable y comprensible; f) Actualizar la información, comunicando de forma oportuna al Encargado del Tratamiento, todas las novedades respecto de los datos que previamente le haya suministrado y adoptar las demás medidas necesarias para que la información suministrada a este se mantenga actualizada; g) Rectificar la información cuando sea incorrecta y comunicar lo pertinente al Encargado del Tratamiento; h) Suministrar al Encargado del Tratamiento, según el caso, únicamente datos cuyo Tratamiento esté previamente autorizado de conformidad con lo previsto en la presente ley; i) Exigir al Encargado del Tratamiento en todo momento, el respeto a las condiciones de seguridad y privacidad de la información del Titular; j) Tramitar las consultas y reclamos formulados en los términos señalados en la ley; k) Informar al Encargado del Tratamiento cuándo determinada información se encuentra en discusión por parte del Titular, una vez se haya presentado la reclamación y no haya finalizado el trámite respectivo; l) Informar a solicitud del Titular sobre el uso dado a sus datos; m) Informar a la autoridad de protección de datos cuando se presenten violaciones a los códigos de seguridad y existan riesgos en la administración de la información de los Titulares. n) Cumplir las instrucciones y requerimientos que imparta la Superintendencia de Industria y Comercio.
+    <br />
+                <br />
+                                                             
+                               </p>
+
+<h3> CUARTO: DERECHOS Y FACULTADES DEL TITULAR</h3>
+<br />
+    <br />
+
+<p> <font color="#C0392B ">4.1.</font> <strong>- Derechos del titular.</strong> Una vez otorgada la autorización por parte del Titular para el tratamiento correspondiente, éste tiene derecho a: a) Conocer, actualizar y rectificar sus datos personales. Este derecho se podrá ejercer frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo Tratamiento esté expresamente prohibido o no haya sido autorizado; b) Solicitar prueba de la autorización otorgada, salvo cuando expresamente se exceptúe como requisito para el Tratamiento, de conformidad con lo previsto en el artículo 10 de la ley 1581 de 2012; c) Ser informado por el responsable y/o encargado de los datos personales, previa solicitud, del uso que se le ha dado a sus datos personales; d) Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en la ley; e) Revocar la autorización y/o solicitar la supresión del dato cuando en el Tratamiento no se respeten los principios, derechos y garantías constitucionales y legales. La revocatoria y/o supresión procederá cuando la Superintendencia de Industria y Comercio haya determinado que en el Tratamiento se ha incurrió en conductas contrarias a esta ley y a la Constitución; f) Solicitar, en todo momento al responsable o encargado, la supresión de sus datos personales y/o revocar la autorización otorgada para el Tratamiento de los mismos, mediante la presen­tación de un reclamo, no procederán cuando el Titular tenga un deber legal o contractual de permanecer en la base de datos. g) Acceder en forma gratuita a sus datos personales que hayan sido objeto de Tratamiento: (i) al menos una vez cada mes calendario, y (ii) cada vez que existan modificaciones sustanciales de las Políticas de Tratamiento de la información que motiven nuevas consultas. En caso de solicitudes cuya periodicidad sea mayor a una por cada mes calendario, el responsable y/o encargado, podrá cobrar al Titular los gastos de envío, reproducción y, en su caso, certificación de documentos.
+<br />
+    <br />
+   <font color="#C0392B "> 4.2.</font> <strong>- Legitimación para el ejercicio de los derechos del titular.</strong>
+
+    <br />
+    <br />
+       Las siguientes personas están también legitimadas para ejercer los derechos que le asisten al titular de la información: a). El titular mismo, que deberá acreditar su identidad en forma suficiente por los medios que ponga a su disposición el responsable; b). Sus causahabientes, quienes deberán acreditar tal calidad; c). El representante y/o apoderado del Titular, previa acreditación de la representación o apoderamiento; d). Por estipulación a favor de otro o para otro.
+
+
+    <br />
+    <br />
+           
+           <font color="#C0392B ">4.3.</font> <strong>- Procedimiento para ejercer los derechos a conocer, actualizar, rectificar o suprimir información y revocar autorización.</strong>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </p>
 
 
 
