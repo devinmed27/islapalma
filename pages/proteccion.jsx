@@ -643,7 +643,7 @@ return (
 
         </p>
 
-        <h3> CUARTO: DERECHOS Y FACULTADES DEL TITULAR</h3>
+         /* <h3> CUARTO: DERECHOS Y FACULTADES DEL TITULAR</h3>
         <br />
         <br />
 
@@ -682,7 +682,7 @@ return (
             estipulación a favor de otro o para otro.
 
 
-           /* <br />
+           <br />
             <br />
 
             <font color="#C0392B ">4.3.</font> <strong>- Procedimiento para ejercer los derechos a conocer, actualizar,
