@@ -695,7 +695,43 @@ return (
                 
                 
            
+                
+                
+               <font color="#C0392B ">4.3.</font> - Procedimiento para ejercer los derechos a conocer, actualizar,
+                rectificar o suprimir información y revocar autorización.
 
+            <br />
+            <br />
+            Los procedimientos de acceso, actualización, supresión y rectificación de datos personales, y de revocatoria
+            de la autorización, podrán adelantarse mediante consultas o reclamos, dirigidos al correo electrónico
+            info@hotelislapalma.com o a la dirección Avenida Calle 72 No. 6 - 30 Bogotá, Colombia, según el objeto que
+            persigan, estableciendo como mínimo, la legitimación que se tiene para realizar la solicitud y exponiendo de
+            manera clara y concreta, lo que se pretende.
+            <br />
+            <br />
+            Todas las peticiones, sugerencias y recomendaciones relacionadas con el tratamiento de información deberán
+            remitirse al correo electrónico info@hotelislapalma.com y se les dará respuesta a más tardar dentro de los
+            diez (10) días hábiles siguientes a su recepción.
+
+            <br />
+            <br />
+            El titular de la información o la persona legitimada, deberá acompañar a su escrito la prueba de la calidad
+            en la que actúa, y deberá suministrar los datos y documentos que hagan falta para dar cuenta de su identidad
+            y de su calidad.
+
+            <br />
+            <br />
+            En el correo electrónico deberá especificarse el motivo u objeto de la comunicación, y para ello bastará con
+            que en el texto se indique que se está ejerciendo el derecho a conocer, actualizar, rectificar, suprimir o
+            revocar la autorización concedida.
+
+           
+            
+            
+            
+            
+            
+            
 
 
         </p>
