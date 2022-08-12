@@ -501,10 +501,10 @@ return (
         <br />
             
             
-         <font color="#C0392B ">1.3.1.</font> <strong>- Autorización:</strong> Consentimiento previo, expreso e informado
+        <font color="#C0392B ">1.3.1.</font> <strong>- Autorización:</strong> Consentimiento previo, expreso e informado
         del Titular para llevar a cabo el Tratamiento de datos personales.><br />
-        <font color="#C0392B ">1.3.2.</font> <strong>- Base de Datos:</strong> Conjunto organizado de datos personales
-        que sea objeto de Tratamiento.<br />
+        
+        
         
             
 
