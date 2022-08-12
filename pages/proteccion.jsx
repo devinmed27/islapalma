@@ -154,16 +154,10 @@ Los datos y en general la información que se recibe cuando ingresa a la página
      <br />
        <br />
                      
-     <font color="#C0392B ">4.4.1</font>- El reclamo se formulará mediante solicitud dirigida al Responsable del Tratamiento o al Encargado del Tratamiento, con la identificación del Titular, la descripción de los hechos que dan lugar al reclamo y la dirección, acompañando los documentos que se quiera hacer valer. Si el reclamo resulta incompleto, se requerirá al interesado dentro de los cinco (5) días hábiles siguientes a la recepción del reclamo para que subsane las fallas. Transcurridos dos (2) meses desde la fecha del requerimiento, sin que el solicitante presente la información requerida, se entenderá que ha desistido del reclamo.
+     <font color="#C0392B">4.4.1</font>- El reclamo se formulará mediante solicitud dirigida al Responsable del Tratamiento o al Encargado del Tratamiento, con la identificación del Titular, la descripción de los hechos que dan lugar al reclamo y la dirección, acompañando los documentos que se quiera hacer valer. Si el reclamo resulta incompleto, se requerirá al interesado dentro de los cinco (5) días hábiles siguientes a la recepción del reclamo para que subsane las fallas. Transcurridos dos (2) meses desde la fecha del requerimiento, sin que el solicitante presente la información requerida, se entenderá que ha desistido del reclamo.
    <br />
    <br />
-               En caso de que quien reciba el reclamo no sea competente para resolverlo, se dará traslado del mismo a quien corresponda en un término máximo de dos (2) días hábiles y se informará de la situación al interesado.
-    <br />
-     <br />
-        <font color="#C0392B ">4.4.2.</font>- Una vez recibido el reclamo completo, se incluirá en la base de datos una leyenda que diga "reclamo en trámite" y el motivo del mismo, en un término no mayor a dos (2) días hábiles. Dicha leyenda deberá mantenerse hasta que el reclamo sea decidido.
-        <br />
-       <br />
-             </p>
+                   </p>
 
 
 
