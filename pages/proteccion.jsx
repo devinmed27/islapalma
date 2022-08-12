@@ -499,20 +499,7 @@ return (
         políticas de tratamiento de la información personal.
         <br />
         <br />
-        <font color="#C0392B ">1.3.1.</font> <strong>- Autorización:</strong> Consentimiento previo, expreso e informado
-        del Titular para llevar a cabo el Tratamiento de datos personales.><br />
-        <font color="#C0392B ">1.3.2.</font> <strong>- Base de Datos:</strong> Conjunto organizado de datos personales
-        que sea objeto de Tratamiento;<br />
-        <font color="#C0392B ">1.3.3.</font> <strong>- Dato personal:</strong> Cualquier información vinculada o que
-        pueda asociarse a una o varias personas naturales determinadas o determinables;<br />
-        <font color="#C0392B ">1.3.4.</font> <strong>- Encargado del Tratamiento: </strong>Por encargado del tratamiento
-        se tiene a la persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el
-        Tratamiento de datos personales por cuenta del Responsable del Tratamiento;<br />
         
-            
-
-        <br />
-        <br />
         
         </p>
 
