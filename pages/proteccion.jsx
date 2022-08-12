@@ -756,7 +756,7 @@ return (
                 contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo
                 dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se
                 atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al
-                vencimiento del primer término.</strong> */
+                vencimiento del primer término.</strong> 
 
 
                 <br />
@@ -774,7 +774,7 @@ return (
                 fecha de su recibo. Cuando no fuere posible atender la consulta dentro de dicho término, se informará al
                 interesado antes del vencimiento de diez (10) días hábiles, expresando los motivos de la demora y
                 señalando la fecha en que se atenderá la consulta, la cual en ningún caso podrá superar los cinco (5)
-                días hábiles siguientes al vencimiento del primer plazo.
+                días hábiles siguientes al vencimiento del primer plazo.*/
 
 
                 <br />
