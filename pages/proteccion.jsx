@@ -3,7 +3,6 @@ import SubHeader from "../components/SubHeader/SubHeader";
 import s from "../styles/pages/Terms.module.scss";
 
 
-
 const Proteccion = () => {
 return (
 <div className={s.container}>
@@ -370,8 +369,6 @@ return (
         <br />
         </p>
 
-
-
         <h3>SEXTO: DIFUSIÓN Y VIGENCIA</h3>
 
         <p>
@@ -472,12 +469,8 @@ return (
         en contratos, cotizaciones, propuestas, facturas, órdenes de compra y en general en cualquier documento que
         corresponda a la relación comercial.
 
-
         <br />
         <br />
-
-
-
 
         Se entenderá que el Titular de la Información ha aceptado los términos y condiciones de estas políticas cuando
         emita la propuesta o cotización y/o cuando suscriba el contrato correspondiente o documento equivalente.
@@ -536,16 +529,10 @@ return (
         operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o
         supresión.<br />
 
-
-
-
-
         <br />
         <br />
-
 
         </p>
-
 
         <p>
         <h3>SEGUNDO: AUTORIZACIÓN DEL TITULAR</h3>
@@ -690,16 +677,6 @@ return (
             <br />
             <br />
 
-
-
-
-
-
-
-
-
-
-
             <font color="#C0392B ">4.3.</font> - Procedimiento para ejercer los derechos a conocer, actualizar,
             rectificar o suprimir información y revocar autorización.
 
@@ -728,16 +705,7 @@ return (
             que en el texto se indique que se está ejerciendo el derecho a conocer, actualizar, rectificar, suprimir o
             revocar la autorización concedida.
 
-
-
-
-
-
-
-
-
-
-            <br />
+ <br />
             <br />
             <font color="#C0392B "> 4.4.</font> - Procedimiento para la corrección, actualización o supresión de
             datos y para la presentación de quejas y reclamos.
@@ -777,26 +745,7 @@ return (
             <br />
             <br />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <font color="#C0392B "> 4.4.3.</font>- El término máximo para atender el reclamo será de quince (15) días
+<font color="#C0392B "> 4.4.3.</font>- El término máximo para atender el reclamo será de quince (15) días
             hábiles
             contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo
             dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se
@@ -836,3 +785,32 @@ return (
 };
 
 export default Proteccion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+           
