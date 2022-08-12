@@ -648,8 +648,7 @@ return (
         <br />
 
         <p>
-           
-             <font color="#C0392B ">4.1.</font> <strong>- Derechos del titular.</strong> Una vez otorgada la autorización
+            <font color="#C0392B ">4.1.</font> <strong>- Derechos del titular.</strong> Una vez otorgada la autorización
             por parte del Titular para el tratamiento correspondiente, éste tiene derecho a: a) Conocer, actualizar y
             rectificar sus datos personales. Este derecho se podrá ejercer frente a datos parciales, inexactos,
             incompletos, fraccionados, que induzcan a error, o aquellos cuyo Tratamiento esté expresamente prohibido o
@@ -676,26 +675,18 @@ return (
 
             <br />
             <br />
-            
-                    
-                    
-                    
-                    
             Las siguientes personas están también legitimadas para ejercer los derechos que le asisten al titular de la
-            información: 
-
-            <font color="#C0392B ">a).</font> El titular mismo, que deberá acreditar su identidad en forma suficiente por los medios que
-            ponga a su disposición el responsable; 
-            <font color="#C0392B ">b).</font> Sus causahabientes, quienes deberán acreditar tal calidad; 
-            <font color="#C0392B ">c).</font> El representante y/o apoderado del Titular, previa acreditación de la representación o apoderamiento; 
-            <font color="#C0392B ">d).</font> Por estipulación a favor de otro o para otro.
+            información: a). El titular mismo, que deberá acreditar su identidad en forma suficiente por los medios que
+            ponga a su disposición el responsable; b). Sus causahabientes, quienes deberán acreditar tal calidad; c). El
+            representante y/o apoderado del Titular, previa acreditación de la representación o apoderamiento; d). Por
+            estipulación a favor de otro o para otro.
 
 
             <br />
             <br />
 
-            <font color="#C0392B ">4.3.</font>- Procedimiento para ejercer los derechos a conocer, actualizar,
-                rectificar o suprimir información y revocar autorización.
+            <font color="#C0392B ">4.3.</font> <strong>- Procedimiento para ejercer los derechos a conocer, actualizar,
+                rectificar o suprimir información y revocar autorización.</strong>
 
             <br />
             <br />
@@ -724,8 +715,8 @@ return (
 
             <br />
             <br />
-            font color="#C0392B "> 4.4.</font> - Procedimiento para la corrección, actualización o supresión de
-                datos y para la presentación de quejas y reclamos.
+            font color="#C0392B "> 4.4.</font> <strong>- Procedimiento para la corrección, actualización o supresión de
+                datos y para la presentación de quejas y reclamos.</strong>
 
             <br />
             <br />
@@ -735,8 +726,62 @@ return (
             electrónico info@hotelislapalma.com.
             <br />
             <br />
-           
-                
+            <strong>Las quejas y reclamos serán tramitados bajo las siguientes reglas:</strong>
+
+            <br />
+            <br />
+            <font color="#C0392B "> 4.4.1.</font> <strong>- El reclamo se formulará mediante solicitud dirigida al
+                Responsable del Tratamiento o al Encargado del Tratamiento, con la identificación del Titular, la
+                descripción de los hechos que dan lugar al reclamo y la dirección, acompañando los documentos que se
+                quiera hacer valer. Si el reclamo resulta incompleto, se requerirá al interesado dentro de los cinco (5)
+                días hábiles siguientes a la recepción del reclamo para que subsane las fallas. Transcurridos dos (2)
+                meses desde la fecha del requerimiento, sin que el solicitante presente la información requerida, se
+                entenderá que ha desistido del reclamo.</strong>
+
+            <br />
+            <br />
+            En caso de que quien reciba el reclamo no sea competente para resolverlo, se dará traslado del mismo a quien
+            corresponda en un término máximo de dos (2) días hábiles y se informará de la situación al interesado.
+
+            <br />
+            <br />
+            <font color="#C0392B "> 4.4.2.</font> <strong>- Una vez recibido el reclamo completo, se incluirá en la base
+                de datos una leyenda que diga "reclamo en trámite" y el motivo del mismo, en un término no mayor a dos
+                (2) días hábiles. Dicha leyenda deberá mantenerse hasta que el reclamo sea decidido.</strong>
+
+            <br />
+            <br />
+            <font color="#C0392B "> 4.4.3.- El término máximo para atender el reclamo será de quince (15) días hábiles
+                contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo
+                dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se
+                atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al
+                vencimiento del primer término.</strong>
+
+
+                <br />
+                <br />
+                <font color="#C0392B "> 4.5.</font> <strong>- Consulta y acceso a la información.</strong>
+
+                <br />
+                <br />
+                Las consultas de datos personales contenidos en la base de datos se atenderán mediante solicitud escrita
+                a través del correo electrónico info@hotelislapalma.com.
+                <br />
+                <br />
+
+                Las consultas serán atendidas en un término máximo de diez (10) días hábiles contados a partir de la
+                fecha de su recibo. Cuando no fuere posible atender la consulta dentro de dicho término, se informará al
+                interesado antes del vencimiento de diez (10) días hábiles, expresando los motivos de la demora y
+                señalando la fecha en que se atenderá la consulta, la cual en ningún caso podrá superar los cinco (5)
+                días hábiles siguientes al vencimiento del primer plazo.
+
+
+                <br />
+                <br />
+
+
+
+      
                 
                 
            
