@@ -150,9 +150,7 @@ Los datos y en general la información que se recibe cuando ingresa a la página
          Quien esté legitimado por la ley, y considere que la información contenida debe ser objeto de corrección, actualización o supresión; o cuando considere que el tratamiento dado a los datos personales infringe normas legales, podrá presentar, en concordancia con el artículo 15 de la Ley 1581 de 2012, reclamos al correo electrónico info@hotelislapalma.com.
                 <br />
        <br />
-          <font> <strong>Las quejas y reclamos serán tramitados bajo las siguientes reglas:</strong></font>
-     <br />
-       <br />
+          
              <font color="#C0392B ">4.4.1</font>- El reclamo se formulará mediante solicitud dirigida al Responsable del Tratamiento o al Encargado del Tratamiento, con la identificación del Titular, la descripción de los hechos que dan lugar al reclamo y la dirección, acompañando los documentos que se quiera hacer valer. Si el reclamo resulta incompleto, se requerirá al interesado dentro de los cinco (5) días hábiles siguientes a la recepción del reclamo para que subsane las fallas. Transcurridos dos (2) meses desde la fecha del requerimiento, sin que el solicitante presente la información requerida, se entenderá que ha desistido del reclamo.
    <br />
    <br />
