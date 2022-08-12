@@ -182,7 +182,7 @@ Los datos y en general la información que se recibe cuando ingresa a la página
     <h3>QUINTO: SEGURIDAD.</h3>
 
 <font color="#C0392B ">5.1</font><strong>- Seguridad en el manejo de la información.</strong>
-       <br>
+       <br />
        <br />
   Los datos recolectados serán tratados siempre dentro de un marco de confidencialidad por lo que no serán facilitados, cedidos o entregados a personas distintas o ajenas a los responsables o encargados del tratamiento.
              <br />
