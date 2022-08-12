@@ -178,24 +178,6 @@ Los datos y en general la información que se recibe cuando ingresa a la página
        <br />          
        </p>
 
-<p>
-    <h3>QUINTO: SEGURIDAD.</h3>
-
-<font color="#C0392B ">5.1</font><strong>- Seguridad en el manejo de la información.</strong>
-       <br />
-       <br />
-  Los datos recolectados serán tratados siempre dentro de un marco de confidencialidad por lo que no serán facilitados, cedidos o entregados a personas distintas o ajenas a los responsables o encargados del tratamiento.
-             <br />
-       <br />
-    <font color="#C0392B ">5.2</font><strong>.- Transferencia y transmisión de datos.</strong>
-         <br />
-       <br />
-      En el evento en que se suscriba un contrato con una tercera persona profesional y con experiencia en el manejo y uso de bases de datos, el responsable suscribirá el contrato de transmisión de datos personales al que se refiere el artículo 25 del decreto 1377 de 2013.
-
-
-         <br />
-       <br />
-          </p>
 
       </div>
     </div>
