@@ -119,7 +119,7 @@ const Footer = () => {
           NIT. 900.648.506-1
         </p>
 <p className={s.legalText}>
-          <a href="https://www.sic.gov.co/">Superintendencia de industria y comercio</a>
+          <a href="https://www.sic.gov.co/" target="_blank" rel="noreferrer" >Superintendencia de industria y comercio</a>
         </p>
         <p className={s.legalText}>
           Desarrollado por <a href="https://devinmed.com" target="_blank" rel="noreferrer">Dev in Med</a>
