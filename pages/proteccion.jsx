@@ -876,13 +876,11 @@ return (
                 POLITICAS DE TRATAMIENTO DE LA INFORMACIÓN PERSONAL DE EMPLEADOS, FUNCIONARIOS Y COLABORADORES
             </h3>
         </center>
-
         <h3>PRIMERO: GENERALIDADES</h3>
         <p>
             En desarrollo de nuestras relaciones comerciales, tenemos especial interés en proteger y respetar su
             información y datos personales y por ello hemos diseñando estas políticas de tratamiento de la información,
             dentro del marco de la ley 1581 de 2012 y el decreto reglamentario 1377 de 2.013.
-
             <br />
             <br />
         <h4>1.1.- Introducción.</h4>
@@ -900,13 +898,11 @@ return (
         <br />
         <br />
         <font color="#C0392B ">1.2</font><strong>- Principios generales.</strong>
-
         <br />
         <br />
         La obtención y recolección de datos personales, al igual que el uso, tratamiento, procesamiento, intercambio,
         transferencia y transmisión de estos, estará siempre guiada por principios de legalidad, libertad, veracidad,
         transparencia, seguridad, confidencialidad, principio de acceso y de circulación restringida.
-
         <br />
         <br />
         <font color="#C0392B "> 1.3</font><strong>- Definiciones legales.</strong>
@@ -914,8 +910,6 @@ return (
         <br />
         De conformidad con la ley 1581 de 2012 y el decreto 1377 de 2.013, las siguientes definiciones regirán las
         políticas de tratamiento de la información personal.
-
-
         <br />
         <br />
         <font color="#C0392B ">1.3.1.</font><strong>- Autorización:</strong> Consentimiento previo, expreso e informado
@@ -950,16 +944,11 @@ return (
         <font color="#C0392B ">1.3.10</font><strong>- Transmisión:</strong> Tratamiento de datos personales que implica
         la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto
         la realización de un Tratamiento por el Encargado por cuenta del Responsable.
-
         <font color="#C0392B ">1.3.11.</font><strong>- Tratamiento:</strong> Cualquier operación o conjunto de
         operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión.
-
         <br />
         <br />
-
         </p>
-
-
         <h3>SEGUNDO: AUTORIZACIÓN DEL TITULAR</h3>
         <p>
             Los datos suministrados estarán sujetos a tratamiento autorizado, concedido de manera previa, expresa e
@@ -973,7 +962,6 @@ return (
             <font color="#C0392B ">3.1</font><strong>- Datos recolectados:</strong> La recolección de datos para el
             desarrollo del Tratamiento y fines por éste perseguidos, recaerá sobre los datos personales que se reciban
             en desarrollo o ejecución de la relación entre las partes.
-
             <br />
             <br />
             Sin perjuicio de que en algunos casos se trate de datos públicos, la información recogida y objeto de
@@ -982,12 +970,10 @@ return (
             ejecución de la relación contractual, aquella correspondiente a la gestión de pagos de salario, remuneración
             honorarios, de seguridad socia según el caso, y aquella correspondiente a los datos de salud básicos como RH
             o alergias en los casos en los que se suministre tal información.
-
             <br />
             <br />
             <font color="#C0392B ">3.2</font><strong>- Tratamiento al que serán sometidos los datos y finalidad del
                 mismo.</strong>
-
             <br />
             <br />
             Los datos y la información obtenidos serán usados únicamente con la finalidad establecida en las presentes
@@ -1003,32 +989,25 @@ return (
             auditoría interna o externa; mantener una eficiente comunicación con los empleados, funcionarios o
             colaboradores; gestionar e informar los cambios que puedan darse en desarrollo de la relación contractual;
             realizar estudios internos sobre hábitos; permitir el acceso de los empleados a los recursos informáticos.
-
-
             <br />
             <br />
             La autorización para el uso de la información o datos suministrados que sean recolectados, recogidos o
             almacenados acorde con las presentes políticas comprende expresamente la autorización para que los datos y
             la información sean compartidos, procesados, transmitidos, transferidos, actualizados y/o suprimidos con el
             propósito definido en las presente políticas, para ser utilizados de la manera establecida.
-
             <br />
             <br />
             <font color="#C0392B "> 3.3.</font><strong>- Datos sensibles y datos correspondientes a niños y
                 adolescentes.</strong>
-
             <br />
             <br />
             En ningún evento y bajo ninguna circunstancia se tratarán datos considerados como sensibles ni datos
             correspondientes a niños ni adolescentes. La recolección de datos de empleados, funcionarios o colaboradores
             no está orientada a recoger información de carácter sensible ni información de niños ni de adolescentes.
-
             <br />
             <br />
             <font color="#C0392B "> 3.4.</font><strong>- Deberes del responsable del tratamiento de la
                 información.</strong>
-
-
             <br />
             <br />
             Los responsables de la información, y/o responsables y encargados del tratamiento de datos personales, se
@@ -1054,15 +1033,8 @@ return (
             Superintendencia de Industria y Comercio.
             <br />
             <br />
-        
-             </p>   
-                
-                
-                
-                
-                
-
-
+                     </p>   
+    
  <h3>CUARTO: DERECHOS Y FACULTADES DEL TITULAR:</h3>
         <p>
             <font color="#C0392B "> 4.1.</font><strong>- Derechos del titular. Una vez otorgada la autorización por
@@ -1093,10 +1065,7 @@ return (
                 certificación de documentos.
 
             <br />
-            <br />
-           
-              
-                    
+            <br />               
                  <font color="#C0392B "> 4.2.</font><strong>- Legitimación para el ejercicio de los derechos del
                 titular.</strong>
 
@@ -1114,7 +1083,6 @@ return (
             <br />
             <font color="#C0392B ">4.3.</font><strong>- Procedimiento para ejercer los derechos a conocer, actualizar,
                 rectificar o suprimir información y revocar autorización.</strong>
-
             <br />
             <br />
             Los procedimientos de acceso, actualización, supresión y rectificación de datos personales, y de revocatoria
@@ -1122,31 +1090,25 @@ return (
             info@hotelislapalma.com o a la dirección Avenida Calle 72 No. 6 - 30 Bogotá, Colombia. según el objeto que
             persigan, estableciendo como mínimo, la legitimación que se tiene para realizar la solicitud y exponiendo de
             manera clara y concreta, lo que se pretende.
-
             <br />
             <br />
             Todas las peticiones, sugerencias y recomendaciones relacionadas con el tratamiento de información deberán
             remitirse al correo electrónico info@hotelislapalma.com, y se les dará respuesta a más tardar dentro de los
             diez (10) días hábiles siguientes a su recepción.
-
             <br />
             <br />
             El titular de la información o la persona legitimada, deberá acompañar a su escrito la prueba de la calidad
             en la que actúa, y deberá suministrar los datos y documentos que hagan falta para dar cuenta de su identidad
             y de su calidad.
-
-
             <br />
             <br />
             En el correo electrónico deberá especificarse el motivo u objeto de la comunicación, y para ello bastará con
             que en el texto se indique que se está ejerciendo el derecho a conocer, actualizar, rectificar, suprimir o
             revocar la autorización concedida
-
             <br />
             <br />
             <font color="#C0392B "> 4.4.</font><strong>- Procedimiento para la corrección, actualización o supresión de
                 datos y para la presentación de quejas y reclamos.</strong>
-
             <br />
             <br />
             Quien esté legitimado por la ley, y considere que la información contenida debe ser objeto de corrección,
@@ -1158,13 +1120,7 @@ return (
             <strong>Las quejas y reclamos serán tramitados bajo las siguientes reglas:</strong>
             <br />
             <br />
-            
-                
-                
-                
-                
-                
-             <font color="#C0392B "> 4.4.1.</font>- El reclamo se formulará mediante solicitud dirigida al Responsable
+            <font color="#C0392B "> 4.4.1.</font>- El reclamo se formulará mediante solicitud dirigida al Responsable
             del Tratamiento o al Encargado del Tratamiento, con la identificación del Titular, la descripción de los
             hechos que dan lugar al reclamo y la dirección, acompañando los documentos que se quiera hacer valer. Si el
             reclamo resulta incompleto, se requerirá al interesado dentro de los cinco (5) días hábiles siguientes a la
@@ -1178,13 +1134,14 @@ return (
 
             <br />
             <br />
-                 
-                
-                
-                
-           
-                
-                
+              
+               <font color="#C0392B ">4.4.2.</font>- Una vez recibido el reclamo completo, se incluirá en la base de datos
+            una leyenda que diga (reclamo en trámite) y el motivo del mismo, en un término no mayor a dos (2) días
+            hábiles. Dicha leyenda deberá mantenerse hasta que el reclamo sea decidido.
+
+            <br />
+            <br />  
+
                  <font color="#C0392B ">4.4.3.</font>- El término máximo para atender el reclamo será de quince (15) días
             hábiles contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el
             reclamo dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se
@@ -1206,80 +1163,10 @@ return (
             siguientes al vencimiento del primer plazo.
                <br />
             <br />    
-           
-                
-                
-                    
-                    
-                    
+ 
         </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-                
-       
-
-        
-
-
-
-
-
-
-
-
-
-
-
+   
 
 <h3>QUINTO: SEGURIDAD.</h3>
         <p>
@@ -1375,11 +1262,6 @@ return (
 
 
         </p>
-
-
-
-
-
 
 
     </div>
