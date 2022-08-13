@@ -2487,7 +2487,9 @@ return (
 
 
         <h3>SEXTO: DIFUSIÓN Y VIGENCIA.</h3>
-        <font color="#C0392B ">6.1.</font> <strong>- Medios de difusión de las políticas de tratamiento de la
+        
+<p>
+            <font color="#C0392B ">6.1.</font> <strong>- Medios de difusión de las políticas de tratamiento de la
             información y del aviso de privacidad.</strong>
         <br />
         <br />
@@ -2503,7 +2505,9 @@ return (
 
         <br />
         <br />
-        <p>
+            
+            
+        
             <font color="#C0392B "> 6.2.</font> <strong>- Entrada en vigencia de las políticas de tratamiento de la
                 información.</strong>
             <br />
@@ -2519,7 +2523,9 @@ return (
 
             <br />
             <br />
-        <p>
+                
+       
+                
             <font color="#C0392B ">6.3.</font> <strong>- Procedimiento para los eventos de modificación de las
                 políticas.</strong>
             <br />
