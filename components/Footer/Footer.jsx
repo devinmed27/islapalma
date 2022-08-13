@@ -118,6 +118,9 @@ const Footer = () => {
           2021 Hotel Isla Palma - todos los derechos reservados. RNT No. 65926 -
           NIT. 900.648.506-1
         </p>
+<p className={s.legalText}>
+          <a href="https://www.sic.gov.co/">Superintendencia de industria y comercio</a>
+        </p>
         <p className={s.legalText}>
           Desarrollado por <a href="https://devinmed.com" target="_blank" rel="noreferrer">Dev in Med</a>
         </p>
