@@ -795,62 +795,7 @@ return (
      <br />
                </p>
 
-                  <h3> SEXTO: DIFUSIÓN Y VIGENCIA.</h3>
-
-                         <p>
-                          <br />
-                          <br />
-                  <font color="#C0392B ">6.1.<font> <strong>- Medios de difusión de las políticas de tratamiento de la información y del aviso de privacidad.</strong>
-
-                           <br />
-                           <br />
-                             El presente documento, mediante el cual se establecen las políticas de tratamiento de la información sobre datos personales recolectados estará publicado de manera permanente en el vínculo www.hotelislapalma.com para que pueda ser consultado por quien esté interesado.
-                            <br />
-                            <br />
-                            Al momento de solicitar la autorización expresa del Titular para el tratamiento de datos, se le indicará las finalidades específicas para las cuales se obtiene el consentimiento y se le dará a conocer la Política de Tratamiento y los derechos que le asisten como Titular.
-                            <br />
-                            <br />
-                            <font color="#C0392B">6.2.<font> <strong>- Entrada en vigencia de las políticas de tratamiento de la información.</strong>
-                            <br />
-                            <br />
-                            La recolección, el almacenamiento, el uso y la circulación de datos personales, en desarrollo de las consideraciones aquí establecidas, se realizará y mantendrá mientras se mantengan vigentes las necesidades y finalidades establecidas y propuesta por el Tratamiento. En caso de que el fin no pueda ser alcanzado mediante el Tratamiento dado a los datos personales, serán estos suprimidos de forma permanente de la base de datos.
-                            <br />
-                            <br />
-                             <strong>El presente documento entra en vigencia el 22 de febrero de 2016.</strong>
-                            <br />
-                            <br />
-                             <font color="#C0392B ">6.3.<font> <strong>- Procedimiento para los eventos de modificación de las políticas.</strong>
-                            <br />
-                            <br />
-                            En el evento en que se realicen modificaciones a las políticas de tratamiento de datos personales acá consagradas, se notificarán y comunicarán a través de esta misma página web, con anterioridad a la entrada en vigencia de las mismas.
-                            <br />
-                            <br />
-                            <font color="#C0392B">6.4.<font><strong>- Incorporación de las condiciones de uso de la página Web www.hotelislapalma.com.</strong>
-                            <br />
-                            <br />
-                             De conformidad con las normas aplicables, la política de tratamiento de la información hace parte integral de los términos y condiciones de uso de la página web www.hotelislapalma.com.
-                            <br />
-                            <br />
-                            <font color="#C0392B ">6.5. <font><strong>- Responsable de la información.</strong>
-                            <br />
-                            <br />
-                             HOTEL ISLA PALMA RESERVA NATURAL, con NIT 900 648506-1 tiene la calidad de responsable y encargado del tratamiento de datos personales. Las sociedades serán responsables de la información y de los datos personales recolectados. Cuando la información haya sido recibida o recolectada por alguna de las sociedades anotadas, con expresa autorización para ser transferida,HOTEL ISLA PALMA RESERVA NATURAL será responsable del tratamiento.
-                            <br />
-                            <br />
-                            Cualquier comunicación podrá dirigirse a laAv 1 #  12 -24  Malecon,  Santiago de Tolú, Sucre, o al correo electrónico info@hotelislapalma.com.
-                            <br />
-                            <br />
-                                 
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                </p>
-
+                 
 
     </div>
 </div>
