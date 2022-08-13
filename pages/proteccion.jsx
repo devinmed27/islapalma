@@ -895,7 +895,7 @@ En desarrollo de nuestras relaciones comerciales, tenemos especial interés en p
 <font color="#C0392B ">1.3.9.</font><strong>- Transferencia:</strong> La transferencia de datos tiene lugar cuando el Responsable y/o Encargado del Tratamiento de datos personales, ubicado en Colombia, envía la información o los datos personales a un receptor, que a su vez es Responsable del Tratamiento y se encuentra dentro o fuera del país.
 <font color="#C0392B ">1.3.10</font><strong>- Transmisión:</strong> Tratamiento de datos personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un Tratamiento por el Encargado por cuenta del Responsable.
 
-<font color="#C0392B ">1.3.11.- Tratamiento:</strong> Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión.
+<font color="#C0392B ">1.3.11.</font><strong>- Tratamiento:</strong> Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión.
 
 <br />
 <br />
