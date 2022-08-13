@@ -1095,6 +1095,78 @@ return (
             <br />
             <br />
            
+              
+                    
+                 <font color="#C0392B "> 4.2.</font><strong>- Legitimación para el ejercicio de los derechos del
+                titular.</strong>
+
+            <br />
+            <br />
+            <strong>Las siguientes personas están también legitimadas para ejercer los derechos que le asisten al
+                titular de la información:</strong><br />
+            <font color="#C0392B ">a).</font> El titular mismo, que deberá acreditar su identidad en forma suficiente
+            por los medios que ponga a su disposición el responsable;<br />
+            <font color="#C0392B ">b).</font>Sus causahabientes, quienes deberán acreditar tal calidad; <br />
+            <font color="#C0392B ">c).</font> El representante y/o apoderado del Titular, previa acreditación de la
+            representación o apoderamiento; <br />
+            <font color="#C0392B ">d).</font> Por estipulación a favor de otro o para otro.
+            <br />
+            <br />
+            <font color="#C0392B ">4.3.</font><strong>- Procedimiento para ejercer los derechos a conocer, actualizar,
+                rectificar o suprimir información y revocar autorización.</strong>
+
+            <br />
+            <br />
+            Los procedimientos de acceso, actualización, supresión y rectificación de datos personales, y de revocatoria
+            de la autorización, podrán adelantarse mediante consultas o reclamos, dirigidos al correo electrónico
+            info@hotelislapalma.com o a la dirección Avenida Calle 72 No. 6 - 30 Bogotá, Colombia. según el objeto que
+            persigan, estableciendo como mínimo, la legitimación que se tiene para realizar la solicitud y exponiendo de
+            manera clara y concreta, lo que se pretende.
+
+            <br />
+            <br />
+            Todas las peticiones, sugerencias y recomendaciones relacionadas con el tratamiento de información deberán
+            remitirse al correo electrónico info@hotelislapalma.com, y se les dará respuesta a más tardar dentro de los
+            diez (10) días hábiles siguientes a su recepción.
+
+            <br />
+            <br />
+            El titular de la información o la persona legitimada, deberá acompañar a su escrito la prueba de la calidad
+            en la que actúa, y deberá suministrar los datos y documentos que hagan falta para dar cuenta de su identidad
+            y de su calidad.
+
+
+            <br />
+            <br />
+            En el correo electrónico deberá especificarse el motivo u objeto de la comunicación, y para ello bastará con
+            que en el texto se indique que se está ejerciendo el derecho a conocer, actualizar, rectificar, suprimir o
+            revocar la autorización concedida
+
+            <br />
+            <br />
+            <font color="#C0392B "> 4.4.</font><strong>- Procedimiento para la corrección, actualización o supresión de
+                datos y para la presentación de quejas y reclamos.</strong>
+
+            <br />
+            <br />
+            Quien esté legitimado por la ley, y considere que la información contenida debe ser objeto de corrección,
+            actualización o supresión; o cuando considere que el tratamiento dado a los datos personales infringe normas
+            legales, podrá presentar, en concordancia con el artículo 15 de la Ley 1581 de 2012, reclamos al correo
+            electrónico info@hotelislapalma.com.
+            <br />
+            <br />
+            <strong>Las quejas y reclamos serán tramitados bajo las siguientes reglas:</strong>
+            <br />
+            <br />
+            
+                
+                
+                
+                
+                
+                
+                
+                
                     
                     
                     
