@@ -112,12 +112,7 @@ const Footer = () => {
                 <Image src={coPath} alt="co icon"/>
               </a>
             </Link>
-              <Link href="/">
-              <a>
-                <Image src={madeycoPath} alt="madeyco image"/>
-              </a>
-            </Link>
-          </div>
+            </div>
         </div>
         <p className={s.legalText}>
           2021 Hotel Isla Palma - todos los derechos reservados. RNT No. 65926 -
