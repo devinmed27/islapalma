@@ -114,7 +114,7 @@ const Footer = () => {
             </Link>
               <Link href="/">
               <a>
-                <Image src={madeycoPath} alt="madey image"/>
+                <Image src={madeycoPath} alt="madeyco image"/>
               </a>
             </Link>
           </div>
