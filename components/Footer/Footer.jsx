@@ -112,6 +112,11 @@ const Footer = () => {
                 <Image src={coPath} alt="co icon"/>
               </a>
             </Link>
+              <Link href="/">
+              <a>
+                <Image src={madeycoPath} alt="madey image"/>
+              </a>
+            </Link>
           </div>
         </div>
         <p className={s.legalText}>
