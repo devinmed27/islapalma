@@ -85,7 +85,7 @@ const Promo = ({ promoCard,idx }) => {
                 <div className={s.text}>
                   <p>Adultos desde: {formatterPeso(promo.price1)}</p>
                   {promo.price2 != 1? (
-                    <p>Niños de 4 a 9 desde: {formatterPeso(promo.price2)}</p>
+                    <p>Niños de 4 a 7 desde: {formatterPeso(promo.price2)}</p>
                   ) : (
                     <p></p>
                   )}
