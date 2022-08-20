@@ -10,7 +10,7 @@ import emailPath from "../../public/static/assets/email_icon.png";
 import lagunaPath from "../../public/static/assets/laguna_beach.png";
 import caminoPath from "../../public/static/assets/camino_verde.png";
 import coPath from "../../public/static/assets/co_colombia.png";
-import lagunaPath from "../../public/static/assets/madeyco_colombia.png";
+import madeycoPath from "../../public/static/assets/madeyco_colombia.png";
 import check1 from "../../public/static/assets/check1.jpeg";
 import check2 from "../../public/static/assets/check2.jpg";
 import approve from "../../public/static/assets/approve.svg";
