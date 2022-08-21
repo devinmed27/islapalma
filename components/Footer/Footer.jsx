@@ -109,17 +109,18 @@ const Footer = () => {
                 <Image src={caminoPath} alt="way image"/>
               </a>
             </Link>
+<Link href="/">
+              <a>
+                <Image src={refugioPath} alt="refugio image"/>
+              </a>
+            </Link>
            
 <Link href="/">
               <a>
                 <Image src={madeycoPath} alt="madeyco image"/>
               </a>
             </Link>
-<Link href="/">
-              <a>
-                <Image src={refugioPath} alt="refugio image"/>
-              </a>
-            </Link>
+
 
  <Link href="/">
               <a>
