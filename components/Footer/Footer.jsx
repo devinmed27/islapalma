@@ -11,6 +11,7 @@ import lagunaPath from "../../public/static/assets/laguna_beach.png";
 import caminoPath from "../../public/static/assets/camino_verde.png";
 import coPath from "../../public/static/assets/co_colombia.png";
 import madeycoPath from "../../public/static/assets/madeyco_colombia.png";
+import refujioPath from "../../public/static/assets/refujio_hotel.png";
 import check1 from "../../public/static/assets/check1.jpeg";
 import check2 from "../../public/static/assets/check2.jpg";
 import approve from "../../public/static/assets/approve.svg";
@@ -108,15 +109,23 @@ const Footer = () => {
                 <Image src={caminoPath} alt="way image"/>
               </a>
             </Link>
-            <Link href="/">
-              <a>
-                <Image src={coPath} alt="co icon"/>
-              </a>
-            </Link>
+           
+
 
 <Link href="/">
               <a>
                 <Image src={madeycoPath} alt="madeyco image"/>
+              </a>
+            </Link>
+<Link href="/">
+              <a>
+                <Image src={refujioPath} alt="refujio image"/>
+              </a>
+            </Link>
+
+ <Link href="/">
+              <a>
+                <Image src={coPath} alt="co icon"/>
               </a>
             </Link>
 
