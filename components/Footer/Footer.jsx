@@ -11,7 +11,7 @@ import lagunaPath from "../../public/static/assets/laguna_beach.png";
 import caminoPath from "../../public/static/assets/camino_verde.png";
 import coPath from "../../public/static/assets/co_colombia.png";
 import madeycoPath from "../../public/static/assets/madeyco_colombia.png";
-import refujioPath from "../../public/static/assets/refujio_hotel.png";
+import refugioPath from "../../public/static/assets/refugio_hotel.png";
 import check1 from "../../public/static/assets/check1.jpeg";
 import check2 from "../../public/static/assets/check2.jpg";
 import approve from "../../public/static/assets/approve.svg";
@@ -110,8 +110,6 @@ const Footer = () => {
               </a>
             </Link>
            
-
-
 <Link href="/">
               <a>
                 <Image src={madeycoPath} alt="madeyco image"/>
@@ -119,7 +117,7 @@ const Footer = () => {
             </Link>
 <Link href="/">
               <a>
-                <Image src={refujioPath} alt="refujio image"/>
+                <Image src={refugioPath} alt="refugio image"/>
               </a>
             </Link>
 
