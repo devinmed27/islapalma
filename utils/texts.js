@@ -433,14 +433,14 @@ const locationInfo = [
           "Estos servicios se deben reservar como mínimo 72 horas antes de su llegada, ya que están sujetos a cupos limitados. Reservas: +57 304 3499318 - +57 302 3200353.",
       },
       {
-        text: "Valor: $150.000 pesos por trayecto, por persona.",
+        text: "Valor: $180.000 pesos por trayecto, por persona.",
       },
       {
         text:
           "** Recomendación reservar con anterioridad los dos trayectos, el pago de estos servicios es directamente con los operadores.",
       },
     ],
-    titleSct2: "Desde Isla Palma a Tolú",
+    titleSct2: "Tus Traslados Nauticos",
     textsSct2: [
       {
         text:
