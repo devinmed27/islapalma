@@ -49,7 +49,7 @@ const Footer = () => {
       <div className={s.socialContainer}>
         <p className={s.text}>Síguenos en nuestras redes</p>
         <div className={s.icons}>
-          <Link href="https://wa.link/uw4uep">
+          <Link href="https://wa.link/xiiyc6">
             <a>
               <Image src={size < 768 ? whatsappPathM : whatsappPathD} alt="whatsapp icon"/>
             </a>

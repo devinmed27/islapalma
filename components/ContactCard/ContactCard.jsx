@@ -9,7 +9,7 @@ const WppCard = ({ img, title, message, phone, phone2 }) => {
       <div className={s.imgContainer}>
         <Image src={img} objectFit='cover' alt='logo' />
       </div>
-      <Link href='https://wa.link/a8rrwf'>
+      <Link href='https://wa.link/xiiyc6'>
         <a target='_blank' rel='noreferrer'>
           <p className={s.title}>{title}</p>
           <p>{message}</p>

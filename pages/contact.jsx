@@ -32,7 +32,7 @@ const Contact = () => {
           img={wpp}
           title={'Whatsapp'}
           message={'Escríbenos desde cualquier lugar, y en cualquier momento'}
-          phone={'+57 314 524 1610'}
+          phone={'+57 314 551 9353'}
           phone2={'+57 314 551 9353'}
         />
         <ContactCard

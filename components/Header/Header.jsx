@@ -35,7 +35,7 @@ const Header = () => {
           <p>CONTÁCTANOS</p>
           <div className={s.iconsContainer}>
             <div className={s.iconContainer}>
-              <a href='https://wa.link/a8rrwf' target='_blank' rel='noreferrer'>
+              <a href='https://wa.link/xiiyc6' target='_blank' rel='noreferrer'>
                 <Image src={wppIcon} alt='whatsapp icon' />
               </a>
             </div>
