@@ -86,7 +86,7 @@ const Index = ({
 
   const data = carousel;
 
-  const img = "http:" + bannerHome[0].fields.image.fields.file.url;
+  const img = "http:" + bannerHome[0]?.fields?.image?.fields?.file?.url;
   const img2 = "http:" + sectionOneHome[0].fields.image.fields.file.url;
   const img3 = "http:" + sectionMiddleHome[0].fields.image.fields.file.url;
   const img4 = "http:" + sectionFourHome[0].fields.image.fields.file.url;
@@ -99,7 +99,7 @@ const Index = ({
 
   return (
     <div className={s.container}>
-      <HomeBanner text={bannerHome[0].fields.text} img={img} />
+      {/* <HomeBanner text={bannerHome[0].fields.text} img={img} /> */}
       <section className={s.sectionOne}>
         <p className={s.textOne}>{sectionOneHome[0].fields.title}</p>
         <article className={s.magic}>

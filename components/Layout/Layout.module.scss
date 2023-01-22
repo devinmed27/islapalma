@@ -1,11 +1,38 @@
-@import "../../styles/variables";
+@import '../../styles/variables';
 
 .container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  // align-items: center;
   width: 100%;
   justify-content: space-between;
   // align-items: center;
 }
-
+.modal {
+  z-index: 9999999;
+  padding: 20px;
+  position: fixed;
+  width: 50%;
+  height: 96vh;
+  top: 2vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  align-self: center;
+  border: 1px solid black;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 70vh;
+    top: 15vh;
+  }
+}
+.closeBtn {
+  padding: 10px 20px;
+  background-color: $first-color;
+  color: white;
+  max-width: 200px;
+  align-self: center;
+  cursor: pointer;
+}
