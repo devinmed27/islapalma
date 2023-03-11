@@ -70,8 +70,8 @@ const Index = ({ promoCard, datesCard }) => {
               title={fields.title}
               subtitle={fields.subtitle}
               info={fields.info}
-              imagePath={fields.image.fields.file.url}
-              bannerPath={fields.banner.fields.file.url}
+              imagePath={fields.image.fields?.file?.url}
+              bannerPath={fields.banner.fields?.file?.url}
               features={fields.features}
               description={fields.description}
               price1={fields.price1}
@@ -89,8 +89,8 @@ const Index = ({ promoCard, datesCard }) => {
               title={fields.title}
               subtitle={fields.subtitle}
               info={fields.info}
-              imagePath={fields.image.fields.file.url}
-              bannerPath={fields.banner.fields.file.url}
+              imagePath={fields.image?.fields?.file?.url}
+              bannerPath={fields.banner?.fields?.file?.url}
               features={fields.features}
               description={fields.description}
               price1={fields.price1}
